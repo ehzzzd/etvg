@@ -90,6 +90,12 @@
     <display-name>WSTE SuperSiete / Tele-Isla (TLI)</display-name>
     <icon src="https://i.tivo.com/images-static/logos/112x32/5247.png"/>
   </channel>
+  <channel id="WORO.us">
+    <display-name>WORO</display-name>
+    <display-name>11 WORO</display-name>
+    <display-name>WORO Teleoro 13</display-name>
+    <icon src="https://i.tivo.com/images-static/logos/112x32/7370.png"/>
+  </channel>
   <programme start="20260828140000 +0000" stop="20260828170000 +0000" channel="GAME-1.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
@@ -1063,5 +1069,198 @@
     <desc lang="en">La Dr. Polo Vida Sin Limites</desc>
     <icon src="https://i.tivo.com/images-production/collection/905/793/516905793/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20241228</episode-num>
+  </programme>
+  <programme start="20260829163000 +0000" stop="20260829170000 +0000" channel="WSTE.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260828163000 +0000" stop="20260828170000 +0000" channel="WORO.us">
+    <title lang="en">Santo Rosario</title>
+    <desc lang="en">Santo Rosario</desc>
+    <icon src="https://i.tivo.com/images-production/collection/047/597/128047597/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260828170000 +0000" stop="20260828180000 +0000" channel="WORO.us">
+    <title lang="en">Misa Diaria</title>
+    <desc lang="en">Misa Diaria</desc>
+    <icon src="https://i.tivo.com/images-production/collection/602/895/3602895/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260828180000 +0000" stop="20260828190000 +0000" channel="WORO.us">
+    <title lang="en">Sabiamente Podcast</title>
+    <desc lang="en">Sabiamente Podcast</desc>
+    <icon src="https://i.tivo.com/images-production/collection/927/016/528927016/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260828190000 +0000" stop="20260828200000 +0000" channel="WORO.us">
+    <title lang="en">La Biblia</title>
+    <desc lang="en">La Biblia</desc>
+    <icon src="https://i.tivo.com/images-production/collection/988/339/328988339/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260828200000 +0000" stop="20260828203000 +0000" channel="WORO.us">
+    <title lang="en">Coronilla a la Divina Misericordia</title>
+    <desc lang="en">Coronilla a la Divina Misericordia</desc>
+    <icon src="https://i.tivo.com/images-production/collection/498/033/343498033/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260828203000 +0000" stop="20260828210000 +0000" channel="WORO.us">
+    <title lang="en">San Francisco de Asís</title>
+    <desc lang="en">San Francisco de Asís (1961)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/902/536/348902536/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">19610712</episode-num>
+  </programme>
+  <programme start="20260828210000 +0000" stop="20260828213000 +0000" channel="WORO.us">
+    <title lang="en">Tienda Mágica</title>
+    <desc lang="en">Tienda Mágica</desc>
+    <icon src="https://i.tivo.com/images-production/collection/633/757/349633757/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260828213000 +0000" stop="20260828220000 +0000" channel="WORO.us">
+    <title lang="en">Vamos a Xplorar</title>
+    <desc lang="en">Vamos a Xplorar</desc>
+    <icon src="https://i.tivo.com/images-production/collection/947/757/148947757/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260828220000 +0000" stop="20260828230000 +0000" channel="WORO.us">
+    <title lang="en">Misa Diaria</title>
+    <desc lang="en">Misa Diaria</desc>
+    <icon src="https://i.tivo.com/images-production/collection/602/895/3602895/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260828230000 +0000" stop="20260829000000 +0000" channel="WORO.us">
+    <title lang="en">Noticias 13 con José</title>
+    <desc lang="en">Noticias 13 con José</desc>
+    <icon src="https://i.tivo.com/images-production/collection/582/687/176582687/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829000000 +0000" stop="20260829010000 +0000" channel="WORO.us">
+    <title lang="en">Alianza</title>
+    <desc lang="en">Alianza</desc>
+    <icon src="https://i.tivo.com/images-production/collection/913/010/417913010/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20221031</episode-num>
+  </programme>
+  <programme start="20260829010000 +0000" stop="20260829020000 +0000" channel="WORO.us">
+    <title lang="en">En su presencia</title>
+    <desc lang="en">En su presencia</desc>
+    <icon src="https://i.tivo.com/images-production/collection/410/033/144410033/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829020000 +0000" stop="20260829023000 +0000" channel="WORO.us">
+    <title lang="en">Una Ventana</title>
+    <desc lang="en">Una Ventana</desc>
+    <icon src="https://i.tivo.com/images-production/collection/139/443/525139443/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829023000 +0000" stop="20260829030000 +0000" channel="WORO.us">
+    <title lang="en">Donde Dios llora</title>
+    <desc lang="en">Donde Dios llora</desc>
+    <icon src="https://i.tivo.com/images-production/collection/625/958/345625958/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829030000 +0000" stop="20260829040000 +0000" channel="WORO.us">
+    <title lang="en">Sabiamente Podcast</title>
+    <desc lang="en">Sabiamente Podcast</desc>
+    <icon src="https://i.tivo.com/images-production/collection/927/016/528927016/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829040000 +0000" stop="20260829050000 +0000" channel="WORO.us">
+    <title lang="en">Noticias 13 con José</title>
+    <desc lang="en">Noticias 13 con José</desc>
+    <icon src="https://i.tivo.com/images-production/collection/582/687/176582687/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829050000 +0000" stop="20260829060000 +0000" channel="WORO.us">
+    <title lang="en">Misa Diaria</title>
+    <desc lang="en">Misa Diaria</desc>
+    <icon src="https://i.tivo.com/images-production/collection/602/895/3602895/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829060000 +0000" stop="20260829070000 +0000" channel="WORO.us">
+    <title lang="en">La Biblia</title>
+    <desc lang="en">La Biblia</desc>
+    <icon src="https://i.tivo.com/images-production/collection/988/339/328988339/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260829070000 +0000" stop="20260829073000 +0000" channel="WORO.us">
+    <title lang="en">Únete al Maestro</title>
+    <desc lang="en">Únete al Maestro</desc>
+    <icon src="https://i.tivo.com/images-production/collection/483/966/349483966/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829073000 +0000" stop="20260829080000 +0000" channel="WORO.us">
+    <title lang="en">Cuál Es Su Duda</title>
+    <desc lang="en">Cuál Es Su Duda</desc>
+    <icon src="https://i.tivo.com/images-production/collection/633/780/349633780/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829080000 +0000" stop="20260829083000 +0000" channel="WORO.us">
+    <title lang="en">Alfa y Omega</title>
+    <desc lang="en">Alfa y Omega</desc>
+    <icon src="https://i.tivo.com/images-production/collection/548/109/349548109/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829083000 +0000" stop="20260829090000 +0000" channel="WORO.us">
+    <title lang="en">Semillas de Alegría</title>
+    <desc lang="en">Semillas de Alegría</desc>
+    <icon src="https://i.tivo.com/images-production/collection/882/628/6882628/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829090000 +0000" stop="20260829093000 +0000" channel="WORO.us">
+    <title lang="en">María Corazón</title>
+    <desc lang="en">María Corazón</desc>
+    <icon src="https://i.tivo.com/images-production/collection/139/436/525139436/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829093000 +0000" stop="20260829100000 +0000" channel="WORO.us">
+    <title lang="en">La Barca</title>
+    <desc lang="en">La Barca</desc>
+    <icon src="https://i.tivo.com/images-production/collection/139/438/525139438/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829100000 +0000" stop="20260829103000 +0000" channel="WORO.us">
+    <title lang="en">¡Familia!, activa tu fe</title>
+    <desc lang="en">¡Familia!, activa tu fe</desc>
+    <icon src="https://i.tivo.com/images-production/collection/094/596/367094596/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829103000 +0000" stop="20260829110000 +0000" channel="WORO.us">
+    <title lang="en">Santo Rosario</title>
+    <desc lang="en">Santo Rosario</desc>
+    <icon src="https://i.tivo.com/images-production/collection/047/597/128047597/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829110000 +0000" stop="20260829120000 +0000" channel="WORO.us">
+    <title lang="en">Misa Diaria</title>
+    <desc lang="en">Misa Diaria</desc>
+    <icon src="https://i.tivo.com/images-production/collection/602/895/3602895/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829120000 +0000" stop="20260829123000 +0000" channel="WORO.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829123000 +0000" stop="20260829130000 +0000" channel="WORO.us">
+    <title lang="en">Mundo Natural</title>
+    <desc lang="en">Mundo Natural</desc>
+    <icon src="https://i.tivo.com/images-production/collection/823/854/85823854/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829130000 +0000" stop="20260829133000 +0000" channel="WORO.us">
+    <title lang="en">Mundo Natural</title>
+    <desc lang="en">Mundo Natural</desc>
+    <icon src="https://i.tivo.com/images-production/collection/823/854/85823854/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829133000 +0000" stop="20260829140000 +0000" channel="WORO.us">
+    <title lang="en">Aprendo con Shabum</title>
+    <desc lang="en">Aprendo con Shabum</desc>
+    <icon src="https://i.tivo.com/images-production/collection/832/048/321832048/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829140000 +0000" stop="20260829150000 +0000" channel="WORO.us">
+    <title lang="en">Misa Diaria</title>
+    <desc lang="en">Misa Diaria</desc>
+    <icon src="https://i.tivo.com/images-production/collection/602/895/3602895/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829150000 +0000" stop="20260829153000 +0000" channel="WORO.us">
+    <title lang="en">Acercate a la Fuente</title>
+    <desc lang="en">Acercate a la Fuente</desc>
+    <icon src="https://i.tivo.com/images-production/collection/139/448/525139448/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829153000 +0000" stop="20260829160000 +0000" channel="WORO.us">
+    <title lang="en">Fátima</title>
+    <desc lang="en">Fátima</desc>
+    <icon src="https://i.tivo.com/images-production/collection/016/277/476016277/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829160000 +0000" stop="20260829163000 +0000" channel="WORO.us">
+    <title lang="en">¿De que se trata?</title>
+    <desc lang="en">¿De que se trata?</desc>
+    <icon src="https://i.tivo.com/images-production/collection/557/995/407557995/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829163000 +0000" stop="20260829170000 +0000" channel="WORO.us">
+    <title lang="en">Mundo Natural</title>
+    <desc lang="en">Mundo Natural</desc>
+    <icon src="https://i.tivo.com/images-production/collection/823/854/85823854/showcaseBanner_560x419.jpg"/>
   </programme>
 </tv>
