@@ -32,6 +32,17 @@
         "712",
         "713"
       ]
+    },
+    {
+      "id": "liberty_pr",
+      "name": "Liberty Cablevision of PR San Juan Standard Cable",
+      "postalCode": "00901",
+      "headend": "7177373627",
+      "lineupType": 83,
+      "gmtOffsetSeconds": -14400,
+      "channels": [
+        "6"
+      ]
     }
   ]
 }
