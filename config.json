@@ -41,7 +41,8 @@
       "lineupType": 83,
       "gmtOffsetSeconds": -14400,
       "channels": [
-        "6"
+        "6",
+        "11"
       ]
     }
   ]
