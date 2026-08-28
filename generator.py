@@ -103,14 +103,27 @@ def get_program_poster_url(collection_id):
     return None
 
 
-def format_xmltv_date(dt, gmt_offset_seconds):
-    """Formatea fecha al estándar XMLTV: YYYYMMDDHHMMSS +/-HHMM."""
-    sign = "+" if gmt_offset_seconds >= 0 else "-"
-    total_min = abs(gmt_offset_seconds) // 60
-    hours = total_min // 60
-    mins = total_min % 60
-    tz_suffix = f"{sign}{hours:02d}{mins:02d}"
-    return dt.strftime("%Y%m%d%H%M%S") + f" {tz_suffix}"
+def format_xmltv_date(dt_utc, gmt_offset_seconds=0, mode="utc"):
+    """
+    Formatea la fecha al estándar XMLTV.
+    TiVo entrega los startTime directamente en tiempo universal UTC (GMT+0).
+    - Modo 'utc' (estándar de oro para Kodi y reproductores IPTV):
+      YYYYMMDDHHMMSS +0000
+    - Modo 'local':
+      Ajusta la hora sumando/restando el offset del proveedor y estampa +/-HHMM.
+    Ambos formatos representan matemáticamente el mismo instante en el tiempo,
+    evitando cualquier desfase o necesidad de mover el EPG Time Shift en Kodi.
+    """
+    if mode == "local" and gmt_offset_seconds:
+        local_dt = dt_utc + timedelta(seconds=gmt_offset_seconds)
+        sign = "+" if gmt_offset_seconds >= 0 else "-"
+        total_min = abs(gmt_offset_seconds) // 60
+        hours = total_min // 60
+        mins = total_min % 60
+        tz_suffix = f"{sign}{hours:02d}{mins:02d}"
+        return local_dt.strftime("%Y%m%d%H%M%S") + f" {tz_suffix}"
+    return dt_utc.strftime("%Y%m%d%H%M%S +0000")
+
 
 
 def parse_iso_datetime(dt_str):
@@ -138,10 +151,13 @@ def process_provider(api, provider_cfg, hours_ahead=24, window_hours=8):
         cur_time_str = ctrl.get("curDateTime")
         if ctrl.get("selectedLineup", {}).get("gmtOffsetSeconds") is not None:
             gmt_offset = ctrl["selectedLineup"]["gmtOffsetSeconds"]
-        base_dt = datetime.strptime(cur_time_str, "%Y-%m-%d %H:%M")
+        # curDateTime viene en hora local del proveedor. Convertimos a UTC para consultar guideGrid
+        local_time = datetime.strptime(cur_time_str, "%Y-%m-%d %H:%M")
+        base_dt = local_time - timedelta(seconds=gmt_offset)
     except Exception as e:
-        print(f"    [!] Aviso: No se pudo obtener controllerData ({e}), usando hora local.")
-        base_dt = datetime.utcnow() + timedelta(seconds=gmt_offset)
+        print(f"    [!] Aviso: No se pudo obtener controllerData ({e}), usando UTC.")
+        base_dt = datetime.utcnow()
+
 
     # 3. Filtrar canales deseados
     # channel_filters puede ser:
@@ -236,6 +252,7 @@ def process_provider(api, provider_cfg, hours_ahead=24, window_hours=8):
 def build_xmltv(all_provider_results, settings):
     """Construye el documento XML estándar XMLTV."""
     lang = settings.get("lang", "en")
+    tz_mode = settings.get("timezone_mode", "utc") # "utc" (recomendado para Kodi) o "local"
     root = ET.Element("tv", {
         "generator-info-name": "TiVo-EPG-Generator",
         "source-info-url": "https://online.tivo.com"
@@ -288,8 +305,8 @@ def build_xmltv(all_provider_results, settings):
                 end_dt = st_dt + timedelta(seconds=duration)
 
                 prog_el = ET.SubElement(root, "programme", {
-                    "start": format_xmltv_date(st_dt, gmt_offset),
-                    "stop": format_xmltv_date(end_dt, gmt_offset),
+                    "start": format_xmltv_date(st_dt, gmt_offset, mode=tz_mode),
+                    "stop": format_xmltv_date(end_dt, gmt_offset, mode=tz_mode),
                     "channel": cid
                 })
 
