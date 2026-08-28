@@ -4,6 +4,7 @@
     "output_gzip": true,
     "hours_ahead": 24,
     "window_hours": 8,
+    "timezone_mode": "utc",
     "lang": "en"
   },
   "providers": [
