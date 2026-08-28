@@ -1,0 +1,35 @@
+{
+  "settings": {
+    "output_xml": "epg.xml",
+    "output_gzip": true,
+    "hours_ahead": 24,
+    "window_hours": 8,
+    "lang": "en"
+  },
+  "providers": [
+    {
+      "id": "spectrum_ny",
+      "name": "Spectrum HD Manhattan Cable",
+      "postalCode": "10001",
+      "headend": "341765326",
+      "lineupType": "83",
+      "gmtOffsetSeconds": -14400,
+      "channels": [
+        "700",
+        "701",
+        "702",
+        "703",
+        "704",
+        "705",
+        "706",
+        "707",
+        "708",
+        "709",
+        "710",
+        "711",
+        "712",
+        "713"
+      ]
+    }
+  ]
+}
