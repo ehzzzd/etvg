@@ -42,7 +42,8 @@
       "gmtOffsetSeconds": -14400,
       "channels": [
         "6",
-        "11"
+        "11",
+        "14"
       ]
     }
   ]
