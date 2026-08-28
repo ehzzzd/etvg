@@ -246,7 +246,7 @@ def process_provider(api, provider_cfg, hours_ahead=24, window_hours=8):
             print(f"       [!] Error al descargar ventana {win_label}: {e}")
 
     # Retornar info formateada
-    return channel_obj_map, programmes_map, gmt_offset
+    return channel_obj_map, programmes_map, gmt_offset, provider_cfg
 
 
 def build_xmltv(all_provider_results, settings):
@@ -261,7 +261,7 @@ def build_xmltv(all_provider_results, settings):
     added_channel_ids = set()
 
     # 1. Tags <channel>
-    for channel_obj_map, programmes_map, gmt_offset in all_provider_results:
+    for channel_obj_map, programmes_map, gmt_offset, prov_cfg in all_provider_results:
         for cid, (ch, mf) in channel_obj_map.items():
             if cid in added_channel_ids:
                 continue
@@ -290,7 +290,8 @@ def build_xmltv(all_provider_results, settings):
                 ET.SubElement(ch_el, "icon", {"src": logo_url})
 
     # 2. Tags <programme>
-    for channel_obj_map, programmes_map, gmt_offset in all_provider_results:
+    for channel_obj_map, programmes_map, gmt_offset, prov_cfg in all_provider_results:
+        time_shift = prov_cfg.get("time_shift_hours", settings.get("time_shift_hours", 0))
         for cid, offers_dict in programmes_map.items():
             offers = list(offers_dict.values())
             offers.sort(key=lambda x: x.get("startTime", ""))
@@ -302,6 +303,11 @@ def build_xmltv(all_provider_results, settings):
                     continue
 
                 st_dt = parse_iso_datetime(st_str)
+                
+                # Ajuste horario en horas si es necesario (ej: -1 o +1 por bug de horario de verano en Kodi)
+                if time_shift:
+                    st_dt += timedelta(hours=time_shift)
+
                 end_dt = st_dt + timedelta(seconds=duration)
 
                 prog_el = ET.SubElement(root, "programme", {
