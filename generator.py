@@ -106,13 +106,24 @@ def get_program_poster_url(collection_id):
 def format_xmltv_date(dt_utc, gmt_offset_seconds=0, mode="utc"):
     """
     Formatea la fecha al estándar XMLTV.
-    TiVo entrega los startTime directamente en tiempo universal UTC (GMT+0).
-    - Modo 'utc' (estándar de oro para Kodi y reproductores IPTV):
-      YYYYMMDDHHMMSS +0000
+
+    IMPORTANTE (verificado contra la API real): TiVo entrega los `startTime`
+    directamente en TIEMPO UNIVERSAL UTC (GMT+0). Por eso el modo por defecto,
+    'utc', escribe el instante tal cual con el offset ' +0000'.
+
+    - Modo 'utc' (RECOMENDADO, estándar XMLTV / Kodi):
+        YYYYMMDDHHMMSS +0000
+        Kodi convierte ese instante a la zona horaria del dispositivo. Con el
+        dispositivo en Puerto Rico (UTC-4 fijo, sin horario de verano) se muestra
+        la hora correcta de forma PERMANENTE y NO hay que tocar el EPG Time Shift.
+
     - Modo 'local':
-      Ajusta la hora sumando/restando el offset del proveedor y estampa +/-HHMM.
-    Ambos formatos representan matemáticamente el mismo instante en el tiempo,
-    evitando cualquier desfase o necesidad de mover el EPG Time Shift en Kodi.
+        Escribe la hora local del proveedor con su offset (+/-HHMM).
+        Matemáticamente es el mismo instante; solo cambia la etiqueta.
+
+    NOTA TÉCNICA: no uses `time_shift_hours` para "corregir" aquí. El archivo es
+    UTC real; un shift manual es lo que durante días provocó que la guía se viera
+    adelantada/atrasada de forma inconsistente en Kodi.
     """
     if mode == "local" and gmt_offset_seconds:
         local_dt = dt_utc + timedelta(seconds=gmt_offset_seconds)
@@ -308,6 +319,9 @@ def build_xmltv(all_provider_results, settings):
     # 2. Tags <programme>
     for channel_obj_map, programmes_map, gmt_offset, prov_cfg in all_provider_results:
         time_shift = prov_cfg.get("time_shift_hours", settings.get("time_shift_hours", 0))
+        if time_shift:
+            print(f"    [!] AVISO: time_shift_hours={time_shift} está activo. Con la fuente en UTC esto "
+                  f"desfasa la guía. Se recomienda 0 (los tiempos se escriben como UTC real).")
         for cid, offers_dict in programmes_map.items():
             offers = list(offers_dict.values())
             offers.sort(key=lambda x: x.get("startTime", ""))
@@ -480,6 +494,14 @@ def main():
         print(f"[✔] Archivo GZ guardado: {gz_file} ({gz_size_kb:.1f} KB)")
 
     print("\n[✔] Proceso finalizado con éxito.")
+    print("-" * 65)
+    print("ZONA HORARIA: TiVo entrega UTC y el archivo se guarda como UTC (+0000).")
+    print(f"  • Hora UTC ahora: {datetime.utcnow().strftime('%Y-%m-%d %H:%M')}")
+    print(f"  • Hora en Puerto Rico (UTC-4): {(datetime.utcnow() + timedelta(hours=-4)).strftime('%Y-%m-%d %H:%M')}")
+    print("  • Kodi convierte el UTC a la zona del dispositivo. NO uses time_shift_hours.")
+    print("  • Si la guía sigue desfasada tras cargarla, limpia el caché de EPG de Kodi")
+    print("    (Settings → PVR & Live TV → Guide → Clear data) y verifica la zona horaria del sistema.")
+    print("-" * 65)
 
 
 if __name__ == "__main__":
