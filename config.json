@@ -54,7 +54,8 @@
         "711",
         "712",
         "713"
-      ]
+      ],
+      "guide_time_mode": "utc"
     },
     {
       "id": "liberty_pr",
@@ -68,7 +69,7 @@
         "11",
         "14"
       ],
-      "time_shift_hours": -1
+      "guide_time_mode": "local"
     }
   ]
 }
