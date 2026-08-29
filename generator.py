@@ -320,8 +320,10 @@ def build_xmltv(all_provider_results, settings):
     for channel_obj_map, programmes_map, gmt_offset, prov_cfg in all_provider_results:
         time_shift = prov_cfg.get("time_shift_hours", settings.get("time_shift_hours", 0))
         if time_shift:
-            print(f"    [!] AVISO: time_shift_hours={time_shift} está activo. Con la fuente en UTC esto "
-                  f"desfasa la guía. Se recomienda 0 (los tiempos se escriben como UTC real).")
+            print(f"    [i] time_shift_hours={time_shift:+d} aplicado (ajuste por proveedor y NO global).")
+            print(f"        • Si es +1/de futuro: el proveedor está 1h adelantado y se adelanta. ")
+            print(f"        • Si es -1/de pasado: el proveedor está 1h atrasado y se retrocede.")
+            print(f"        • El ajuste GLOBAL en settings debe seguir en 0; así no afecta a otros proveedores.")
         for cid, offers_dict in programmes_map.items():
             offers = list(offers_dict.values())
             offers.sort(key=lambda x: x.get("startTime", ""))
@@ -498,9 +500,11 @@ def main():
     print("ZONA HORARIA: TiVo entrega UTC y el archivo se guarda como UTC (+0000).")
     print(f"  • Hora UTC ahora: {datetime.utcnow().strftime('%Y-%m-%d %H:%M')}")
     print(f"  • Hora en Puerto Rico (UTC-4): {(datetime.utcnow() + timedelta(hours=-4)).strftime('%Y-%m-%d %H:%M')}")
-    print("  • Kodi convierte el UTC a la zona del dispositivo. NO uses time_shift_hours.")
-    print("  • Si la guía sigue desfasada tras cargarla, limpia el caché de EPG de Kodi")
-    print("    (Settings → PVR & Live TV → Guide → Clear data) y verifica la zona horaria del sistema.")
+    print("  • El time_shift_hours GLOBAL en settings debe quedar en 0 (no toca el Time Shift de Kodi).")
+    print("  • Si un proveedor concreto sale desfasado (ej. PR 1h), se corrige SOLO ese proveedor")
+    print("    con su campo time_shift_hours (Liberty PR usa -1), sin afectar a los demás.")
+    print("  • En Kodi: Settings → PVR & Live TV → Guide → Clear data tras cargar el archivo,")
+    print("    y verifica la zona horaria del sistema (America/Puerto_Rico).")
     print("-" * 65)
 
 
