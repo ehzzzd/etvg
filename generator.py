@@ -203,12 +203,21 @@ def process_provider(api, provider_cfg, hours_ahead=24, hours_backward=6, window
     for idx, ch, mf in matched:
         print(f"       • Canal #{ch.get('channelNumber')} [{ch.get('callSign')}]: {ch.get('name')}")
 
-    # 4. Obtener programación mediante ventanas deslizantes
-    # Determinamos rangos de índices (offset y count) para pedir los canales en lotes contiguos
-    indices = sorted([idx for idx, ch, mf in matched])
-    min_idx = indices[0]
-    max_idx = indices[-1]
-    batch_count = max_idx - min_idx + 1
+    # 4. Obtener programación mediante ventanas deslizantes y lotes inteligentes
+    # Agrupamos canales cercanos en clusters para no descargar cientos de canales intermedios no deseados
+    indices = sorted(list(set([idx for idx, ch, mf in matched])))
+    clusters = []
+    if indices:
+        curr_start = indices[0]
+        curr_end = indices[0]
+        for i in indices[1:]:
+            if i - curr_end <= 25:
+                curr_end = i
+            else:
+                clusters.append((curr_start, curr_end - curr_start + 1))
+                curr_start = i
+                curr_end = i
+        clusters.append((curr_start, curr_end - curr_start + 1))
 
     # Estructura: callSign/number -> dict de offerId -> offer
     programmes_map = {}
@@ -225,29 +234,30 @@ def process_provider(api, provider_cfg, hours_ahead=24, hours_backward=6, window
     end_limit = base_dt + timedelta(hours=hours_ahead)
     total_hours = hours_ahead + hours_backward
 
-    print(f"    -> Descargando {total_hours}h de programación (-{hours_backward}h pasadas a +{hours_ahead}h futuras) en bloques de {window_hours}h...")
+    print(f"    -> Descargando {total_hours}h de programación (-{hours_backward}h pasadas a +{hours_ahead}h futuras) en {len(clusters)} lotes de canales...")
     while current_start < end_limit:
         win_end = min(current_start + timedelta(hours=window_hours), end_limit)
         win_label = f"{current_start.strftime('%Y-%m-%d %H:%M')} a {win_end.strftime('%H:%M')} UTC"
-        print(f"       - Ventana [{win_label}] (offset={min_idx}, count={batch_count})...")
+        print(f"       - Ventana [{win_label}]...")
 
-        try:
-            grid_rows = api.get_guide_grid(current_start, win_end, count=batch_count, offset=min_idx)
-            for row in grid_rows:
-                r_ch = row.get("channel", {})
-                r_num = str(r_ch.get("channelNumber", "")).strip().upper()
-                r_call = str(r_ch.get("callSign", "")).strip().upper()
+        for c_offset, c_count in clusters:
+            try:
+                grid_rows = api.get_guide_grid(current_start, win_end, count=c_count, offset=c_offset)
+                for row in grid_rows:
+                    r_ch = row.get("channel", {})
+                    r_num = str(r_ch.get("channelNumber", "")).strip().upper()
+                    r_call = str(r_ch.get("callSign", "")).strip().upper()
 
-                # Buscar a qué canal_id corresponde
-                for cid, (orig_ch, mf) in channel_obj_map.items():
-                    if r_num == str(orig_ch.get("channelNumber", "")).strip().upper() and \
-                       r_call == str(orig_ch.get("callSign", "")).strip().upper():
-                        for offer in row.get("offer", []):
-                            offer_key = offer.get("offerId") or (offer.get("startTime"), offer.get("title"))
-                            programmes_map[cid][offer_key] = offer
-                        break
-        except Exception as e:
-            print(f"       [!] Error al descargar ventana {win_label}: {e}")
+                    # Buscar a qué canal_id corresponde
+                    for cid, (orig_ch, mf) in channel_obj_map.items():
+                        if r_num == str(orig_ch.get("channelNumber", "")).strip().upper() and \
+                           r_call == str(orig_ch.get("callSign", "")).strip().upper():
+                            for offer in row.get("offer", []):
+                                offer_key = offer.get("offerId") or (offer.get("startTime"), offer.get("title"))
+                                programmes_map[cid][offer_key] = offer
+                            break
+            except Exception as e:
+                print(f"       [!] Error al descargar lote (offset={c_offset}, count={c_count}): {e}")
 
         current_start = win_end
 
