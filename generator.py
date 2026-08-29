@@ -11,7 +11,7 @@ import json
 import gzip
 import argparse
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
@@ -141,6 +141,49 @@ def parse_iso_datetime(dt_str):
     return datetime.strptime(dt_str, "%Y-%m-%d %H:%M:%S")
 
 
+def now_utc_naive():
+    """Hora UTC actual sin tzinfo, para mantener compatibilidad con el resto del script."""
+    return datetime.now(timezone.utc).replace(tzinfo=None)
+
+
+def get_guide_time_mode(provider_cfg, channel_filter=None):
+    """
+    Define cómo interpreta este lineup los horarios que devuelve TiVo.
+
+    - utc: TiVo devuelve `startTime` como instante UTC. Es el comportamiento que
+      vemos en Spectrum / GAME, por eso se escribe directo como +0000.
+    - local: TiVo devuelve `startTime` en hora local del proveedor. Es lo que está
+      pasando con Liberty PR; aquí convertimos esa hora local a UTC antes de
+      escribir XMLTV para que Kodi/PVR la muestre en la hora correcta.
+
+    Se puede poner por proveedor con `guide_time_mode`, o por canal si el filtro
+    de `channels` es un objeto.
+    """
+    raw = None
+    if isinstance(channel_filter, dict):
+        raw = channel_filter.get("guide_time_mode") or channel_filter.get("time_mode")
+    raw = raw or provider_cfg.get("guide_time_mode") or provider_cfg.get("time_mode") or "utc"
+    mode = str(raw).strip().lower().replace("-", "_")
+    aliases = {
+        "provider_local": "local",
+        "lineup_local": "local",
+        "local_time": "local",
+        "utc_time": "utc",
+    }
+    mode = aliases.get(mode, mode)
+    if mode not in ("utc", "local"):
+        print(f"    [!] guide_time_mode inválido: {raw!r}; usando 'utc'.")
+        mode = "utc"
+    return mode
+
+
+def tivo_time_to_utc(dt_raw, gmt_offset_seconds, guide_time_mode):
+    """Convierte el startTime devuelto por TiVo a un datetime UTC interno."""
+    if guide_time_mode == "local":
+        return dt_raw - timedelta(seconds=gmt_offset_seconds)
+    return dt_raw
+
+
 def process_provider(api, provider_cfg, hours_ahead=24, hours_backward=6, window_hours=8):
     """Procesa un proveedor, filtra sus canales y obtiene programación continua (pasada y futura)."""
     postal_code = provider_cfg.get("postalCode")
@@ -149,6 +192,7 @@ def process_provider(api, provider_cfg, hours_ahead=24, hours_backward=6, window
     gmt_offset = provider_cfg.get("gmtOffsetSeconds", -14400)
     provider_name = provider_cfg.get("name", f"Headend {headend}")
     channel_filters = provider_cfg.get("channels", [])
+    guide_time_mode = get_guide_time_mode(provider_cfg)
 
     print(f"\n[+] Configurando proveedor: {provider_name} (ZIP: {postal_code}, Headend: {headend})")
     
@@ -162,13 +206,20 @@ def process_provider(api, provider_cfg, hours_ahead=24, hours_backward=6, window
         cur_time_str = ctrl.get("curDateTime")
         if ctrl.get("selectedLineup", {}).get("gmtOffsetSeconds") is not None:
             gmt_offset = ctrl["selectedLineup"]["gmtOffsetSeconds"]
-        # curDateTime viene en hora local del proveedor. Convertimos a UTC para consultar guideGrid
+        # curDateTime viene en hora local del proveedor. Calculamos ambas bases
+        # porque algunos lineups de TiVo esperan/entregan UTC (Spectrum/GAME),
+        # mientras otros entregan hora local del proveedor (Liberty PR).
         local_time = datetime.strptime(cur_time_str, "%Y-%m-%d %H:%M")
-        base_dt = local_time - timedelta(seconds=gmt_offset)
+        utc_time = local_time - timedelta(seconds=gmt_offset)
     except Exception as e:
         print(f"    [!] Aviso: No se pudo obtener controllerData ({e}), usando UTC.")
-        base_dt = datetime.utcnow()
+        utc_time = now_utc_naive()
+        local_time = utc_time + timedelta(seconds=gmt_offset)
 
+    base_dt = local_time if guide_time_mode == "local" else utc_time
+    print(f"    Modo horario TiVo: {guide_time_mode.upper()} "
+          f"(local={local_time.strftime('%Y-%m-%d %H:%M')}, "
+          f"UTC={utc_time.strftime('%Y-%m-%d %H:%M')}, offset={gmt_offset // 3600:+d}h).")
 
     # 3. Filtrar canales deseados
     # channel_filters puede ser:
@@ -248,7 +299,7 @@ def process_provider(api, provider_cfg, hours_ahead=24, hours_backward=6, window
     print(f"    -> Descargando {total_hours}h de programación (-{hours_backward}h pasadas a +{hours_ahead}h futuras) en {len(clusters)} lotes de canales...")
     while current_start < end_limit:
         win_end = min(current_start + timedelta(hours=window_hours), end_limit)
-        win_label = f"{current_start.strftime('%Y-%m-%d %H:%M')} a {win_end.strftime('%H:%M')} UTC"
+        win_label = f"{current_start.strftime('%Y-%m-%d %H:%M')} a {win_end.strftime('%H:%M')} {guide_time_mode.upper()}"
         print(f"       - Ventana [{win_label}]...")
 
         for c_offset, c_count in clusters:
@@ -318,12 +369,10 @@ def build_xmltv(all_provider_results, settings):
 
     # 2. Tags <programme>
     for channel_obj_map, programmes_map, gmt_offset, prov_cfg in all_provider_results:
-        time_shift = prov_cfg.get("time_shift_hours", settings.get("time_shift_hours", 0))
-        if time_shift:
-            print(f"    [i] time_shift_hours={time_shift:+d} aplicado (ajuste por proveedor y NO global).")
-            print(f"        • Si es +1/de futuro: el proveedor está 1h adelantado y se adelanta. ")
-            print(f"        • Si es -1/de pasado: el proveedor está 1h atrasado y se retrocede.")
-            print(f"        • El ajuste GLOBAL en settings debe seguir en 0; así no afecta a otros proveedores.")
+        provider_time_shift = prov_cfg.get("time_shift_hours", settings.get("time_shift_hours", 0))
+        if provider_time_shift:
+            print(f"    [i] time_shift_hours={provider_time_shift:+d} aplicado a {prov_cfg.get('name', prov_cfg.get('id', 'proveedor'))}.")
+            print("        • Úsalo solo como último recurso; primero ajusta guide_time_mode ('utc' o 'local').")
         for cid, offers_dict in programmes_map.items():
             offers = list(offers_dict.values())
             offers.sort(key=lambda x: x.get("startTime", ""))
@@ -334,9 +383,17 @@ def build_xmltv(all_provider_results, settings):
                 if not st_str or not duration:
                     continue
 
-                st_dt = parse_iso_datetime(st_str)
-                
-                # Ajuste horario en horas si es necesario (ej: -1 o +1 por bug de horario de verano en Kodi)
+                raw_st_dt = parse_iso_datetime(st_str)
+                ch, mf = channel_obj_map.get(cid, ({}, {}))
+                guide_time_mode = get_guide_time_mode(prov_cfg, mf)
+                time_shift = mf.get("time_shift_hours", provider_time_shift) if isinstance(mf, dict) else provider_time_shift
+
+                # Normalizamos TODO internamente a UTC.
+                # Si TiVo entrega hora local (Liberty PR), convertimos local -> UTC.
+                # Si TiVo entrega UTC (Spectrum/GAME), se deja tal cual.
+                st_dt = tivo_time_to_utc(raw_st_dt, gmt_offset, guide_time_mode)
+
+                # Ajuste manual opcional por proveedor/canal, después de normalizar.
                 if time_shift:
                     st_dt += timedelta(hours=time_shift)
 
@@ -498,11 +555,12 @@ def main():
     print("\n[✔] Proceso finalizado con éxito.")
     print("-" * 65)
     print("ZONA HORARIA: TiVo entrega UTC y el archivo se guarda como UTC (+0000).")
-    print(f"  • Hora UTC ahora: {datetime.utcnow().strftime('%Y-%m-%d %H:%M')}")
-    print(f"  • Hora en Puerto Rico (UTC-4): {(datetime.utcnow() + timedelta(hours=-4)).strftime('%Y-%m-%d %H:%M')}")
-    print("  • El time_shift_hours GLOBAL en settings debe quedar en 0 (no toca el Time Shift de Kodi).")
-    print("  • Si un proveedor concreto sale desfasado (ej. PR 1h), se corrige SOLO ese proveedor")
-    print("    con su campo time_shift_hours (Liberty PR usa -1), sin afectar a los demás.")
+    now_utc = now_utc_naive()
+    print(f"  • Hora UTC ahora: {now_utc.strftime('%Y-%m-%d %H:%M')}")
+    print(f"  • Hora en Puerto Rico (UTC-4): {(now_utc + timedelta(hours=-4)).strftime('%Y-%m-%d %H:%M')}")
+    print("  • Spectrum/GAME usa guide_time_mode='utc'.")
+    print("  • Liberty PR usa guide_time_mode='local': se consulta en hora local y se convierte a UTC en XMLTV.")
+    print("  • Deja time_shift_hours en 0; úsalo solo para ajustes manuales por proveedor/canal.")
     print("  • En Kodi: Settings → PVR & Live TV → Guide → Clear data tras cargar el archivo,")
     print("    y verifica la zona horaria del sistema (America/Puerto_Rico).")
     print("-" * 65)
