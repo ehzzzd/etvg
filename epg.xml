@@ -4798,6 +4798,18 @@
     </rating>
     <episode-num system="original-air-date">20231002</episode-num>
   </programme>
+  <programme start="20260830153500 +0000" stop="20260830180000 +0000" channel="SHOWOMENHD-E.us">
+    <title lang="en">Rosemary's Baby</title>
+    <desc lang="en">Rosemary's Baby (1968)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/060/243/60243/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20210507</episode-num>
+  </programme>
   <programme start="20260829081500 +0000" stop="20260829100500 +0000" channel="SHOFAM-E.us">
     <title lang="en">Star Trek III: The Search for Spock</title>
     <desc lang="en">Star Trek III: The Search for Spock (1984)</desc>
