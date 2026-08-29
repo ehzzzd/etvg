@@ -6,7 +6,7 @@
     "hours_backward": 6,
     "window_hours": 8,
     "timezone_mode": "utc",
-    "time_shift_hours": 1,
+    "time_shift_hours": 0,
     "lang": "en"
   },
   "providers": [
