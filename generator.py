@@ -130,8 +130,8 @@ def parse_iso_datetime(dt_str):
     return datetime.strptime(dt_str, "%Y-%m-%d %H:%M:%S")
 
 
-def process_provider(api, provider_cfg, hours_ahead=24, window_hours=8):
-    """Procesa un proveedor, filtra sus canales y obtiene ~24h de programación con ventana deslizante."""
+def process_provider(api, provider_cfg, hours_ahead=24, hours_backward=6, window_hours=8):
+    """Procesa un proveedor, filtra sus canales y obtiene programación continua (pasada y futura)."""
     postal_code = provider_cfg.get("postalCode")
     headend = provider_cfg.get("headend")
     lineup_type = provider_cfg.get("lineupType", 83)
@@ -219,16 +219,20 @@ def process_provider(api, provider_cfg, hours_ahead=24, window_hours=8):
         programmes_map[cid] = {}
         channel_obj_map[cid] = (ch, mf)
 
-    # Encadenamiento de ventanas
-    print(f"    -> Descargando {hours_ahead} horas de programación en bloques de {window_hours}h...")
-    for step in range(0, hours_ahead, window_hours):
-        win_start = base_dt + timedelta(hours=step)
-        win_end = win_start + timedelta(hours=window_hours)
-        win_label = f"{win_start.strftime('%Y-%m-%d %H:%M')} a {win_end.strftime('%H:%M')}"
+    # Ventana deslizante que incluye horas pasadas (-hours_backward) para garantizar que el programa
+    # que se está emitiendo AHORA MISMO esté 100% capturado con su hora de inicio real sin saltos
+    current_start = base_dt - timedelta(hours=hours_backward)
+    end_limit = base_dt + timedelta(hours=hours_ahead)
+    total_hours = hours_ahead + hours_backward
+
+    print(f"    -> Descargando {total_hours}h de programación (-{hours_backward}h pasadas a +{hours_ahead}h futuras) en bloques de {window_hours}h...")
+    while current_start < end_limit:
+        win_end = min(current_start + timedelta(hours=window_hours), end_limit)
+        win_label = f"{current_start.strftime('%Y-%m-%d %H:%M')} a {win_end.strftime('%H:%M')} UTC"
         print(f"       - Ventana [{win_label}] (offset={min_idx}, count={batch_count})...")
 
         try:
-            grid_rows = api.get_guide_grid(win_start, win_end, count=batch_count, offset=min_idx)
+            grid_rows = api.get_guide_grid(current_start, win_end, count=batch_count, offset=min_idx)
             for row in grid_rows:
                 r_ch = row.get("channel", {})
                 r_num = str(r_ch.get("channelNumber", "")).strip().upper()
@@ -244,6 +248,8 @@ def process_provider(api, provider_cfg, hours_ahead=24, window_hours=8):
                         break
         except Exception as e:
             print(f"       [!] Error al descargar ventana {win_label}: {e}")
+
+        current_start = win_end
 
     # Retornar info formateada
     return channel_obj_map, programmes_map, gmt_offset, provider_cfg
@@ -423,12 +429,13 @@ def main():
     output_xml = settings.get("output_xml", "epg.xml")
     output_gzip = settings.get("output_gzip", True)
     hours_ahead = settings.get("hours_ahead", 24)
+    hours_backward = settings.get("hours_backward", 6)
     window_hours = settings.get("window_hours", 8)
 
     print("=" * 65)
     print("           TiVo XMLTV EPG Generator")
     print("=" * 65)
-    print(f"• Ventana total: {hours_ahead} horas")
+    print(f"• Ventana futura: {hours_ahead} horas | Pasada: {hours_backward} horas")
     print(f"• Bloques deslizantes: {window_hours} horas")
     print(f"• Salida XML: {output_xml}")
 
@@ -439,7 +446,7 @@ def main():
 
     all_results = []
     for prov in config.get("providers", []):
-        res = process_provider(api, prov, hours_ahead=hours_ahead, window_hours=window_hours)
+        res = process_provider(api, prov, hours_ahead=hours_ahead, hours_backward=hours_backward, window_hours=window_hours)
         if res[0]:
             all_results.append(res)
 
