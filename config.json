@@ -69,6 +69,19 @@
         "14"
       ],
       "time_shift_hours": 0
+    },
+    {
+      "id": "liberty_pr_iptv",
+      "name": "Liberty Cablevision of PR (IPTV) San Juan Standard Cable",
+      "postalCode": "00901",
+      "headend": "8003895127",
+      "lineupType": 83,
+      "gmtOffsetSeconds": -14400,
+      "channels": [
+        "5",
+        "6"
+      ],
+      "time_shift_hours": 0
     }
   ]
 }
