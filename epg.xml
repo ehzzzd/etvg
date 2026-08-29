@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tv generator-info-name="TiVo-EPG-Generator" source-info-url="https://online.tivo.com">
+  <channel id="NY1NEWHD.us">
+    <display-name>NY1NEWHD</display-name>
+    <display-name>1 NY1NEWHD</display-name>
+    <display-name>New York 1 News HDTV</display-name>
+    <icon src="https://i.tivo.com/images-static/logos/112x32/6037.png"/>
+  </channel>
+  <channel id="WZMEDT4HD.us">
+    <display-name>WZMEDT4HD</display-name>
+    <display-name>99 WZMEDT4HD</display-name>
+    <display-name>WZME MeTV Toons HDTV</display-name>
+    <icon src="https://i.tivo.com/images-static/logos/112x32/6498.png"/>
+  </channel>
   <channel id="GAME-1.us">
     <display-name>GAME-1</display-name>
     <display-name>700 GAME-1</display-name>
@@ -102,22 +114,485 @@
     <display-name>WSEE (Puerto Rico)</display-name>
     <icon src="https://i.tivo.com/images-static/logos/112x32/19.png"/>
   </channel>
-  <programme start="20260828180000 +0000" stop="20260828210000 +0000" channel="GAME-1.us">
-    <title lang="en">MLB Baseball</title>
-    <sub-title lang="en">Cincinnati Reds at Chicago Cubs</sub-title>
-    <desc lang="en">Cincinnati Reds at Chicago Cubs</desc>
-    <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829010000 +0000" stop="20260829030000 +0000" channel="NY1NEWHD.us">
+    <title lang="en">News All Evening</title>
+    <desc lang="en">News All Evening</desc>
+    <icon src="https://i.tivo.com/images-production/collection/529/525/343529525/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260829030000 +0000" stop="20260829040000 +0000" channel="NY1NEWHD.us">
+    <title lang="en">Live at 10</title>
+    <desc lang="en">Live at 10</desc>
+    <icon src="https://i.tivo.com/images-production/collection/116/720/432116720/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20201102</episode-num>
+  </programme>
+  <programme start="20260829040000 +0000" stop="20260829050000 +0000" channel="NY1NEWHD.us">
+    <title lang="en">Inside City Hall</title>
+    <desc lang="en">Inside City Hall</desc>
+    <icon src="https://i.tivo.com/images-production/collection/070/332/304070332/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260829050000 +0000" stop="20260829060000 +0000" channel="NY1NEWHD.us">
+    <title lang="en">News All Night</title>
+    <desc lang="en">News All Night</desc>
+    <icon src="https://i.tivo.com/images-production/collection/153/665/153665/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260829060000 +0000" stop="20260829070000 +0000" channel="NY1NEWHD.us">
+    <title lang="en">Live at 10</title>
+    <desc lang="en">Live at 10</desc>
+    <icon src="https://i.tivo.com/images-production/collection/116/720/432116720/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20201102</episode-num>
+  </programme>
+  <programme start="20260829070000 +0000" stop="20260829110000 +0000" channel="NY1NEWHD.us">
+    <title lang="en">News All Night</title>
+    <desc lang="en">News All Night</desc>
+    <icon src="https://i.tivo.com/images-production/collection/153/665/153665/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260829110000 +0000" stop="20260829120000 +0000" channel="NY1NEWHD.us">
+    <title lang="en">News All Weekend</title>
+    <desc lang="en">News All Weekend</desc>
+    <icon src="https://i.tivo.com/images-production/collection/513/817/343513817/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20010505</episode-num>
+  </programme>
+  <programme start="20260829120000 +0000" stop="20260829170000 +0000" channel="NY1NEWHD.us">
+    <title lang="en">Weekends on 1</title>
+    <desc lang="en">Weekends on 1</desc>
+    <icon src="https://i.tivo.com/images-production/collection/993/147/476993147/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20230415</episode-num>
+  </programme>
+  <programme start="20260829170000 +0000" stop="20260830003000 +0000" channel="NY1NEWHD.us">
+    <title lang="en">News All Weekend</title>
+    <desc lang="en">News All Weekend</desc>
+    <icon src="https://i.tivo.com/images-production/collection/513/817/343513817/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20010505</episode-num>
+  </programme>
+  <programme start="20260830003000 +0000" stop="20260830010000 +0000" channel="NY1NEWHD.us">
+    <title lang="en">NY1 On Stage</title>
+    <desc lang="en">NY1 On Stage</desc>
+    <icon src="https://i.tivo.com/images-production/collection/508/745/343508745/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260830010000 +0000" stop="20260830033000 +0000" channel="NY1NEWHD.us">
+    <title lang="en">News All Weekend</title>
+    <desc lang="en">News All Weekend</desc>
+    <icon src="https://i.tivo.com/images-production/collection/513/817/343513817/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20010505</episode-num>
+  </programme>
+  <programme start="20260829010000 +0000" stop="20260829030000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Bugs Bunny and Friends</title>
+    <desc lang="en">Bugs Bunny and Friends</desc>
+    <icon src="https://i.tivo.com/images-production/collection/592/338/434592338/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260829030000 +0000" stop="20260829040000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Cartoon All-Stars</title>
+    <desc lang="en">Cartoon All-Stars</desc>
+    <icon src="https://i.tivo.com/images-production/collection/333/267/501333267/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260829040000 +0000" stop="20260829050000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Toon In With Me</title>
+    <sub-title lang="en">Bigger Better Bill</sub-title>
+    <desc lang="en">Bigger Better Bill</desc>
+    <icon src="https://i.tivo.com/images-production/collection/592/778/434592778/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
     <episode-num system="original-air-date">20260828</episode-num>
   </programme>
-  <programme start="20260828210000 +0000" stop="20260828220000 +0000" channel="GAME-1.us">
-    <title lang="en">MLB Baseball Postgame Show</title>
-    <desc lang="en">MLB Baseball Postgame Show</desc>
-    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829050000 +0000" stop="20260829053000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">2 Stupid Dogs</title>
+    <sub-title lang="en">Family Values; Platypus; Red Strikes Back</sub-title>
+    <desc lang="en">Family Values; Platypus; Red Strikes Back</desc>
+    <icon src="https://i.tivo.com/images-production/collection/476/267/359476267/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20131202</episode-num>
   </programme>
-  <programme start="20260828220000 +0000" stop="20260828230000 +0000" channel="GAME-1.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829053000 +0000" stop="20260829060000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Steven Spielberg Presents Freakazoid!</title>
+    <sub-title lang="en">Mission: Freakazoid</sub-title>
+    <desc lang="en">Mission: Freakazoid</desc>
+    <icon src="https://i.tivo.com/images-production/collection/645/044/397645044/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20241019</episode-num>
+  </programme>
+  <programme start="20260829060000 +0000" stop="20260829063000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The Mask</title>
+    <sub-title lang="en">Up the Creek</sub-title>
+    <desc lang="en">Up the Creek</desc>
+    <icon src="https://i.tivo.com/images-production/collection/038/275/349038275/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19961116</episode-num>
+  </programme>
+  <programme start="20260829063000 +0000" stop="20260829070000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Beetlejuice</title>
+    <sub-title lang="en">The Unnatural</sub-title>
+    <desc lang="en">The Unnatural</desc>
+    <icon src="https://i.tivo.com/images-production/collection/475/527/359475527/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19911108</episode-num>
+  </programme>
+  <programme start="20260829070000 +0000" stop="20260829073000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The Real Ghostbusters</title>
+    <sub-title lang="en">Loathe Thy Neighbor</sub-title>
+    <desc lang="en">Loathe Thy Neighbor</desc>
+    <icon src="https://i.tivo.com/images-production/collection/052/533/52533/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19871107</episode-num>
+  </programme>
+  <programme start="20260829073000 +0000" stop="20260829080000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">SilverHawks</title>
+    <sub-title lang="en">Zeek's Fumble</sub-title>
+    <desc lang="en">Zeek's Fumble</desc>
+    <icon src="https://i.tivo.com/images-production/collection/426/190/2426190/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19861008</episode-num>
+  </programme>
+  <programme start="20260829080000 +0000" stop="20260829083000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Pac-Man</title>
+    <sub-title lang="en">The Greatest Show In Pacland/Pac-A-Thon</sub-title>
+    <desc lang="en">The Greatest Show In Pacland/Pac-A-Thon</desc>
+    <icon src="https://i.tivo.com/images-production/collection/995/796/348995796/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19831015</episode-num>
+  </programme>
+  <programme start="20260829083000 +0000" stop="20260829090000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Plastic Man</title>
+    <sub-title lang="en">The Miniscule Seven</sub-title>
+    <desc lang="en">The Miniscule Seven</desc>
+    <icon src="https://i.tivo.com/images-production/collection/999/253/348999253/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20250223</episode-num>
+  </programme>
+  <programme start="20260829090000 +0000" stop="20260829093000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Challenge of the GoBots</title>
+    <sub-title lang="en">Ring of Fire</sub-title>
+    <desc lang="en">Ring of Fire</desc>
+    <icon src="https://i.tivo.com/images-production/collection/998/366/348998366/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19851108</episode-num>
+  </programme>
+  <programme start="20260829093000 +0000" stop="20260829100000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Challenge of the GoBots</title>
+    <sub-title lang="en">Cy-Kill's Escape (Part 1)</sub-title>
+    <desc lang="en">Cy-Kill's Escape (Part 1)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/998/366/348998366/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20241124</episode-num>
+  </programme>
+  <programme start="20260829100000 +0000" stop="20260829103000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The Completely Mental Misadventures of Ed Grimley</title>
+    <sub-title lang="en">Driver Ed</sub-title>
+    <desc lang="en">Driver Ed</desc>
+    <icon src="https://i.tivo.com/images-production/collection/999/076/348999076/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19881105</episode-num>
+  </programme>
+  <programme start="20260829103000 +0000" stop="20260829110000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Mister T</title>
+    <sub-title lang="en">Mystery of the Rocky Mountain Express</sub-title>
+    <desc lang="en">Mystery of the Rocky Mountain Express</desc>
+    <icon src="https://i.tivo.com/images-production/collection/896/103/412896103/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20240721</episode-num>
+  </programme>
+  <programme start="20260829110000 +0000" stop="20260829113000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">ALF: The Animated Series</title>
+    <sub-title lang="en">A Mid-Groomer Night's Dream</sub-title>
+    <desc lang="en">A Mid-Groomer Night's Dream</desc>
+    <icon src="https://i.tivo.com/images-production/collection/809/855/345809855/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19881001</episode-num>
+  </programme>
+  <programme start="20260829113000 +0000" stop="20260829120000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">ALF Tales</title>
+    <sub-title lang="en">The Aladdin Brothers and Their Lamp</sub-title>
+    <desc lang="en">The Aladdin Brothers and Their Lamp</desc>
+    <icon src="https://i.tivo.com/images-production/collection/095/071/349095071/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19881015</episode-num>
+  </programme>
+  <programme start="20260829120000 +0000" stop="20260829123000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Yogi's Galaxy Goofups</title>
+    <sub-title lang="en">The Treasure Of Congo-Bongo</sub-title>
+    <desc lang="en">The Treasure Of Congo-Bongo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/219/281/349219281/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260829123000 +0000" stop="20260829130000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Yogi's Galaxy Goofups</title>
+    <sub-title lang="en">Captain Snerdley Goes Bananas</sub-title>
+    <desc lang="en">Captain Snerdley Goes Bananas</desc>
+    <icon src="https://i.tivo.com/images-production/collection/219/281/349219281/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20240812</episode-num>
+  </programme>
+  <programme start="20260829130000 +0000" stop="20260829133000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The New Adventures of Captain Planet</title>
+    <sub-title lang="en">The Garbage Strikes</sub-title>
+    <desc lang="en">The Garbage Strikes</desc>
+    <icon src="https://i.tivo.com/images-production/collection/999/817/348999817/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19910921</episode-num>
+  </programme>
+  <programme start="20260829133000 +0000" stop="20260829140000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The New Adventures of Captain Planet</title>
+    <sub-title lang="en">Domes of Doom</sub-title>
+    <desc lang="en">Domes of Doom</desc>
+    <icon src="https://i.tivo.com/images-production/collection/999/817/348999817/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19910928</episode-num>
+  </programme>
+  <programme start="20260829140000 +0000" stop="20260829143000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Histeria!</title>
+    <sub-title lang="en">Around the World in a Daze</sub-title>
+    <desc lang="en">Around the World in a Daze</desc>
+    <icon src="https://i.tivo.com/images-production/collection/058/634/58634/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20240831</episode-num>
+  </programme>
+  <programme start="20260829143000 +0000" stop="20260829150000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Histeria!</title>
+    <sub-title lang="en">Histeria Satellite TV</sub-title>
+    <desc lang="en">Histeria Satellite TV</desc>
+    <icon src="https://i.tivo.com/images-production/collection/058/634/58634/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20240831</episode-num>
+  </programme>
+  <programme start="20260829150000 +0000" stop="20260829160000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The New Scooby-Doo Movies</title>
+    <sub-title lang="en">Guess Who's Knott Coming to Dinner?</sub-title>
+    <desc lang="en">Guess Who's Knott Coming to Dinner?</desc>
+    <icon src="https://i.tivo.com/images-production/collection/061/453/61453/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19721006</episode-num>
+  </programme>
+  <programme start="20260829160000 +0000" stop="20260829163000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Josie and the Pussycats</title>
+    <sub-title lang="en">Don't Count on a Countess</sub-title>
+    <desc lang="en">Don't Count on a Countess</desc>
+    <icon src="https://i.tivo.com/images-production/collection/241/535/241535/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19710102</episode-num>
+  </programme>
+  <programme start="20260829163000 +0000" stop="20260829170000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The Pebbles and Bamm-Bamm Show</title>
+    <sub-title lang="en">Coach Pebbles</sub-title>
+    <desc lang="en">Coach Pebbles</desc>
+    <icon src="https://i.tivo.com/images-production/collection/249/088/249088/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19711120</episode-num>
+  </programme>
+  <programme start="20260829170000 +0000" stop="20260829173000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Top Cat</title>
+    <sub-title lang="en">Naked Town</sub-title>
+    <desc lang="en">Naked Town</desc>
+    <icon src="https://i.tivo.com/images-production/collection/061/442/61442/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19611122</episode-num>
+  </programme>
+  <programme start="20260829173000 +0000" stop="20260829180000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Hong Kong Phooey</title>
+    <sub-title lang="en">From Bad to Verse (Rotten Rhymer); Kong and the Counterfeiters</sub-title>
+    <desc lang="en">From Bad to Verse (Rotten Rhymer); Kong and the Counterfeiters</desc>
+    <icon src="https://i.tivo.com/images-production/collection/025/088/25088/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19741123</episode-num>
+  </programme>
+  <programme start="20260829180000 +0000" stop="20260829183000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Jonny Quest</title>
+    <sub-title lang="en">The Curse of Anubis</sub-title>
+    <desc lang="en">The Curse of Anubis</desc>
+    <icon src="https://i.tivo.com/images-production/collection/338/474/338474/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19641002</episode-num>
+  </programme>
+  <programme start="20260829183000 +0000" stop="20260829190000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Moby Dick and the Mighty Mightor</title>
+    <sub-title lang="en">Rok and His Gang / Toadus, Ruler of the Dead Ships / A Big Day for Little Rok</sub-title>
+    <desc lang="en">Rok and His Gang / Toadus, Ruler of the Dead Ships / A Big Day for Little Rok</desc>
+    <icon src="https://i.tivo.com/images-production/collection/061/483/61483/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260829190000 +0000" stop="20260829200000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Super Friends</title>
+    <sub-title lang="en">The Weathermaker</sub-title>
+    <desc lang="en">The Weathermaker</desc>
+    <icon src="https://i.tivo.com/images-production/collection/984/156/93984156/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260829200000 +0000" stop="20260829203000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Legion of Super Heroes</title>
+    <sub-title lang="en">Phantoms</sub-title>
+    <desc lang="en">Phantoms</desc>
+    <icon src="https://i.tivo.com/images-production/collection/976/604/76976604/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20061104</episode-num>
+  </programme>
+  <programme start="20260829203000 +0000" stop="20260829210000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The New Space Ghost and Herculoids Show</title>
+    <sub-title lang="en">Space Spectre/the Thunderbolt/the Big Freeze</sub-title>
+    <desc lang="en">Space Spectre/the Thunderbolt/the Big Freeze</desc>
+    <icon src="https://i.tivo.com/images-production/collection/005/733/536005733/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20260328</episode-num>
+  </programme>
+  <programme start="20260829210000 +0000" stop="20260829220000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The Tom and Jerry Show</title>
+    <desc lang="en">The Tom and Jerry Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/592/343/434592343/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260829220000 +0000" stop="20260829230000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The Woody Woodpecker Show</title>
+    <desc lang="en">The Woody Woodpecker Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/999/695/348999695/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260829230000 +0000" stop="20260829233000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Yogi Bear</title>
+    <sub-title lang="en">A Wooin' Bruin; Spring Hits a Snag; Duck Seasoning</sub-title>
+    <desc lang="en">A Wooin' Bruin; Spring Hits a Snag; Duck Seasoning</desc>
+    <icon src="https://i.tivo.com/images-production/collection/061/443/61443/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260829233000 +0000" stop="20260830000000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The Huckleberry Hound Show</title>
+    <sub-title lang="en">Movies Are Bitter Than Ever/Caveman Huck/Jinks' Jinx</sub-title>
+    <desc lang="en">Movies Are Bitter Than Ever/Caveman Huck/Jinks' Jinx</desc>
+    <icon src="https://i.tivo.com/images-production/collection/061/493/61493/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20250627</episode-num>
+  </programme>
+  <programme start="20260830000000 +0000" stop="20260830003000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The Jetsons</title>
+    <sub-title lang="en">To Tell the Truth</sub-title>
+    <desc lang="en">To Tell the Truth</desc>
+    <icon src="https://i.tivo.com/images-production/collection/061/452/61452/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19851122</episode-num>
+  </programme>
+  <programme start="20260830003000 +0000" stop="20260830010000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The Flintstones</title>
+    <sub-title lang="en">Daddy's Little Beauty</sub-title>
+    <desc lang="en">Daddy's Little Beauty</desc>
+    <icon src="https://i.tivo.com/images-production/collection/025/144/25144/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19631205</episode-num>
+  </programme>
+  <programme start="20260830010000 +0000" stop="20260830030000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Bugs Bunny and Friends</title>
+    <desc lang="en">Bugs Bunny and Friends</desc>
+    <icon src="https://i.tivo.com/images-production/collection/592/338/434592338/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
   </programme>
   <programme start="20260828230000 +0000" stop="20260829020000 +0000" channel="GAME-1.us">
     <title lang="en">MLB Extra Innings</title>
@@ -156,17 +631,17 @@
     <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20260829</episode-num>
   </programme>
-  <programme start="20260828170000 +0000" stop="20260828190000 +0000" channel="GAME-2.us">
+  <programme start="20260829210000 +0000" stop="20260830000000 +0000" channel="GAME-1.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828190000 +0000" stop="20260828220000 +0000" channel="GAME-2.us">
+  <programme start="20260830000000 +0000" stop="20260830030000 +0000" channel="GAME-1.us">
     <title lang="en">MLB Baseball</title>
-    <sub-title lang="en">Cincinnati Reds at Chicago Cubs</sub-title>
-    <desc lang="en">Cincinnati Reds at Chicago Cubs</desc>
+    <sub-title lang="en">Boston Red Sox at New York Yankees</sub-title>
+    <desc lang="en">Boston Red Sox at New York Yankees</desc>
     <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20260828</episode-num>
+    <episode-num system="original-air-date">20260829</episode-num>
   </programme>
   <programme start="20260828220000 +0000" stop="20260829020000 +0000" channel="GAME-2.us">
     <title lang="en">MLB Extra Innings</title>
@@ -210,20 +685,22 @@
     <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20260829</episode-num>
   </programme>
-  <programme start="20260828170000 +0000" stop="20260828200000 +0000" channel="GAME-3.us">
+  <programme start="20260829203000 +0000" stop="20260829210000 +0000" channel="GAME-2.us">
+    <title lang="en">MLB Baseball Postgame Show</title>
+    <desc lang="en">MLB Baseball Postgame Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829210000 +0000" stop="20260830000000 +0000" channel="GAME-2.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828200000 +0000" stop="20260828223000 +0000" channel="GAME-3.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260828223000 +0000" stop="20260828230000 +0000" channel="GAME-3.us">
-    <title lang="en">MLB Baseball Pregame</title>
-    <desc lang="en">MLB Baseball Pregame</desc>
-    <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
+  <programme start="20260830000000 +0000" stop="20260830030000 +0000" channel="GAME-2.us">
+    <title lang="en">MLB Baseball</title>
+    <sub-title lang="en">Texas Rangers at Milwaukee Brewers</sub-title>
+    <desc lang="en">Texas Rangers at Milwaukee Brewers</desc>
+    <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260829</episode-num>
   </programme>
   <programme start="20260828230000 +0000" stop="20260829020000 +0000" channel="GAME-3.us">
     <title lang="en">MLB Baseball</title>
@@ -267,20 +744,27 @@
     <desc lang="en">MLB Baseball Pregame</desc>
     <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828170000 +0000" stop="20260828200000 +0000" channel="GAME-4.us">
+  <programme start="20260829183000 +0000" stop="20260829213000 +0000" channel="GAME-3.us">
+    <title lang="en">MLB Baseball</title>
+    <sub-title lang="en">Chicago White Sox at Minnesota Twins</sub-title>
+    <desc lang="en">Chicago White Sox at Minnesota Twins</desc>
+    <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260829</episode-num>
+  </programme>
+  <programme start="20260829213000 +0000" stop="20260829220000 +0000" channel="GAME-3.us">
+    <title lang="en">MLB Baseball Postgame Show</title>
+    <desc lang="en">MLB Baseball Postgame Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829220000 +0000" stop="20260829230000 +0000" channel="GAME-3.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828200000 +0000" stop="20260828224500 +0000" channel="GAME-4.us">
+  <programme start="20260829230000 +0000" stop="20260830020000 +0000" channel="GAME-3.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260828224500 +0000" stop="20260828231500 +0000" channel="GAME-4.us">
-    <title lang="en">MLB Baseball Pregame</title>
-    <desc lang="en">MLB Baseball Pregame</desc>
-    <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260828231500 +0000" stop="20260829021500 +0000" channel="GAME-4.us">
     <title lang="en">MLB Baseball</title>
@@ -329,20 +813,22 @@
     <desc lang="en">MLB Baseball Pregame</desc>
     <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828170000 +0000" stop="20260828200000 +0000" channel="GAME-5.us">
+  <programme start="20260829183000 +0000" stop="20260829213000 +0000" channel="GAME-4.us">
+    <title lang="en">MLB Baseball</title>
+    <sub-title lang="en">Chicago White Sox at Minnesota Twins</sub-title>
+    <desc lang="en">Chicago White Sox at Minnesota Twins</desc>
+    <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260829</episode-num>
+  </programme>
+  <programme start="20260829213000 +0000" stop="20260829220000 +0000" channel="GAME-4.us">
+    <title lang="en">MLB Baseball Postgame Show</title>
+    <desc lang="en">MLB Baseball Postgame Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829220000 +0000" stop="20260830020000 +0000" channel="GAME-4.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260828200000 +0000" stop="20260828230000 +0000" channel="GAME-5.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260828230000 +0000" stop="20260828233000 +0000" channel="GAME-5.us">
-    <title lang="en">MLB Baseball Pregame</title>
-    <desc lang="en">MLB Baseball Pregame</desc>
-    <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260828233000 +0000" stop="20260829023000 +0000" channel="GAME-5.us">
     <title lang="en">MLB Baseball</title>
@@ -386,20 +872,27 @@
     <desc lang="en">MLB Baseball Pregame</desc>
     <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828170000 +0000" stop="20260828200000 +0000" channel="GAME-6.us">
+  <programme start="20260829183000 +0000" stop="20260829213000 +0000" channel="GAME-5.us">
+    <title lang="en">MLB Baseball</title>
+    <sub-title lang="en">Pittsburgh Pirates at St. Louis Cardinals</sub-title>
+    <desc lang="en">Pittsburgh Pirates at St. Louis Cardinals</desc>
+    <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260829</episode-num>
+  </programme>
+  <programme start="20260829213000 +0000" stop="20260829220000 +0000" channel="GAME-5.us">
+    <title lang="en">MLB Baseball Postgame Show</title>
+    <desc lang="en">MLB Baseball Postgame Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829220000 +0000" stop="20260829230000 +0000" channel="GAME-5.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828200000 +0000" stop="20260828230000 +0000" channel="GAME-6.us">
+  <programme start="20260829230000 +0000" stop="20260830020000 +0000" channel="GAME-5.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260828230000 +0000" stop="20260828233000 +0000" channel="GAME-6.us">
-    <title lang="en">MLB Baseball Pregame</title>
-    <desc lang="en">MLB Baseball Pregame</desc>
-    <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260828233000 +0000" stop="20260829023000 +0000" channel="GAME-6.us">
     <title lang="en">MLB Baseball</title>
@@ -450,20 +943,20 @@
     <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20260829</episode-num>
   </programme>
-  <programme start="20260828170000 +0000" stop="20260828200000 +0000" channel="GAME-7.us">
+  <programme start="20260829210000 +0000" stop="20260829220000 +0000" channel="GAME-6.us">
+    <title lang="en">MLB Baseball Postgame Show</title>
+    <desc lang="en">MLB Baseball Postgame Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829220000 +0000" stop="20260829230000 +0000" channel="GAME-6.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828200000 +0000" stop="20260828230000 +0000" channel="GAME-7.us">
+  <programme start="20260829230000 +0000" stop="20260830020000 +0000" channel="GAME-6.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260828230000 +0000" stop="20260828233000 +0000" channel="GAME-7.us">
-    <title lang="en">MLB Baseball Pregame</title>
-    <desc lang="en">MLB Baseball Pregame</desc>
-    <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260828233000 +0000" stop="20260829023000 +0000" channel="GAME-7.us">
     <title lang="en">MLB Baseball</title>
@@ -514,20 +1007,20 @@
     <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20260829</episode-num>
   </programme>
-  <programme start="20260828170000 +0000" stop="20260828200000 +0000" channel="GAME-8.us">
+  <programme start="20260829210000 +0000" stop="20260829220000 +0000" channel="GAME-7.us">
+    <title lang="en">MLB Baseball Postgame Show</title>
+    <desc lang="en">MLB Baseball Postgame Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829220000 +0000" stop="20260829230000 +0000" channel="GAME-7.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828200000 +0000" stop="20260828230000 +0000" channel="GAME-8.us">
+  <programme start="20260829230000 +0000" stop="20260830020000 +0000" channel="GAME-7.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260828230000 +0000" stop="20260828233000 +0000" channel="GAME-8.us">
-    <title lang="en">MLB Baseball Pregame</title>
-    <desc lang="en">MLB Baseball Pregame</desc>
-    <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260828233000 +0000" stop="20260829023000 +0000" channel="GAME-8.us">
     <title lang="en">MLB Baseball</title>
@@ -571,20 +1064,27 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828170000 +0000" stop="20260828200000 +0000" channel="GAME-9.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260828200000 +0000" stop="20260828233000 +0000" channel="GAME-9.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260828233000 +0000" stop="20260829000000 +0000" channel="GAME-9.us">
+  <programme start="20260829190000 +0000" stop="20260829193000 +0000" channel="GAME-8.us">
     <title lang="en">MLB Baseball Pregame</title>
     <desc lang="en">MLB Baseball Pregame</desc>
     <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829193000 +0000" stop="20260829223000 +0000" channel="GAME-8.us">
+    <title lang="en">MLB Baseball</title>
+    <sub-title lang="en">Seattle Mariners at Toronto Blue Jays</sub-title>
+    <desc lang="en">Seattle Mariners at Toronto Blue Jays</desc>
+    <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260829</episode-num>
+  </programme>
+  <programme start="20260829223000 +0000" stop="20260829230000 +0000" channel="GAME-8.us">
+    <title lang="en">MLB Baseball Postgame Show</title>
+    <desc lang="en">MLB Baseball Postgame Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829230000 +0000" stop="20260830020000 +0000" channel="GAME-8.us">
+    <title lang="en">MLB Extra Innings</title>
+    <desc lang="en">MLB Extra Innings</desc>
+    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260829000000 +0000" stop="20260829030000 +0000" channel="GAME-9.us">
     <title lang="en">MLB Baseball</title>
@@ -628,20 +1128,27 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828170000 +0000" stop="20260828200000 +0000" channel="GAME10.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260828200000 +0000" stop="20260829000000 +0000" channel="GAME10.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260829000000 +0000" stop="20260829003000 +0000" channel="GAME10.us">
+  <programme start="20260829201500 +0000" stop="20260829204500 +0000" channel="GAME-9.us">
     <title lang="en">MLB Baseball Pregame</title>
     <desc lang="en">MLB Baseball Pregame</desc>
     <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829204500 +0000" stop="20260829234500 +0000" channel="GAME-9.us">
+    <title lang="en">MLB Baseball</title>
+    <sub-title lang="en">Miami Marlins at Washington Nationals</sub-title>
+    <desc lang="en">Miami Marlins at Washington Nationals</desc>
+    <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260829</episode-num>
+  </programme>
+  <programme start="20260829234500 +0000" stop="20260830001500 +0000" channel="GAME-9.us">
+    <title lang="en">MLB Baseball Postgame Show</title>
+    <desc lang="en">MLB Baseball Postgame Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260830001500 +0000" stop="20260830020000 +0000" channel="GAME-9.us">
+    <title lang="en">MLB Extra Innings</title>
+    <desc lang="en">MLB Extra Innings</desc>
+    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260829003000 +0000" stop="20260829033000 +0000" channel="GAME10.us">
     <title lang="en">MLB Baseball</title>
@@ -685,20 +1192,27 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828170000 +0000" stop="20260828200000 +0000" channel="GAME11.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260828200000 +0000" stop="20260829000000 +0000" channel="GAME11.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260829000000 +0000" stop="20260829003000 +0000" channel="GAME11.us">
+  <programme start="20260829200000 +0000" stop="20260829203000 +0000" channel="GAME10.us">
     <title lang="en">MLB Baseball Pregame</title>
     <desc lang="en">MLB Baseball Pregame</desc>
     <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260829203000 +0000" stop="20260829233000 +0000" channel="GAME10.us">
+    <title lang="en">MLB Baseball</title>
+    <sub-title lang="en">Arizona Diamondbacks at San Francisco Giants</sub-title>
+    <desc lang="en">Arizona Diamondbacks at San Francisco Giants</desc>
+    <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260829</episode-num>
+  </programme>
+  <programme start="20260829233000 +0000" stop="20260830000000 +0000" channel="GAME10.us">
+    <title lang="en">MLB Baseball Postgame Show</title>
+    <desc lang="en">MLB Baseball Postgame Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260830000000 +0000" stop="20260830020000 +0000" channel="GAME10.us">
+    <title lang="en">MLB Extra Innings</title>
+    <desc lang="en">MLB Extra Innings</desc>
+    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260829003000 +0000" stop="20260829033000 +0000" channel="GAME11.us">
     <title lang="en">MLB Baseball</title>
@@ -742,17 +1256,24 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828170000 +0000" stop="20260828200000 +0000" channel="GAME12.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829200000 +0000" stop="20260829203000 +0000" channel="GAME11.us">
+    <title lang="en">MLB Baseball Pregame</title>
+    <desc lang="en">MLB Baseball Pregame</desc>
+    <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828200000 +0000" stop="20260828230000 +0000" channel="GAME12.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829203000 +0000" stop="20260829233000 +0000" channel="GAME11.us">
+    <title lang="en">MLB Baseball</title>
+    <sub-title lang="en">Colorado Rockies at Atlanta Braves</sub-title>
+    <desc lang="en">Colorado Rockies at Atlanta Braves</desc>
+    <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260829</episode-num>
   </programme>
-  <programme start="20260828230000 +0000" stop="20260829013000 +0000" channel="GAME12.us">
+  <programme start="20260829233000 +0000" stop="20260830000000 +0000" channel="GAME11.us">
+    <title lang="en">MLB Baseball Postgame Show</title>
+    <desc lang="en">MLB Baseball Postgame Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260830000000 +0000" stop="20260830020000 +0000" channel="GAME11.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -799,17 +1320,24 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828170000 +0000" stop="20260828200000 +0000" channel="GAME13.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829200000 +0000" stop="20260829203000 +0000" channel="GAME12.us">
+    <title lang="en">MLB Baseball Pregame</title>
+    <desc lang="en">MLB Baseball Pregame</desc>
+    <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828200000 +0000" stop="20260828230000 +0000" channel="GAME13.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829203000 +0000" stop="20260829233000 +0000" channel="GAME12.us">
+    <title lang="en">MLB Baseball</title>
+    <sub-title lang="en">Kansas City Royals at Cleveland Guardians</sub-title>
+    <desc lang="en">Kansas City Royals at Cleveland Guardians</desc>
+    <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260829</episode-num>
   </programme>
-  <programme start="20260828230000 +0000" stop="20260829013000 +0000" channel="GAME13.us">
+  <programme start="20260829233000 +0000" stop="20260830000000 +0000" channel="GAME12.us">
+    <title lang="en">MLB Baseball Postgame Show</title>
+    <desc lang="en">MLB Baseball Postgame Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260830000000 +0000" stop="20260830020000 +0000" channel="GAME12.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -856,12 +1384,24 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828170000 +0000" stop="20260828200000 +0000" channel="GAME14.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829200000 +0000" stop="20260829203000 +0000" channel="GAME13.us">
+    <title lang="en">MLB Baseball Pregame</title>
+    <desc lang="en">MLB Baseball Pregame</desc>
+    <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828200000 +0000" stop="20260828230000 +0000" channel="GAME14.us">
+  <programme start="20260829203000 +0000" stop="20260829233000 +0000" channel="GAME13.us">
+    <title lang="en">MLB Baseball</title>
+    <sub-title lang="en">San Diego Padres at Tampa Bay Rays</sub-title>
+    <desc lang="en">San Diego Padres at Tampa Bay Rays</desc>
+    <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260829</episode-num>
+  </programme>
+  <programme start="20260829233000 +0000" stop="20260830000000 +0000" channel="GAME13.us">
+    <title lang="en">MLB Baseball Postgame Show</title>
+    <desc lang="en">MLB Baseball Postgame Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260830000000 +0000" stop="20260830020000 +0000" channel="GAME13.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -913,48 +1453,27 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828180000 +0000" stop="20260828190000 +0000" channel="WSTE.us">
-    <title lang="en">¡Siéntese Quien Pueda!</title>
-    <desc lang="en">¡Siéntese Quien Pueda!</desc>
-    <icon src="https://i.tivo.com/images-production/collection/791/891/463791891/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20230106</episode-num>
+  <programme start="20260829200000 +0000" stop="20260829203000 +0000" channel="GAME14.us">
+    <title lang="en">MLB Baseball Pregame</title>
+    <desc lang="en">MLB Baseball Pregame</desc>
+    <icon src="https://i.tivo.com/images-production/collection/945/013/517945013/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828190000 +0000" stop="20260828200000 +0000" channel="WSTE.us">
-    <title lang="en">¡Siéntese Quien Pueda!</title>
-    <desc lang="en">¡Siéntese Quien Pueda!</desc>
-    <icon src="https://i.tivo.com/images-production/collection/791/891/463791891/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20230106</episode-num>
+  <programme start="20260829203000 +0000" stop="20260829233000 +0000" channel="GAME14.us">
+    <title lang="en">MLB Baseball</title>
+    <sub-title lang="en">Houston Astros at New York Mets</sub-title>
+    <desc lang="en">Houston Astros at New York Mets</desc>
+    <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260829</episode-num>
   </programme>
-  <programme start="20260828200000 +0000" stop="20260828210000 +0000" channel="WSTE.us">
-    <title lang="en">Desiguales</title>
-    <desc lang="en">Desiguales</desc>
-    <icon src="https://i.tivo.com/images-production/collection/319/290/433319290/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829233000 +0000" stop="20260830000000 +0000" channel="GAME14.us">
+    <title lang="en">MLB Baseball Postgame Show</title>
+    <desc lang="en">MLB Baseball Postgame Show</desc>
+    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828210000 +0000" stop="20260828220000 +0000" channel="WSTE.us">
-    <title lang="en">El gordo y la flaca</title>
-    <desc lang="en">El gordo y la flaca</desc>
-    <icon src="https://i.tivo.com/images-production/collection/056/968/56968/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20230102</episode-num>
-  </programme>
-  <programme start="20260828220000 +0000" stop="20260828230000 +0000" channel="WSTE.us">
-    <title lang="en">Primer impacto</title>
-    <desc lang="en">Primer impacto</desc>
-    <icon src="https://i.tivo.com/images-production/collection/975/460/540975460/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260828230000 +0000" stop="20260828233000 +0000" channel="WSTE.us">
-    <title lang="en">Noticiero N+ Univisión - Edición Digital</title>
-    <desc lang="en">Noticiero N+ Univisión - Edición Digital</desc>
-    <icon src="https://i.tivo.com/images-production/collection/371/327/542371327/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260828233000 +0000" stop="20260829000000 +0000" channel="WSTE.us">
-    <title lang="en">Noticiero Univisión</title>
-    <desc lang="en">Noticiero Univisión</desc>
-    <icon src="https://i.tivo.com/images-production/collection/017/812/17812/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260829000000 +0000" stop="20260829010000 +0000" channel="WSTE.us">
-    <title lang="en">Lo tomas o lo dejas</title>
-    <desc lang="en">Lo tomas o lo dejas</desc>
-    <icon src="https://i.tivo.com/images-production/collection/953/917/162953917/showcaseBanner_560x419.jpg"/>
+  <programme start="20260830000000 +0000" stop="20260830020000 +0000" channel="GAME14.us">
+    <title lang="en">MLB Extra Innings</title>
+    <desc lang="en">MLB Extra Innings</desc>
+    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260829010000 +0000" stop="20260829020000 +0000" channel="WSTE.us">
     <title lang="en">La Rosa de Guadalupe</title>
@@ -1109,55 +1628,66 @@
     <desc lang="en">Programación pagada</desc>
     <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828180000 +0000" stop="20260828190000 +0000" channel="WORO.us">
-    <title lang="en">Sabiamente Podcast</title>
-    <desc lang="en">Sabiamente Podcast</desc>
-    <icon src="https://i.tivo.com/images-production/collection/927/016/528927016/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829183000 +0000" stop="20260829193000 +0000" channel="WSTE.us">
+    <title lang="en">La Dr. Polo Vida Sin Limites</title>
+    <desc lang="en">La Dr. Polo Vida Sin Limites</desc>
+    <icon src="https://i.tivo.com/images-production/collection/905/793/516905793/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20241228</episode-num>
   </programme>
-  <programme start="20260828190000 +0000" stop="20260828200000 +0000" channel="WORO.us">
-    <title lang="en">La Biblia</title>
-    <desc lang="en">La Biblia</desc>
-    <icon src="https://i.tivo.com/images-production/collection/988/339/328988339/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260829193000 +0000" stop="20260829200000 +0000" channel="WSTE.us">
+    <title lang="en">La Dr. Polo Vida Sin Limites</title>
+    <desc lang="en">La Dr. Polo Vida Sin Limites</desc>
+    <icon src="https://i.tivo.com/images-production/collection/905/793/516905793/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20241228</episode-num>
   </programme>
-  <programme start="20260828200000 +0000" stop="20260828203000 +0000" channel="WORO.us">
-    <title lang="en">Coronilla a la Divina Misericordia</title>
-    <desc lang="en">Coronilla a la Divina Misericordia</desc>
-    <icon src="https://i.tivo.com/images-production/collection/498/033/343498033/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829200000 +0000" stop="20260829203000 +0000" channel="WSTE.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828203000 +0000" stop="20260828210000 +0000" channel="WORO.us">
-    <title lang="en">San Francisco de Asís</title>
-    <desc lang="en">San Francisco de Asís (1961)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/902/536/348902536/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">19610712</episode-num>
+  <programme start="20260829203000 +0000" stop="20260829213000 +0000" channel="WSTE.us">
+    <title lang="en">La Dr. Polo Vida Sin Limites</title>
+    <desc lang="en">La Dr. Polo Vida Sin Limites</desc>
+    <icon src="https://i.tivo.com/images-production/collection/905/793/516905793/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20241228</episode-num>
   </programme>
-  <programme start="20260828210000 +0000" stop="20260828213000 +0000" channel="WORO.us">
-    <title lang="en">Tienda Mágica</title>
-    <desc lang="en">Tienda Mágica</desc>
-    <icon src="https://i.tivo.com/images-production/collection/633/757/349633757/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829213000 +0000" stop="20260829220000 +0000" channel="WSTE.us">
+    <title lang="en">La Dr. Polo Vida Sin Limites</title>
+    <desc lang="en">La Dr. Polo Vida Sin Limites</desc>
+    <icon src="https://i.tivo.com/images-production/collection/905/793/516905793/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20241228</episode-num>
   </programme>
-  <programme start="20260828213000 +0000" stop="20260828220000 +0000" channel="WORO.us">
-    <title lang="en">Vamos a Xplorar</title>
-    <desc lang="en">Vamos a Xplorar</desc>
-    <icon src="https://i.tivo.com/images-production/collection/947/757/148947757/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829220000 +0000" stop="20260829223000 +0000" channel="WSTE.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828220000 +0000" stop="20260828230000 +0000" channel="WORO.us">
-    <title lang="en">Misa Diaria</title>
-    <desc lang="en">Misa Diaria</desc>
-    <icon src="https://i.tivo.com/images-production/collection/602/895/3602895/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829223000 +0000" stop="20260829230000 +0000" channel="WSTE.us">
+    <title lang="en">La Dr. Polo Vida Sin Limites</title>
+    <desc lang="en">La Dr. Polo Vida Sin Limites</desc>
+    <icon src="https://i.tivo.com/images-production/collection/905/793/516905793/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20241228</episode-num>
   </programme>
-  <programme start="20260828230000 +0000" stop="20260829000000 +0000" channel="WORO.us">
-    <title lang="en">Noticias 13 con José</title>
-    <desc lang="en">Noticias 13 con José</desc>
-    <icon src="https://i.tivo.com/images-production/collection/582/687/176582687/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829230000 +0000" stop="20260829233000 +0000" channel="WSTE.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260829000000 +0000" stop="20260829010000 +0000" channel="WORO.us">
-    <title lang="en">Alianza</title>
-    <desc lang="en">Alianza</desc>
-    <icon src="https://i.tivo.com/images-production/collection/913/010/417913010/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20221031</episode-num>
+  <programme start="20260829233000 +0000" stop="20260830003000 +0000" channel="WSTE.us">
+    <title lang="en">La Dr. Polo Vida Sin Limites</title>
+    <desc lang="en">La Dr. Polo Vida Sin Limites</desc>
+    <icon src="https://i.tivo.com/images-production/collection/905/793/516905793/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20241228</episode-num>
+  </programme>
+  <programme start="20260830003000 +0000" stop="20260830010000 +0000" channel="WSTE.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260830010000 +0000" stop="20260830020000 +0000" channel="WSTE.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260829010000 +0000" stop="20260829020000 +0000" channel="WORO.us">
     <title lang="en">En su presencia</title>
@@ -1297,79 +1827,70 @@
     <desc lang="en">Nací para Orar</desc>
     <icon src="https://i.tivo.com/images-production/collection/139/439/525139439/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828173000 +0000" stop="20260828183000 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">The Young and the Restless</title>
-    <sub-title lang="en">08-28-2026</sub-title>
-    <desc lang="en">08-28-2026</desc>
-    <icon src="https://i.tivo.com/images-production/collection/057/550/57550/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20260827</episode-num>
+  <programme start="20260829183000 +0000" stop="20260829190000 +0000" channel="WORO.us">
+    <title lang="en">Aviva</title>
+    <desc lang="en">Aviva</desc>
+    <icon src="https://i.tivo.com/images-production/collection/094/598/367094598/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828183000 +0000" stop="20260828190000 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">The Bold and the Beautiful</title>
-    <sub-title lang="en">08-28-2026</sub-title>
-    <desc lang="en">08-28-2026</desc>
-    <icon src="https://i.tivo.com/images-production/collection/057/551/57551/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20260828</episode-num>
+  <programme start="20260829190000 +0000" stop="20260829193000 +0000" channel="WORO.us">
+    <title lang="en">¡Familia!, activa tu fe</title>
+    <desc lang="en">¡Familia!, activa tu fe</desc>
+    <icon src="https://i.tivo.com/images-production/collection/094/596/367094596/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828190000 +0000" stop="20260828200000 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">Beyond The Gates</title>
-    <sub-title lang="en">08-28-2026</sub-title>
-    <desc lang="en">08-28-2026</desc>
-    <icon src="https://i.tivo.com/images-production/collection/162/581/515162581/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20260828</episode-num>
+  <programme start="20260829193000 +0000" stop="20260829200000 +0000" channel="WORO.us">
+    <title lang="en">Saboreando La Palabra</title>
+    <desc lang="en">Saboreando La Palabra</desc>
+    <icon src="https://i.tivo.com/images-production/collection/139/516/525139516/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828200000 +0000" stop="20260828210000 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">Let's Make a Deal</title>
-    <sub-title lang="en">10-21-2025</sub-title>
-    <desc lang="en">10-21-2025</desc>
-    <icon src="https://i.tivo.com/images-production/collection/947/111/150947111/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20251021</episode-num>
+  <programme start="20260829200000 +0000" stop="20260829203000 +0000" channel="WORO.us">
+    <title lang="en">Coronilla a la Divina Misericordia</title>
+    <desc lang="en">Coronilla a la Divina Misericordia</desc>
+    <icon src="https://i.tivo.com/images-production/collection/498/033/343498033/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828210000 +0000" stop="20260828213000 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">Judge Judy</title>
-    <sub-title lang="en">Episodie 4758</sub-title>
-    <desc lang="en">Episodie 4758</desc>
-    <icon src="https://i.tivo.com/images-production/collection/018/909/18909/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829203000 +0000" stop="20260829210000 +0000" channel="WORO.us">
+    <title lang="en">Aprendo con Shabum</title>
+    <desc lang="en">Aprendo con Shabum</desc>
+    <icon src="https://i.tivo.com/images-production/collection/832/048/321832048/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828213000 +0000" stop="20260828220000 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">Judge Judy</title>
-    <sub-title lang="en">Permanently Disabled Entrepreneur!; Fiancée Father Fight!; Bingo Charity for Children</sub-title>
-    <desc lang="en">Permanently Disabled Entrepreneur!; Fiancée Father Fight!; Bingo Charity for Children</desc>
-    <icon src="https://i.tivo.com/images-production/collection/018/909/18909/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20190510</episode-num>
+  <programme start="20260829210000 +0000" stop="20260829213000 +0000" channel="WORO.us">
+    <title lang="en">Innovaciones</title>
+    <desc lang="en">Innovaciones</desc>
+    <icon src="https://i.tivo.com/images-production/collection/552/641/542552641/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828220000 +0000" stop="20260828230000 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">Access Daily with Mario &amp; Kit</title>
-    <sub-title lang="en">08-28-2026</sub-title>
-    <desc lang="en">08-28-2026</desc>
-    <icon src="https://i.tivo.com/images-production/collection/052/274/169052274/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20260828</episode-num>
+  <programme start="20260829213000 +0000" stop="20260829220000 +0000" channel="WORO.us">
+    <title lang="en">Vamos a Xplorar</title>
+    <desc lang="en">Vamos a Xplorar</desc>
+    <icon src="https://i.tivo.com/images-production/collection/947/757/148947757/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828230000 +0000" stop="20260828233000 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">OCTV News</title>
-    <desc lang="en">OCTV News</desc>
-    <icon src="https://i.tivo.com/images-production/collection/836/887/361836887/showcaseBanner_560x419.jpg"/>
+  <programme start="20260829220000 +0000" stop="20260829230000 +0000" channel="WORO.us">
+    <title lang="en">Misa Diaria</title>
+    <desc lang="en">Misa Diaria</desc>
+    <icon src="https://i.tivo.com/images-production/collection/602/895/3602895/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260828233000 +0000" stop="20260829000000 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">CBS Evening News</title>
-    <sub-title lang="en">08-28-2026</sub-title>
-    <desc lang="en">08-28-2026</desc>
-    <icon src="https://i.tivo.com/images-production/collection/335/342/182335342/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20260828</episode-num>
+  <programme start="20260829230000 +0000" stop="20260829233000 +0000" channel="WORO.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260829000000 +0000" stop="20260829003000 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">Wheel of Fortune</title>
-    <sub-title lang="en">Cheers To Fun</sub-title>
-    <desc lang="en">Cheers To Fun</desc>
-    <icon src="https://i.tivo.com/images-production/collection/055/038/55038/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20250926</episode-num>
+  <programme start="20260829233000 +0000" stop="20260830000000 +0000" channel="WORO.us">
+    <title lang="en">Palabras con Sabiduría</title>
+    <desc lang="en">Palabras con Sabiduría</desc>
+    <icon src="https://i.tivo.com/images-production/collection/139/501/525139501/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260829003000 +0000" stop="20260829010000 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">Jeopardy!</title>
-    <sub-title lang="en">Tournament of Champions</sub-title>
-    <desc lang="en">Tournament of Champions</desc>
-    <icon src="https://i.tivo.com/images-production/collection/055/039/55039/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20260206</episode-num>
+  <programme start="20260830000000 +0000" stop="20260830003000 +0000" channel="WORO.us">
+    <title lang="en">Muévete al Cooperativismo</title>
+    <desc lang="en">Muévete al Cooperativismo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/682/020/349682020/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260830003000 +0000" stop="20260830010000 +0000" channel="WORO.us">
+    <title lang="en">Una Ventana</title>
+    <desc lang="en">Una Ventana</desc>
+    <icon src="https://i.tivo.com/images-production/collection/139/443/525139443/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260830010000 +0000" stop="20260830020000 +0000" channel="WORO.us">
+    <title lang="en">Cantos del Alma</title>
+    <desc lang="en">Cantos del Alma</desc>
+    <icon src="https://i.tivo.com/images-production/collection/139/520/525139520/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260829010000 +0000" stop="20260829040000 +0000" channel="WSEEDT-PR.us">
     <title lang="en">NFL Football</title>
@@ -1528,5 +2049,33 @@
     <desc lang="en">Chicago Sky at New York Liberty</desc>
     <icon src="https://i.tivo.com/images-production/collection/653/324/653324/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20260829</episode-num>
+  </programme>
+  <programme start="20260829200000 +0000" stop="20260830000000 +0000" channel="WSEEDT-PR.us">
+    <title lang="en">PGA Tour Golf</title>
+    <sub-title lang="en">TOUR Championship</sub-title>
+    <desc lang="en">TOUR Championship</desc>
+    <icon src="https://i.tivo.com/images-production/collection/690/233/10690233/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260829</episode-num>
+  </programme>
+  <programme start="20260830000000 +0000" stop="20260830003000 +0000" channel="WSEEDT-PR.us">
+    <title lang="en">Wheel of Fortune</title>
+    <sub-title lang="en">Wheel of Fortune</sub-title>
+    <desc lang="en">Wheel of Fortune</desc>
+    <icon src="https://i.tivo.com/images-production/collection/055/038/55038/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20251106</episode-num>
+  </programme>
+  <programme start="20260830003000 +0000" stop="20260830010000 +0000" channel="WSEEDT-PR.us">
+    <title lang="en">Jeopardy!</title>
+    <sub-title lang="en">Regular Shows</sub-title>
+    <desc lang="en">Regular Shows</desc>
+    <icon src="https://i.tivo.com/images-production/collection/055/039/55039/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20250326</episode-num>
+  </programme>
+  <programme start="20260830010000 +0000" stop="20260830023000 +0000" channel="WSEEDT-PR.us">
+    <title lang="en">Big Brother</title>
+    <sub-title lang="en">Episode 25</sub-title>
+    <desc lang="en">Episode 25</desc>
+    <icon src="https://i.tivo.com/images-production/collection/520/105/407520105/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260826</episode-num>
   </programme>
 </tv>
