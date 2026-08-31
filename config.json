@@ -112,7 +112,8 @@
       "gmtOffsetSeconds": -14400,
       "channels": [
         "5",
-        "6"
+        "6",
+        "82"
       ],
       "time_shift_hours": 0
     }
