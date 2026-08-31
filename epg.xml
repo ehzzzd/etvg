@@ -432,6 +432,12 @@
     <display-name>WSEE (Puerto Rico)</display-name>
     <icon src="https://i.tivo.com/images-static/logos/112x32/19.png"/>
   </channel>
+  <channel id="REELZ.us">
+    <display-name>REELZ</display-name>
+    <display-name>82 REELZ</display-name>
+    <display-name>ReelzChannel</display-name>
+    <icon src="https://i.tivo.com/images-static/logos/112x32/836.png"/>
+  </channel>
   <channel id="BOXEOHD-TMP.us">
     <display-name>BOXEOHD-TMP</display-name>
     <display-name>5 BOXEOHD-TMP</display-name>
@@ -3599,18 +3605,6 @@
     </rating>
     <episode-num system="original-air-date">20250308</episode-num>
   </programme>
-  <programme start="20260831064500 +0000" stop="20260831081500 +0000" channel="SHOSCHD-E.us">
-    <title lang="en">Friday the 13th, Part II</title>
-    <desc lang="en">Friday the 13th, Part II (1981)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/743/605/743605/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">19820325</episode-num>
-  </programme>
   <programme start="20260831081500 +0000" stop="20260831100000 +0000" channel="SHOSCHD-E.us">
     <title lang="en">Escape From L.A.</title>
     <desc lang="en">Escape From L.A. (1996)</desc>
@@ -4033,15 +4027,6 @@
       <value>r</value>
     </rating>
     <episode-num system="original-air-date">20210702</episode-num>
-  </programme>
-  <programme start="20260831063500 +0000" stop="20260831081500 +0000" channel="SHOBETHD-E.us">
-    <title lang="en">Kickback</title>
-    <desc lang="en">Kickback (2022)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/822/810/543822810/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20260609</episode-num>
   </programme>
   <programme start="20260831081500 +0000" stop="20260831094000 +0000" channel="SHOBETHD-E.us">
     <title lang="en">The Killing of Kenneth Chamberlain</title>
@@ -11867,6 +11852,294 @@
     <title lang="en">On the Go PR</title>
     <desc lang="en">On the Go PR</desc>
     <icon src="https://i.tivo.com/images-production/collection/840/611/344840611/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260831073000 +0000" stop="20260831083000 +0000" channel="REELZ.us">
+    <title lang="en">The Rate Escape Cut Cell Bills</title>
+    <desc lang="en">The Rate Escape Cut Cell Bills</desc>
+    <icon src="https://i.tivo.com/images-production/collection/034/477/526034477/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20250807</episode-num>
+  </programme>
+  <programme start="20260831083000 +0000" stop="20260831093000 +0000" channel="REELZ.us">
+    <title lang="en">The Rate Escape Cut Cell Bills</title>
+    <desc lang="en">The Rate Escape Cut Cell Bills</desc>
+    <icon src="https://i.tivo.com/images-production/collection/034/477/526034477/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20250807</episode-num>
+  </programme>
+  <programme start="20260831093000 +0000" stop="20260831100000 +0000" channel="REELZ.us">
+    <title lang="en">Paid Programming</title>
+    <desc lang="en">Paid Programming</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/850/343502850/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260831100000 +0000" stop="20260831103000 +0000" channel="REELZ.us">
+    <title lang="en">Paid Programming</title>
+    <desc lang="en">Paid Programming</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/850/343502850/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260831103000 +0000" stop="20260831110000 +0000" channel="REELZ.us">
+    <title lang="en">The Aging Brain</title>
+    <desc lang="en">The Aging Brain</desc>
+    <icon src="https://i.tivo.com/images-production/collection/105/877/520105877/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20250505</episode-num>
+  </programme>
+  <programme start="20260831110000 +0000" stop="20260831113000 +0000" channel="REELZ.us">
+    <title lang="en">Paid Programming</title>
+    <desc lang="en">Paid Programming</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/850/343502850/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260831113000 +0000" stop="20260831120000 +0000" channel="REELZ.us">
+    <title lang="en">Freedom to Leave the House! Inogen Portable Oxygen</title>
+    <desc lang="en">Freedom to Leave the House! Inogen Portable Oxygen</desc>
+    <icon src="https://i.tivo.com/images-production/collection/397/004/515397004/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20250130</episode-num>
+  </programme>
+  <programme start="20260831120000 +0000" stop="20260831123000 +0000" channel="REELZ.us">
+    <title lang="en">Paid Programming</title>
+    <desc lang="en">Paid Programming</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/850/343502850/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260831123000 +0000" stop="20260831130000 +0000" channel="REELZ.us">
+    <title lang="en">Paid Programming</title>
+    <desc lang="en">Paid Programming</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/850/343502850/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260831130000 +0000" stop="20260831140000 +0000" channel="REELZ.us">
+    <title lang="en">Untold Stories of the ER</title>
+    <sub-title lang="en">Skewered Skydivers</sub-title>
+    <desc lang="en">Skewered Skydivers</desc>
+    <icon src="https://i.tivo.com/images-production/collection/939/477/517939477/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20250327</episode-num>
+  </programme>
+  <programme start="20260831140000 +0000" stop="20260831150000 +0000" channel="REELZ.us">
+    <title lang="en">Untold Stories of the E.R.</title>
+    <sub-title lang="en">Dr. Epi</sub-title>
+    <desc lang="en">Dr. Epi</desc>
+    <icon src="https://i.tivo.com/images-production/collection/630/252/22630252/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20140725</episode-num>
+  </programme>
+  <programme start="20260831150000 +0000" stop="20260831160000 +0000" channel="REELZ.us">
+    <title lang="en">Untold Stories of the E.R.</title>
+    <sub-title lang="en">I Hate Doctors</sub-title>
+    <desc lang="en">I Hate Doctors</desc>
+    <icon src="https://i.tivo.com/images-production/collection/630/252/22630252/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20140801</episode-num>
+  </programme>
+  <programme start="20260831160000 +0000" stop="20260831170000 +0000" channel="REELZ.us">
+    <title lang="en">CopyCat Killers</title>
+    <sub-title lang="en">Deliverance</sub-title>
+    <desc lang="en">Deliverance</desc>
+    <icon src="https://i.tivo.com/images-production/collection/037/404/339037404/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20171014</episode-num>
+  </programme>
+  <programme start="20260831170000 +0000" stop="20260831180000 +0000" channel="REELZ.us">
+    <title lang="en">Real Story Of...</title>
+    <sub-title lang="en">All Eyez on Me</sub-title>
+    <desc lang="en">All Eyez on Me</desc>
+    <icon src="https://i.tivo.com/images-production/collection/070/918/362070918/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20190512</episode-num>
+  </programme>
+  <programme start="20260831180000 +0000" stop="20260831183000 +0000" channel="REELZ.us">
+    <title lang="en">Cops Reloaded</title>
+    <sub-title lang="en">Losing My Mind</sub-title>
+    <desc lang="en">Losing My Mind</desc>
+    <icon src="https://i.tivo.com/images-production/collection/725/660/259725660/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20150318</episode-num>
+  </programme>
+  <programme start="20260831183000 +0000" stop="20260831190000 +0000" channel="REELZ.us">
+    <title lang="en">Cops Reloaded</title>
+    <sub-title lang="en">Cycle of Paranoia</sub-title>
+    <desc lang="en">Cycle of Paranoia</desc>
+    <icon src="https://i.tivo.com/images-production/collection/725/660/259725660/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20150326</episode-num>
+  </programme>
+  <programme start="20260831190000 +0000" stop="20260831193000 +0000" channel="REELZ.us">
+    <title lang="en">Cops Reloaded</title>
+    <sub-title lang="en">Top Seller</sub-title>
+    <desc lang="en">Top Seller</desc>
+    <icon src="https://i.tivo.com/images-production/collection/725/660/259725660/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20150403</episode-num>
+  </programme>
+  <programme start="20260831193000 +0000" stop="20260831200000 +0000" channel="REELZ.us">
+    <title lang="en">Cops Reloaded</title>
+    <sub-title lang="en">Magical Force</sub-title>
+    <desc lang="en">Magical Force</desc>
+    <icon src="https://i.tivo.com/images-production/collection/725/660/259725660/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20150406</episode-num>
+  </programme>
+  <programme start="20260831200000 +0000" stop="20260831210000 +0000" channel="REELZ.us">
+    <title lang="en">Most Shocking</title>
+    <sub-title lang="en">Young &amp; Dumb</sub-title>
+    <desc lang="en">Young &amp; Dumb</desc>
+    <icon src="https://i.tivo.com/images-production/collection/852/158/77852158/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20220930</episode-num>
+  </programme>
+  <programme start="20260831210000 +0000" stop="20260831213000 +0000" channel="REELZ.us">
+    <title lang="en">Jail</title>
+    <sub-title lang="en">Gone to the Dogs</sub-title>
+    <desc lang="en">Gone to the Dogs</desc>
+    <icon src="https://i.tivo.com/images-production/collection/461/232/456461232/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20220526</episode-num>
+  </programme>
+  <programme start="20260831213000 +0000" stop="20260831220000 +0000" channel="REELZ.us">
+    <title lang="en">Jail</title>
+    <sub-title lang="en">Permission to Panhandle</sub-title>
+    <desc lang="en">Permission to Panhandle</desc>
+    <icon src="https://i.tivo.com/images-production/collection/461/232/456461232/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20220526</episode-num>
+  </programme>
+  <programme start="20260831220000 +0000" stop="20260831223000 +0000" channel="REELZ.us">
+    <title lang="en">Jail</title>
+    <sub-title lang="en">Fight Night</sub-title>
+    <desc lang="en">Fight Night</desc>
+    <icon src="https://i.tivo.com/images-production/collection/461/232/456461232/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20220520</episode-num>
+  </programme>
+  <programme start="20260831223000 +0000" stop="20260831230000 +0000" channel="REELZ.us">
+    <title lang="en">Jail</title>
+    <sub-title lang="en">Stairway to Jail</sub-title>
+    <desc lang="en">Stairway to Jail</desc>
+    <icon src="https://i.tivo.com/images-production/collection/461/232/456461232/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20220526</episode-num>
+  </programme>
+  <programme start="20260831230000 +0000" stop="20260831233000 +0000" channel="REELZ.us">
+    <title lang="en">Cops Reloaded</title>
+    <sub-title lang="en">Losing My Mind</sub-title>
+    <desc lang="en">Losing My Mind</desc>
+    <icon src="https://i.tivo.com/images-production/collection/725/660/259725660/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20150318</episode-num>
+  </programme>
+  <programme start="20260831233000 +0000" stop="20260901000000 +0000" channel="REELZ.us">
+    <title lang="en">Cops Reloaded</title>
+    <sub-title lang="en">Cycle of Paranoia</sub-title>
+    <desc lang="en">Cycle of Paranoia</desc>
+    <icon src="https://i.tivo.com/images-production/collection/725/660/259725660/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20150326</episode-num>
+  </programme>
+  <programme start="20260901000000 +0000" stop="20260901003000 +0000" channel="REELZ.us">
+    <title lang="en">Cops Reloaded</title>
+    <sub-title lang="en">Top Seller</sub-title>
+    <desc lang="en">Top Seller</desc>
+    <icon src="https://i.tivo.com/images-production/collection/725/660/259725660/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20150403</episode-num>
+  </programme>
+  <programme start="20260901003000 +0000" stop="20260901010000 +0000" channel="REELZ.us">
+    <title lang="en">Cops Reloaded</title>
+    <sub-title lang="en">Magical Force</sub-title>
+    <desc lang="en">Magical Force</desc>
+    <icon src="https://i.tivo.com/images-production/collection/725/660/259725660/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20150406</episode-num>
+  </programme>
+  <programme start="20260901010000 +0000" stop="20260901020000 +0000" channel="REELZ.us">
+    <title lang="en">Body Cam By Law&amp;Crime</title>
+    <sub-title lang="en">Hotel Meltdown</sub-title>
+    <desc lang="en">Hotel Meltdown</desc>
+    <icon src="https://i.tivo.com/images-production/collection/161/226/535161226/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260108</episode-num>
+  </programme>
+  <programme start="20260901020000 +0000" stop="20260901030000 +0000" channel="REELZ.us">
+    <title lang="en">Most Outrageous Crimes</title>
+    <sub-title lang="en">Disrespectful Drama Queens</sub-title>
+    <desc lang="en">Disrespectful Drama Queens</desc>
+    <icon src="https://i.tivo.com/images-production/collection/478/036/505478036/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260831</episode-num>
+  </programme>
+  <programme start="20260901030000 +0000" stop="20260901040000 +0000" channel="REELZ.us">
+    <title lang="en">Interrogations by Law&amp;Crime</title>
+    <sub-title lang="en">Neighborhood Horror</sub-title>
+    <desc lang="en">Neighborhood Horror</desc>
+    <icon src="https://i.tivo.com/images-production/collection/478/011/505478011/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260831</episode-num>
+  </programme>
+  <programme start="20260901040000 +0000" stop="20260901050000 +0000" channel="REELZ.us">
+    <title lang="en">Body Cam By Law&amp;Crime</title>
+    <sub-title lang="en">Hotel Meltdown</sub-title>
+    <desc lang="en">Hotel Meltdown</desc>
+    <icon src="https://i.tivo.com/images-production/collection/161/226/535161226/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260108</episode-num>
+  </programme>
+  <programme start="20260901050000 +0000" stop="20260901060000 +0000" channel="REELZ.us">
+    <title lang="en">Most Outrageous Crimes</title>
+    <sub-title lang="en">Disrespectful Drama Queens</sub-title>
+    <desc lang="en">Disrespectful Drama Queens</desc>
+    <icon src="https://i.tivo.com/images-production/collection/478/036/505478036/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260831</episode-num>
+  </programme>
+  <programme start="20260901060000 +0000" stop="20260901070000 +0000" channel="REELZ.us">
+    <title lang="en">Interrogations by Law&amp;Crime</title>
+    <sub-title lang="en">Neighborhood Horror</sub-title>
+    <desc lang="en">Neighborhood Horror</desc>
+    <icon src="https://i.tivo.com/images-production/collection/478/011/505478011/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260831</episode-num>
+  </programme>
+  <programme start="20260901070000 +0000" stop="20260901073000 +0000" channel="REELZ.us">
+    <title lang="en">Paid Programming</title>
+    <desc lang="en">Paid Programming</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/850/343502850/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260901073000 +0000" stop="20260901080000 +0000" channel="REELZ.us">
+    <title lang="en">Paid Programming</title>
+    <desc lang="en">Paid Programming</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/850/343502850/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260901080000 +0000" stop="20260901083000 +0000" channel="REELZ.us">
+    <title lang="en">Paid Programming</title>
+    <desc lang="en">Paid Programming</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/850/343502850/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260901083000 +0000" stop="20260901090000 +0000" channel="REELZ.us">
+    <title lang="en">Natural Blood Pressure Management</title>
+    <desc lang="en">Natural Blood Pressure Management</desc>
+    <icon src="https://i.tivo.com/images-production/collection/423/898/513423898/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20250108</episode-num>
+  </programme>
+  <programme start="20260901090000 +0000" stop="20260901093000 +0000" channel="REELZ.us">
+    <title lang="en">Paid Programming</title>
+    <desc lang="en">Paid Programming</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/850/343502850/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260901093000 +0000" stop="20260901100000 +0000" channel="REELZ.us">
+    <title lang="en">Bathroom Makeover</title>
+    <desc lang="en">Bathroom Makeover</desc>
+    <icon src="https://i.tivo.com/images-production/collection/986/997/520986997/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20250505</episode-num>
+  </programme>
+  <programme start="20260901100000 +0000" stop="20260901103000 +0000" channel="REELZ.us">
+    <title lang="en">Freedom to Leave the House! Inogen Portable Oxygen</title>
+    <desc lang="en">Freedom to Leave the House! Inogen Portable Oxygen</desc>
+    <icon src="https://i.tivo.com/images-production/collection/397/004/515397004/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20250130</episode-num>
+  </programme>
+  <programme start="20260901103000 +0000" stop="20260901110000 +0000" channel="REELZ.us">
+    <title lang="en">Paid Programming</title>
+    <desc lang="en">Paid Programming</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/850/343502850/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260901110000 +0000" stop="20260901113000 +0000" channel="REELZ.us">
+    <title lang="en">The Aging Brain</title>
+    <desc lang="en">The Aging Brain</desc>
+    <icon src="https://i.tivo.com/images-production/collection/105/877/520105877/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20250505</episode-num>
+  </programme>
+  <programme start="20260901113000 +0000" stop="20260901120000 +0000" channel="REELZ.us">
+    <title lang="en">Paid Programming</title>
+    <desc lang="en">Paid Programming</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/850/343502850/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260901120000 +0000" stop="20260901123000 +0000" channel="REELZ.us">
+    <title lang="en">Paid Programming</title>
+    <desc lang="en">Paid Programming</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/850/343502850/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260901123000 +0000" stop="20260901130000 +0000" channel="REELZ.us">
+    <title lang="en">Paid Programming</title>
+    <desc lang="en">Paid Programming</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/850/343502850/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260901130000 +0000" stop="20260901160000 +0000" channel="REELZ.us">
+    <title lang="en">On Patrol: Live</title>
+    <sub-title lang="en">Illegal Gambling</sub-title>
+    <desc lang="en">Illegal Gambling</desc>
+    <icon src="https://i.tivo.com/images-production/collection/163/127/462163127/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260116</episode-num>
   </programme>
   <programme start="20260831040000 +0000" stop="20260901040000 +0000" channel="BOXEOHD-TMP.us">
     <title lang="en">Off-Air</title>
