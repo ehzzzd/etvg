@@ -449,23 +449,6 @@
     <display-name>PPV High-Definition (Premium Temporary)</display-name>
     <icon src="https://i.tivo.com/images-static/logos/112x32/7391.png"/>
   </channel>
-  <programme start="20260903040000 +0000" stop="20260903050000 +0000" channel="NY1NEWHD.us">
-    <title lang="en">News All Night</title>
-    <desc lang="en">News All Night</desc>
-    <icon src="https://i.tivo.com/images-production/collection/153/665/153665/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-  </programme>
-  <programme start="20260903050000 +0000" stop="20260903060000 +0000" channel="NY1NEWHD.us">
-    <title lang="en">Live at 10</title>
-    <desc lang="en">Live at 10</desc>
-    <icon src="https://i.tivo.com/images-production/collection/116/720/432116720/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20201102</episode-num>
-  </programme>
   <programme start="20260903060000 +0000" stop="20260903100000 +0000" channel="NY1NEWHD.us">
     <title lang="en">News All Night</title>
     <desc lang="en">News All Night</desc>
@@ -572,114 +555,13 @@
       <quality>HDTV</quality>
     </video>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903043000 +0000" channel="WZMEDT4HD.us">
-    <title lang="en">Teenage Mutant Ninja Turtles</title>
-    <sub-title lang="en">The Wrath Of Medusa</sub-title>
-    <desc lang="en">The Wrath Of Medusa</desc>
-    <icon src="https://i.tivo.com/images-production/collection/294/384/294384/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904140000 +0000" stop="20260904160000 +0000" channel="NY1NEWHD.us">
+    <title lang="en">Mornings on 1</title>
+    <desc lang="en">Mornings on 1</desc>
+    <icon src="https://i.tivo.com/images-production/collection/983/697/425983697/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">19950930</episode-num>
-  </programme>
-  <programme start="20260903043000 +0000" stop="20260903050000 +0000" channel="WZMEDT4HD.us">
-    <title lang="en">Speed Racer</title>
-    <sub-title lang="en">The Great Plan, Part 1</sub-title>
-    <desc lang="en">The Great Plan, Part 1</desc>
-    <icon src="https://i.tivo.com/images-production/collection/061/440/61440/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">19670923</episode-num>
-  </programme>
-  <programme start="20260903050000 +0000" stop="20260903053000 +0000" channel="WZMEDT4HD.us">
-    <title lang="en">Speed Racer</title>
-    <sub-title lang="en">The Great Plan, Part 2</sub-title>
-    <desc lang="en">The Great Plan, Part 2</desc>
-    <icon src="https://i.tivo.com/images-production/collection/061/440/61440/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">19670923</episode-num>
-  </programme>
-  <programme start="20260903053000 +0000" stop="20260903060000 +0000" channel="WZMEDT4HD.us">
-    <title lang="en">Marine Boy</title>
-    <sub-title lang="en">Operation Deep Deep</sub-title>
-    <desc lang="en">Operation Deep Deep</desc>
-    <icon src="https://i.tivo.com/images-production/collection/013/712/349013712/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20240722</episode-num>
-  </programme>
-  <programme start="20260903060000 +0000" stop="20260903063000 +0000" channel="WZMEDT4HD.us">
-    <title lang="en">Super Friends</title>
-    <sub-title lang="en">Terror From the Phantom Zone</sub-title>
-    <desc lang="en">Terror From the Phantom Zone</desc>
-    <icon src="https://i.tivo.com/images-production/collection/984/156/93984156/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">19781028</episode-num>
-  </programme>
-  <programme start="20260903063000 +0000" stop="20260903070000 +0000" channel="WZMEDT4HD.us">
-    <title lang="en">Super Friends</title>
-    <sub-title lang="en">Secret Origins of the Superfriends</sub-title>
-    <desc lang="en">Secret Origins of the Superfriends</desc>
-    <icon src="https://i.tivo.com/images-production/collection/984/156/93984156/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-  </programme>
-  <programme start="20260903070000 +0000" stop="20260903073000 +0000" channel="WZMEDT4HD.us">
-    <title lang="en">SilverHawks</title>
-    <sub-title lang="en">One On One</sub-title>
-    <desc lang="en">One On One</desc>
-    <icon src="https://i.tivo.com/images-production/collection/426/190/2426190/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">19861013</episode-num>
-  </programme>
-  <programme start="20260903073000 +0000" stop="20260903080000 +0000" channel="WZMEDT4HD.us">
-    <title lang="en">Challenge of the GoBots</title>
-    <sub-title lang="en">Flight to Earth (Part 4)</sub-title>
-    <desc lang="en">Flight to Earth (Part 4)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/998/366/348998366/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20241201</episode-num>
-  </programme>
-  <programme start="20260903080000 +0000" stop="20260903083000 +0000" channel="WZMEDT4HD.us">
-    <title lang="en">Supercar</title>
-    <sub-title lang="en">Trapped in the Depths</sub-title>
-    <desc lang="en">Trapped in the Depths</desc>
-    <icon src="https://i.tivo.com/images-production/collection/140/132/297140132/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20200822</episode-num>
-  </programme>
-  <programme start="20260903083000 +0000" stop="20260903090000 +0000" channel="WZMEDT4HD.us">
-    <title lang="en">Fireball XL5</title>
-    <sub-title lang="en">Forbidden Planet</sub-title>
-    <desc lang="en">Forbidden Planet</desc>
-    <icon src="https://i.tivo.com/images-production/collection/149/122/280149122/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20170306</episode-num>
-  </programme>
-  <programme start="20260903090000 +0000" stop="20260903093000 +0000" channel="WZMEDT4HD.us">
-    <title lang="en">Captain Scarlet and the Mysterons</title>
-    <sub-title lang="en">Attack on Cloudbase</sub-title>
-    <desc lang="en">Attack on Cloudbase</desc>
-    <icon src="https://i.tivo.com/images-production/collection/981/881/93981881/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20240807</episode-num>
   </programme>
   <programme start="20260903093000 +0000" stop="20260903100000 +0000" channel="WZMEDT4HD.us">
     <title lang="en">The Mask</title>
@@ -1024,59 +906,79 @@
     </video>
     <episode-num system="original-air-date">19911102</episode-num>
   </programme>
-  <programme start="20260903020000 +0000" stop="20260903044100 +0000" channel="HBOHD-E.us">
-    <title lang="en">Les Misérables</title>
-    <desc lang="en">Les Misérables (2012)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/046/454/211046454/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904103000 +0000" stop="20260904110000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Police Academy</title>
+    <sub-title lang="en">Fat City</sub-title>
+    <desc lang="en">Fat City</desc>
+    <icon src="https://i.tivo.com/images-production/collection/460/396/116460396/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <rating system="MPAA">
-      <value>pg13</value>
-    </rating>
-    <episode-num system="original-air-date">20130322</episode-num>
+    <episode-num system="original-air-date">20240720</episode-num>
   </programme>
-  <programme start="20260903044100 +0000" stop="20260903063000 +0000" channel="HBOHD-E.us">
-    <title lang="en">Sing Street</title>
-    <desc lang="en">Sing Street (2016)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/405/174/338405174/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904110000 +0000" stop="20260904113000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The Real Ghostbusters</title>
+    <sub-title lang="en">Flip Side</sub-title>
+    <desc lang="en">Flip Side</desc>
+    <icon src="https://i.tivo.com/images-production/collection/052/533/52533/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <rating system="MPAA">
-      <value>pg13</value>
-    </rating>
-    <episode-num system="original-air-date">20160311</episode-num>
+    <episode-num system="original-air-date">19880917</episode-num>
   </programme>
-  <programme start="20260903063000 +0000" stop="20260903072800 +0000" channel="HBOHD-E.us">
-    <title lang="en">Lanterns</title>
-    <sub-title lang="en">OutKast</sub-title>
-    <desc lang="en">OutKast</desc>
-    <icon src="https://i.tivo.com/images-production/collection/204/276/546204276/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904113000 +0000" stop="20260904120000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Teenage Mutant Ninja Turtles</title>
+    <sub-title lang="en">Napoleon Bonafrog: Colossus of the Swamps</sub-title>
+    <desc lang="en">Napoleon Bonafrog: Colossus of the Swamps</desc>
+    <icon src="https://i.tivo.com/images-production/collection/294/384/294384/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">20260830</episode-num>
+    <episode-num system="original-air-date">19911012</episode-num>
   </programme>
-  <programme start="20260903072800 +0000" stop="20260903081700 +0000" channel="HBOHD-E.us">
-    <title lang="en">Conan O'Brien Must Go</title>
-    <sub-title lang="en">The Netherlands</sub-title>
-    <desc lang="en">The Netherlands</desc>
-    <icon src="https://i.tivo.com/images-production/collection/500/106/495500106/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904120000 +0000" stop="20260904123000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The Super Mario Bros. Super Show!</title>
+    <sub-title lang="en">Jungle Fever</sub-title>
+    <desc lang="en">Jungle Fever</desc>
+    <icon src="https://i.tivo.com/images-production/collection/110/217/110217/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">20260828</episode-num>
+    <episode-num system="original-air-date">19890920</episode-num>
   </programme>
-  <programme start="20260903081700 +0000" stop="20260903091200 +0000" channel="HBOHD-E.us">
-    <title lang="en">Monsters of God</title>
-    <sub-title lang="en">Operation Chameleon</sub-title>
-    <desc lang="en">Operation Chameleon</desc>
-    <icon src="https://i.tivo.com/images-production/collection/836/489/545836489/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904123000 +0000" stop="20260904130000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">The Underdog Show</title>
+    <sub-title lang="en">Riffraffville (Part 3), Tic-Tock, Fiesta Time, and Riffraffville (Part 4)</sub-title>
+    <desc lang="en">Riffraffville (Part 3), Tic-Tock, Fiesta Time, and Riffraffville (Part 4)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/333/266/501333266/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">20260827</episode-num>
+    <episode-num system="original-air-date">20240718</episode-num>
+  </programme>
+  <programme start="20260904130000 +0000" stop="20260904140000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Bugs Bunny and Friends</title>
+    <desc lang="en">Bugs Bunny and Friends</desc>
+    <icon src="https://i.tivo.com/images-production/collection/592/338/434592338/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260904140000 +0000" stop="20260904150000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">Casper and Company</title>
+    <desc lang="en">Casper and Company</desc>
+    <icon src="https://i.tivo.com/images-production/collection/333/310/501333310/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260904150000 +0000" stop="20260904170000 +0000" channel="WZMEDT4HD.us">
+    <title lang="en">House of Hanna-Barbera</title>
+    <desc lang="en">House of Hanna-Barbera</desc>
+    <icon src="https://i.tivo.com/images-production/collection/040/032/515040032/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
   </programme>
   <programme start="20260903091200 +0000" stop="20260903111300 +0000" channel="HBOHD-E.us">
     <title lang="en">Us</title>
@@ -1308,29 +1210,49 @@
     </video>
     <episode-num system="original-air-date">20260905</episode-num>
   </programme>
-  <programme start="20260903040200 +0000" stop="20260903062000 +0000" channel="HBOHITSHD-E.us">
-    <title lang="en">Sinners</title>
-    <desc lang="en">Sinners (2025)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/594/329/507594329/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904103400 +0000" stop="20260904113500 +0000" channel="HBOHD-E.us">
+    <title lang="en">Monsters of God</title>
+    <sub-title lang="en">Head of the Snake</sub-title>
+    <desc lang="en">Head of the Snake</desc>
+    <icon src="https://i.tivo.com/images-production/collection/836/489/545836489/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20260903</episode-num>
+  </programme>
+  <programme start="20260904113500 +0000" stop="20260904133200 +0000" channel="HBOHD-E.us">
+    <title lang="en">American Made</title>
+    <desc lang="en">American Made (2017)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/143/678/353143678/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20250416</episode-num>
+    <episode-num system="original-air-date">20170818</episode-num>
   </programme>
-  <programme start="20260903062000 +0000" stop="20260903080700 +0000" channel="HBOHITSHD-E.us">
-    <title lang="en">Contagion</title>
-    <desc lang="en">Contagion (2011)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/901/456/180901456/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904133200 +0000" stop="20260904142900 +0000" channel="HBOHD-E.us">
+    <title lang="en">Lanterns</title>
+    <sub-title lang="en">OutKast</sub-title>
+    <desc lang="en">OutKast</desc>
+    <icon src="https://i.tivo.com/images-production/collection/204/276/546204276/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20260830</episode-num>
+  </programme>
+  <programme start="20260904142900 +0000" stop="20260904162500 +0000" channel="HBOHD-E.us">
+    <title lang="en">If I Had Legs I'd Kick You</title>
+    <desc lang="en">If I Had Legs I'd Kick You (2025)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/613/550/526613550/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
-      <value>pg13</value>
+      <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20221202</episode-num>
+    <episode-num system="original-air-date">20250124</episode-num>
   </programme>
   <programme start="20260903080700 +0000" stop="20260903104700 +0000" channel="HBOHITSHD-E.us">
     <title lang="en">Les Misérables</title>
@@ -1525,55 +1447,29 @@
     </rating>
     <episode-num system="original-air-date">20251225</episode-num>
   </programme>
-  <programme start="20260903040800 +0000" stop="20260903050200 +0000" channel="HBODRAMAHD-E.us">
-    <title lang="en">Carnivàle</title>
-    <sub-title lang="en">Outskirts, Damascus, NE</sub-title>
-    <desc lang="en">Outskirts, Damascus, NE</desc>
-    <icon src="https://i.tivo.com/images-production/collection/401/779/15401779/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904123500 +0000" stop="20260904142700 +0000" channel="HBOHITSHD-E.us">
+    <title lang="en">Mother Mary</title>
+    <desc lang="en">Mother Mary (2026)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/492/442/533492442/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">20050227</episode-num>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20260519</episode-num>
   </programme>
-  <programme start="20260903050200 +0000" stop="20260903055500 +0000" channel="HBODRAMAHD-E.us">
-    <title lang="en">Carnivàle</title>
-    <sub-title lang="en">Lincoln Highway</sub-title>
-    <desc lang="en">Lincoln Highway</desc>
-    <icon src="https://i.tivo.com/images-production/collection/401/779/15401779/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904142700 +0000" stop="20260904160500 +0000" channel="HBOHITSHD-E.us">
+    <title lang="en">Little Fockers</title>
+    <desc lang="en">Little Fockers (2010)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/214/198/167214198/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">20050306</episode-num>
-  </programme>
-  <programme start="20260903055500 +0000" stop="20260903064700 +0000" channel="HBODRAMAHD-E.us">
-    <title lang="en">Carnivàle</title>
-    <sub-title lang="en">Cheyenne, WY</sub-title>
-    <desc lang="en">Cheyenne, WY</desc>
-    <icon src="https://i.tivo.com/images-production/collection/401/779/15401779/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20050313</episode-num>
-  </programme>
-  <programme start="20260903064700 +0000" stop="20260903074300 +0000" channel="HBODRAMAHD-E.us">
-    <title lang="en">Carnivàle</title>
-    <sub-title lang="en">Outside New Canaan</sub-title>
-    <desc lang="en">Outside New Canaan</desc>
-    <icon src="https://i.tivo.com/images-production/collection/401/779/15401779/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20050320</episode-num>
-  </programme>
-  <programme start="20260903074300 +0000" stop="20260903083600 +0000" channel="HBODRAMAHD-E.us">
-    <title lang="en">Carnivàle</title>
-    <sub-title lang="en">New Canaan, CA</sub-title>
-    <desc lang="en">New Canaan, CA</desc>
-    <icon src="https://i.tivo.com/images-production/collection/401/779/15401779/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20050327</episode-num>
+    <rating system="MPAA">
+      <value>pg13</value>
+    </rating>
+    <episode-num system="original-air-date">20101221</episode-num>
   </programme>
   <programme start="20260903083600 +0000" stop="20260903093500 +0000" channel="HBODRAMAHD-E.us">
     <title lang="en">Lanterns</title>
@@ -1806,41 +1702,49 @@
     </video>
     <episode-num system="original-air-date">20241110</episode-num>
   </programme>
-  <programme start="20260903033200 +0000" stop="20260903052000 +0000" channel="HBOCHD-E.us">
-    <title lang="en">Death of a Unicorn</title>
-    <desc lang="en">Death of a Unicorn (2025)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/905/853/516905853/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904103200 +0000" stop="20260904113000 +0000" channel="HBODRAMAHD-E.us">
+    <title lang="en">Lanterns</title>
+    <sub-title lang="en">OutKast</sub-title>
+    <desc lang="en">OutKast</desc>
+    <icon src="https://i.tivo.com/images-production/collection/204/276/546204276/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20260830</episode-num>
+  </programme>
+  <programme start="20260904113000 +0000" stop="20260904131400 +0000" channel="HBODRAMAHD-E.us">
+    <title lang="en">MaXXXine</title>
+    <desc lang="en">MaXXXine (2024)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/371/715/498371715/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20250403</episode-num>
+    <episode-num system="original-air-date">20240704</episode-num>
   </programme>
-  <programme start="20260903052000 +0000" stop="20260903070600 +0000" channel="HBOCHD-E.us">
-    <title lang="en">How to Make a Killing</title>
-    <desc lang="en">How to Make a Killing (2026)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/656/022/532656022/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904131400 +0000" stop="20260904141600 +0000" channel="HBODRAMAHD-E.us">
+    <title lang="en">Monsters of God</title>
+    <sub-title lang="en">Head of the Snake</sub-title>
+    <desc lang="en">Head of the Snake</desc>
+    <icon src="https://i.tivo.com/images-production/collection/836/489/545836489/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20260903</episode-num>
+  </programme>
+  <programme start="20260904141600 +0000" stop="20260904155300 +0000" channel="HBODRAMAHD-E.us">
+    <title lang="en">While We're Young</title>
+    <desc lang="en">While We're Young (2015)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/584/374/326584374/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20260220</episode-num>
-  </programme>
-  <programme start="20260903070600 +0000" stop="20260903085700 +0000" channel="HBOCHD-E.us">
-    <title lang="en">Ocean's Eight</title>
-    <desc lang="en">Ocean's Eight (2018)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/745/261/447745261/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>pg13</value>
-    </rating>
-    <episode-num system="original-air-date">20181011</episode-num>
+    <episode-num system="original-air-date">20201107</episode-num>
   </programme>
   <programme start="20260903085700 +0000" stop="20260903100100 +0000" channel="HBOCHD-E.us">
     <title lang="en">Whitmer Thomas: Terminal Crew of Dudes</title>
@@ -2090,41 +1994,41 @@
     </rating>
     <episode-num system="original-air-date">19940427</episode-num>
   </programme>
-  <programme start="20260903040400 +0000" stop="20260903053600 +0000" channel="HBOMOVIEHD-E.us">
-    <title lang="en">Flight Risk</title>
-    <desc lang="en">Flight Risk (2024)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/902/381/501902381/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904113300 +0000" stop="20260904123700 +0000" channel="HBOCHD-E.us">
+    <title lang="en">Ramy Youssef: In Love</title>
+    <desc lang="en">Ramy Youssef: In Love (2026)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/667/233/540667233/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20250122</episode-num>
+    <episode-num system="original-air-date">20260417</episode-num>
   </programme>
-  <programme start="20260903053600 +0000" stop="20260903072700 +0000" channel="HBOMOVIEHD-E.us">
-    <title lang="en">Ocean's Eight</title>
-    <desc lang="en">Ocean's Eight (2018)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/745/261/447745261/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904123700 +0000" stop="20260904134000 +0000" channel="HBOCHD-E.us">
+    <title lang="en">Brett Goldstein: The Second Best Night Of Your Life</title>
+    <desc lang="en">Brett Goldstein: The Second Best Night Of Your Life (2025)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/902/508/518902508/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <rating system="MPAA">
-      <value>pg13</value>
-    </rating>
-    <episode-num system="original-air-date">20181011</episode-num>
+    <episode-num system="original-air-date">20250426</episode-num>
   </programme>
-  <programme start="20260903072700 +0000" stop="20260903091000 +0000" channel="HBOMOVIEHD-E.us">
-    <title lang="en">The Rover</title>
-    <desc lang="en">The Rover (2014)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/787/610/311787610/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904134000 +0000" stop="20260904145600 +0000" channel="HBOCHD-E.us">
+    <title lang="en">Chris Fleming: Live at the Palace</title>
+    <desc lang="en">Chris Fleming: Live at the Palace (2026)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/272/472/537272472/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20200720</episode-num>
+    <episode-num system="original-air-date">20260227</episode-num>
+  </programme>
+  <programme start="20260904145600 +0000" stop="20260904162500 +0000" channel="HBOCHD-E.us">
+    <title lang="en">Alex Edelman: Just For Us</title>
+    <desc lang="en">Alex Edelman: Just For Us (2024)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/566/032/495566032/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20240406</episode-num>
   </programme>
   <programme start="20260903091000 +0000" stop="20260903110600 +0000" channel="HBOMOVIEHD-E.us">
     <title lang="en">If I Had Legs I'd Kick You</title>
@@ -2249,59 +2153,47 @@
     </rating>
     <episode-num system="original-air-date">20241212</episode-num>
   </programme>
-  <programme start="20260903020000 +0000" stop="20260903044100 +0000" channel="HLH-LAT.us">
-    <title lang="en">Les Miserables</title>
-    <desc lang="en">Les Miserables (2012)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/003/546/355003546/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904104700 +0000" stop="20260904123100 +0000" channel="HBOMOVIEHD-E.us">
+    <title lang="en">Paddington 2</title>
+    <desc lang="en">Paddington 2 (2017)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/620/681/375620681/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
-      <value>pg13</value>
+      <value>pg</value>
     </rating>
-    <episode-num system="original-air-date">20130322</episode-num>
+    <episode-num system="original-air-date">20241221</episode-num>
   </programme>
-  <programme start="20260903044100 +0000" stop="20260903063000 +0000" channel="HLH-LAT.us">
-    <title lang="en">Sing Street</title>
-    <desc lang="en">Sing Street (2016)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/561/306/361561306/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904123100 +0000" stop="20260904145600 +0000" channel="HBOMOVIEHD-E.us">
+    <title lang="en">Ne Zha 2</title>
+    <desc lang="en">Ne Zha 2 (2025)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/334/228/515334228/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20251222</episode-num>
+  </programme>
+  <programme start="20260904145600 +0000" stop="20260904152500 +0000" channel="HBOMOVIEHD-E.us">
+    <title lang="en">How Do You Measure a Year?</title>
+    <desc lang="en">How Do You Measure a Year? (2023)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/736/223/472736223/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
-      <value>pg13</value>
+      <value>g</value>
     </rating>
-    <episode-num system="original-air-date">20160311</episode-num>
+    <episode-num system="original-air-date">20230614</episode-num>
   </programme>
-  <programme start="20260903063000 +0000" stop="20260903072800 +0000" channel="HLH-LAT.us">
-    <title lang="en">Lanterns</title>
-    <sub-title lang="en">OutKast</sub-title>
-    <desc lang="en">OutKast</desc>
-    <icon src="https://i.tivo.com/images-production/collection/061/803/548061803/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904152500 +0000" stop="20260904165600 +0000" channel="HBOMOVIEHD-E.us">
+    <title lang="en">Dear Rider: The Jake Burton Story</title>
+    <desc lang="en">Dear Rider: The Jake Burton Story (2021)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/244/126/449244126/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">20260830</episode-num>
-  </programme>
-  <programme start="20260903072800 +0000" stop="20260903081700 +0000" channel="HLH-LAT.us">
-    <title lang="en">Conan O'Brien Must Go</title>
-    <sub-title lang="en">The Netherlands</sub-title>
-    <desc lang="en">The Netherlands</desc>
-    <icon src="https://i.tivo.com/images-production/collection/300/710/548300710/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20260828</episode-num>
-  </programme>
-  <programme start="20260903081700 +0000" stop="20260903091200 +0000" channel="HLH-LAT.us">
-    <title lang="en">Monstruos de Dios</title>
-    <sub-title lang="en">Operation Chameleon</sub-title>
-    <desc lang="en">Operation Chameleon</desc>
-    <icon src="https://i.tivo.com/images-production/collection/889/509/547889509/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20260827</episode-num>
+    <episode-num system="original-air-date">20211109</episode-num>
   </programme>
   <programme start="20260903091200 +0000" stop="20260903111300 +0000" channel="HLH-LAT.us">
     <title lang="en">Us</title>
@@ -2527,11 +2419,46 @@
     </video>
     <episode-num system="original-air-date">20260902</episode-num>
   </programme>
-  <programme start="20260902050000 +0000" stop="20260903050000 +0000" channel="MAXOD.us">
-    <title lang="en">Cinemax On Demand</title>
-    <desc lang="en">Cinemax On Demand</desc>
-    <icon src="https://i.tivo.com/images-production/collection/517/491/343517491/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20101229</episode-num>
+  <programme start="20260904103400 +0000" stop="20260904113500 +0000" channel="HLH-LAT.us">
+    <title lang="en">Monstruos de Dios</title>
+    <sub-title lang="en">Head of the Snake</sub-title>
+    <desc lang="en">Head of the Snake</desc>
+    <icon src="https://i.tivo.com/images-production/collection/889/509/547889509/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20260903</episode-num>
+  </programme>
+  <programme start="20260904113500 +0000" stop="20260904133200 +0000" channel="HLH-LAT.us">
+    <title lang="en">American Made</title>
+    <desc lang="en">American Made (2017)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/489/594/373489594/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20170818</episode-num>
+  </programme>
+  <programme start="20260904133200 +0000" stop="20260904142900 +0000" channel="HLH-LAT.us">
+    <title lang="en">Lanterns</title>
+    <sub-title lang="en">OutKast</sub-title>
+    <desc lang="en">OutKast</desc>
+    <icon src="https://i.tivo.com/images-production/collection/061/803/548061803/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20260830</episode-num>
+  </programme>
+  <programme start="20260904142900 +0000" stop="20260904162500 +0000" channel="HLH-LAT.us">
+    <title lang="en">Si pudiera, te daría una patada</title>
+    <desc lang="en">Si pudiera, te daría una patada (2025)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/137/066/533137066/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20251010</episode-num>
   </programme>
   <programme start="20260903050000 +0000" stop="20260904050000 +0000" channel="MAXOD.us">
     <title lang="en">Cinemax On Demand</title>
@@ -2544,30 +2471,6 @@
     <desc lang="en">Cinemax On Demand</desc>
     <icon src="https://i.tivo.com/images-production/collection/517/491/343517491/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
-  </programme>
-  <programme start="20260903041100 +0000" stop="20260903054400 +0000" channel="MAXHD-E.us">
-    <title lang="en">Pitch Perfect 3</title>
-    <desc lang="en">Pitch Perfect 3 (2017)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/473/879/355473879/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>pg13</value>
-    </rating>
-    <episode-num system="original-air-date">20171220</episode-num>
-  </programme>
-  <programme start="20260903054400 +0000" stop="20260903074100 +0000" channel="MAXHD-E.us">
-    <title lang="en">Megan Leavey</title>
-    <desc lang="en">Megan Leavey (2017)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/301/461/369301461/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>pg13</value>
-    </rating>
-    <episode-num system="original-air-date">20170905</episode-num>
   </programme>
   <programme start="20260903074100 +0000" stop="20260903094600 +0000" channel="MAXHD-E.us">
     <title lang="en">The Town</title>
@@ -2746,41 +2649,41 @@
     </video>
     <episode-num system="original-air-date">20220318</episode-num>
   </programme>
-  <programme start="20260903035600 +0000" stop="20260903053700 +0000" channel="MAXHITSHD-E.us">
-    <title lang="en">The Craft</title>
-    <desc lang="en">The Craft (1996)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/246/215/246215/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904112700 +0000" stop="20260904130400 +0000" channel="MAXHD-E.us">
+    <title lang="en">Dim Sum Funeral</title>
+    <desc lang="en">Dim Sum Funeral (2008)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/524/348/145524348/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">19960503</episode-num>
+    <episode-num system="original-air-date">20081101</episode-num>
   </programme>
-  <programme start="20260903053700 +0000" stop="20260903072900 +0000" channel="MAXHITSHD-E.us">
-    <title lang="en">Repo Men</title>
-    <desc lang="en">Repo Men (2010)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/804/238/153804238/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904130400 +0000" stop="20260904144300 +0000" channel="MAXHD-E.us">
+    <title lang="en">Carrie</title>
+    <desc lang="en">Carrie (1976)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/241/507/241507/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20100318</episode-num>
+    <episode-num system="original-air-date">20210302</episode-num>
   </programme>
-  <programme start="20260903072900 +0000" stop="20260903091000 +0000" channel="MAXHITSHD-E.us">
-    <title lang="en">Men</title>
-    <desc lang="en">Men (2022)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/013/182/455013182/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904144300 +0000" stop="20260904172200 +0000" channel="MAXHD-E.us">
+    <title lang="en">Eyes Wide Shut</title>
+    <desc lang="en">Eyes Wide Shut (1999)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/578/142/1578142/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20220520</episode-num>
+    <episode-num system="original-air-date">20200604</episode-num>
   </programme>
   <programme start="20260903091000 +0000" stop="20260903105300 +0000" channel="MAXHITSHD-E.us">
     <title lang="en">Walkabout</title>
@@ -2950,32 +2853,29 @@
     </rating>
     <episode-num system="original-air-date">20101228</episode-num>
   </programme>
-  <programme start="20260903025300 +0000" stop="20260903043600 +0000" channel="MAXACT-E.us">
-    <title lang="en">The Wolfman</title>
-    <desc lang="en">The Wolfman (2010)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/794/805/135794805/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904122400 +0000" stop="20260904142100 +0000" channel="MAXHITSHD-E.us">
+    <title lang="en">Wonka</title>
+    <desc lang="en">Wonka (2023)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/021/592/447021592/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
     <rating system="MPAA">
-      <value>r</value>
+      <value>pg</value>
     </rating>
-    <episode-num system="original-air-date">20101228</episode-num>
+    <episode-num system="original-air-date">20231213</episode-num>
   </programme>
-  <programme start="20260903043600 +0000" stop="20260903062100 +0000" channel="MAXACT-E.us">
-    <title lang="en">Abraham Lincoln: Vampire Hunter</title>
-    <desc lang="en">Abraham Lincoln: Vampire Hunter (2012)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/121/841/194121841/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904142100 +0000" stop="20260904155500 +0000" channel="MAXHITSHD-E.us">
+    <title lang="en">Lady Bird</title>
+    <desc lang="en">Lady Bird (2017)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/154/098/353154098/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20121025</episode-num>
-  </programme>
-  <programme start="20260903062100 +0000" stop="20260903081000 +0000" channel="MAXACT-E.us">
-    <title lang="en">Patti Cake$</title>
-    <desc lang="en">Patti Cake$ (2017)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/826/689/373826689/showcaseBanner_560x419.jpg"/>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20170818</episode-num>
+    <episode-num system="original-air-date">20220603</episode-num>
   </programme>
   <programme start="20260903081000 +0000" stop="20260903094100 +0000" channel="MAXACT-E.us">
     <title lang="en">Man Down</title>
@@ -3109,29 +3009,32 @@
     </rating>
     <episode-num system="original-air-date">20140207</episode-num>
   </programme>
-  <programme start="20260903041100 +0000" stop="20260903054400 +0000" channel="CINEMAXHD.us">
-    <title lang="en">Pitch Perfect 3</title>
-    <desc lang="en">Pitch Perfect 3 (2017)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/621/723/375621723/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260904115200 +0000" stop="20260904133900 +0000" channel="MAXACT-E.us">
+    <title lang="en">The Usual Suspects</title>
+    <desc lang="en">The Usual Suspects (1995)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/180/876/180876/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
-      <value>pg13</value>
+      <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20171220</episode-num>
+    <episode-num system="original-air-date">19950816</episode-num>
   </programme>
-  <programme start="20260903054400 +0000" stop="20260903074100 +0000" channel="CINEMAXHD.us">
-    <title lang="en">Megan Leavey</title>
-    <desc lang="en">Megan Leavey (2017)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/450/633/386450633/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260904133900 +0000" stop="20260904152800 +0000" channel="MAXACT-E.us">
+    <title lang="en">Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn</title>
+    <desc lang="en">Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn (2020)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/885/362/420885362/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
-      <value>pg13</value>
+      <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20170905</episode-num>
+    <episode-num system="original-air-date">20200701</episode-num>
+  </programme>
+  <programme start="20260904152800 +0000" stop="20260904171800 +0000" channel="MAXACT-E.us">
+    <title lang="en">Beirut</title>
+    <desc lang="en">Beirut (2018)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/983/281/383983281/showcaseBanner_560x419.jpg"/>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20180411</episode-num>
   </programme>
   <programme start="20260903074100 +0000" stop="20260903094600 +0000" channel="CINEMAXHD.us">
     <title lang="en">The Town</title>
@@ -3297,38 +3200,41 @@
     </video>
     <episode-num system="original-air-date">20220318</episode-num>
   </programme>
-  <programme start="20260903041400 +0000" stop="20260903061200 +0000" channel="MAXCLASSHD-E.us">
-    <title lang="en">Mississippi Masala</title>
-    <desc lang="en">Mississippi Masala (1991)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/309/848/309848/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904112700 +0000" stop="20260904130400 +0000" channel="CINEMAXHD.us">
+    <title lang="en">Dim Sum Funeral</title>
+    <desc lang="en">Dim Sum Funeral (2008)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/838/900/354838900/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">19910918</episode-num>
+    <episode-num system="original-air-date">20081101</episode-num>
   </programme>
-  <programme start="20260903061200 +0000" stop="20260903075600 +0000" channel="MAXCLASSHD-E.us">
-    <title lang="en">The Return of Godzilla</title>
-    <desc lang="en">The Return of Godzilla (1984)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/418/799/507418799/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20241101</episode-num>
-  </programme>
-  <programme start="20260903075600 +0000" stop="20260903080900 +0000" channel="MAXCLASSHD-E.us">
-    <title lang="en">Pure</title>
-    <desc lang="en">Pure (2022)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/477/035/453477035/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904130400 +0000" stop="20260904144300 +0000" channel="CINEMAXHD.us">
+    <title lang="en">Carrie</title>
+    <desc lang="en">Carrie (1976)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/678/610/348678610/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20220203</episode-num>
+    <episode-num system="original-air-date">20210302</episode-num>
+  </programme>
+  <programme start="20260904144300 +0000" stop="20260904172200 +0000" channel="CINEMAXHD.us">
+    <title lang="en">Eyes Wide Shut</title>
+    <desc lang="en">Eyes Wide Shut (1999)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/310/762/358310762/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20200604</episode-num>
   </programme>
   <programme start="20260903080900 +0000" stop="20260903102800 +0000" channel="MAXCLASSHD-E.us">
     <title lang="en">A Clockwork Orange</title>
@@ -3552,41 +3458,41 @@
     </video>
     <episode-num system="original-air-date">19590521</episode-num>
   </programme>
-  <programme start="20260903020000 +0000" stop="20260903043500 +0000" channel="PARSHOHD-E.us">
-    <title lang="en">Pulp Fiction</title>
-    <desc lang="en">Pulp Fiction (1994)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/051/590/51590/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904114600 +0000" stop="20260904131700 +0000" channel="MAXCLASSHD-E.us">
+    <title lang="en">MacGruber</title>
+    <desc lang="en">MacGruber (2010)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/281/146/168281146/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20190110</episode-num>
+    <episode-num system="original-air-date">20100907</episode-num>
   </programme>
-  <programme start="20260903043500 +0000" stop="20260903061500 +0000" channel="PARSHOHD-E.us">
-    <title lang="en">Shaft</title>
-    <desc lang="en">Shaft (2000)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/028/148/2028148/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904131700 +0000" stop="20260904145100 +0000" channel="MAXCLASSHD-E.us">
+    <title lang="en">Flashpoint</title>
+    <desc lang="en">Flashpoint (1984)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/329/196/329196/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20201002</episode-num>
+    <episode-num system="original-air-date">19840419</episode-num>
   </programme>
-  <programme start="20260903061500 +0000" stop="20260903074500 +0000" channel="PARSHOHD-E.us">
-    <title lang="en">Afflicted</title>
-    <desc lang="en">Afflicted (2013)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/166/973/295166973/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904145100 +0000" stop="20260904163500 +0000" channel="MAXCLASSHD-E.us">
+    <title lang="en">Scanners</title>
+    <desc lang="en">Scanners (1981)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/427/469/427469/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20150415</episode-num>
+    <episode-num system="original-air-date">19810114</episode-num>
   </programme>
   <programme start="20260903074500 +0000" stop="20260903102000 +0000" channel="PARSHOHD-E.us">
     <title lang="en">The Firm</title>
@@ -3750,38 +3656,41 @@
     </rating>
     <episode-num system="original-air-date">20161220</episode-num>
   </programme>
-  <programme start="20260903031500 +0000" stop="20260903053000 +0000" channel="SHO2HD-E.us">
-    <title lang="en">Seven</title>
-    <desc lang="en">Seven (1995)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/353/628/353628/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904110500 +0000" stop="20260904130000 +0000" channel="PARSHOHD-E.us">
+    <title lang="en">Brave the Dark</title>
+    <desc lang="en">Brave the Dark (2023)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/104/621/520104621/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>pg13</value>
+    </rating>
+    <episode-num system="original-air-date">20231006</episode-num>
+  </programme>
+  <programme start="20260904130000 +0000" stop="20260904144500 +0000" channel="PARSHOHD-E.us">
+    <title lang="en">Cop Land</title>
+    <desc lang="en">Cop Land (1997)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/061/740/61740/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20200501</episode-num>
+    <episode-num system="original-air-date">20210401</episode-num>
   </programme>
-  <programme start="20260903053000 +0000" stop="20260903071500 +0000" channel="SHO2HD-E.us">
-    <title lang="en">The Running Man</title>
-    <desc lang="en">The Running Man (1987)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/197/636/197636/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904144500 +0000" stop="20260904163500 +0000" channel="PARSHOHD-E.us">
+    <title lang="en">A Perfect Murder</title>
+    <desc lang="en">A Perfect Murder (1998)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/056/096/56096/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">19871116</episode-num>
-  </programme>
-  <programme start="20260903071500 +0000" stop="20260903084500 +0000" channel="SHO2HD-E.us">
-    <title lang="en">Three Days in September</title>
-    <desc lang="en">Three Days in September (2006)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/347/935/70347935/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20060525</episode-num>
+    <episode-num system="original-air-date">19980605</episode-num>
   </programme>
   <programme start="20260903084500 +0000" stop="20260903103000 +0000" channel="SHO2HD-E.us">
     <title lang="en">Cop Land</title>
@@ -3939,41 +3848,29 @@
     </rating>
     <episode-num system="original-air-date">20000913</episode-num>
   </programme>
-  <programme start="20260903023500 +0000" stop="20260903043500 +0000" channel="SHOSCHD-E.us">
-    <title lang="en">300</title>
-    <desc lang="en">300 (2006)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/023/781/94023781/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904120500 +0000" stop="20260904140000 +0000" channel="SHO2HD-E.us">
+    <title lang="en">Bridget Jones: The Edge of Reason</title>
+    <desc lang="en">Bridget Jones: The Edge of Reason (2004)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/868/101/45868101/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20200502</episode-num>
+    <episode-num system="original-air-date">20041110</episode-num>
   </programme>
-  <programme start="20260903043500 +0000" stop="20260903062000 +0000" channel="SHOSCHD-E.us">
-    <title lang="en">300: Rise of an Empire</title>
-    <desc lang="en">300: Rise of an Empire (2014)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/376/244/237376244/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904140000 +0000" stop="20260904153500 +0000" channel="SHO2HD-E.us">
+    <title lang="en">The Dutchman</title>
+    <desc lang="en">The Dutchman (2025)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/779/245/428779245/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20140624</episode-num>
-  </programme>
-  <programme start="20260903062000 +0000" stop="20260903083000 +0000" channel="SHOSCHD-E.us">
-    <title lang="en">Machine Gun Preacher</title>
-    <desc lang="en">Machine Gun Preacher (2011)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/835/240/361835240/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20230610</episode-num>
+    <episode-num system="original-air-date">20250308</episode-num>
   </programme>
   <programme start="20260903083000 +0000" stop="20260903100500 +0000" channel="SHOSCHD-E.us">
     <title lang="en">Teaching Mrs. Tingle</title>
@@ -4143,29 +4040,41 @@
     </rating>
     <episode-num system="original-air-date">20010410</episode-num>
   </programme>
-  <programme start="20260903033500 +0000" stop="20260903051000 +0000" channel="SHOXHD-E.us">
-    <title lang="en">The Mechanic</title>
-    <desc lang="en">The Mechanic (2011)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/901/347/169901347/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904113500 +0000" stop="20260904132500 +0000" channel="SHOSCHD-E.us">
+    <title lang="en">The LEGO Movie</title>
+    <desc lang="en">The LEGO Movie (2014)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/705/670/280705670/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
-      <value>r</value>
+      <value>pg</value>
     </rating>
-    <episode-num system="original-air-date">20110522</episode-num>
+    <episode-num system="original-air-date">20140617</episode-num>
   </programme>
-  <programme start="20260903063000 +0000" stop="20260903083000 +0000" channel="SHOXHD-E.us">
-    <title lang="en">Scream 4</title>
-    <desc lang="en">Scream 4 (2011)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/949/532/171949532/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904132500 +0000" stop="20260904150000 +0000" channel="SHOSCHD-E.us">
+    <title lang="en">Smart People</title>
+    <desc lang="en">Smart People (2008)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/169/865/109169865/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20111004</episode-num>
+    <episode-num system="original-air-date">20080411</episode-num>
+  </programme>
+  <programme start="20260904150000 +0000" stop="20260904170000 +0000" channel="SHOSCHD-E.us">
+    <title lang="en">You've Got Mail</title>
+    <desc lang="en">You've Got Mail (1998)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/582/232/582232/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>pg</value>
+    </rating>
+    <episode-num system="original-air-date">19981217</episode-num>
   </programme>
   <programme start="20260903083000 +0000" stop="20260903100500 +0000" channel="SHOXHD-E.us">
     <title lang="en">Masterminds</title>
@@ -4344,35 +4253,41 @@
     </rating>
     <episode-num system="original-air-date">20210603</episode-num>
   </programme>
-  <programme start="20260903041000 +0000" stop="20260903054500 +0000" channel="SHOBETHD-E.us">
-    <title lang="en">Undisputed</title>
-    <desc lang="en">Undisputed (2002)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/844/897/5844897/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904113000 +0000" stop="20260904132000 +0000" channel="SHOXHD-E.us">
+    <title lang="en">Top Gun</title>
+    <desc lang="en">Top Gun (1986)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/218/318/218318/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>pg</value>
+    </rating>
+    <episode-num system="original-air-date">20201003</episode-num>
+  </programme>
+  <programme start="20260904132000 +0000" stop="20260904150500 +0000" channel="SHOXHD-E.us">
+    <title lang="en">Along Came a Spider</title>
+    <desc lang="en">Along Came a Spider (2001)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/839/424/3839424/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20020717</episode-num>
+    <episode-num system="original-air-date">20010406</episode-num>
   </programme>
-  <programme start="20260903054500 +0000" stop="20260903073000 +0000" channel="SHOBETHD-E.us">
-    <title lang="en">S.O.G.: The Book of Ward</title>
-    <desc lang="en">S.O.G.: The Book of Ward (2023)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/252/019/478252019/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904150500 +0000" stop="20260904164500 +0000" channel="SHOXHD-E.us">
+    <title lang="en">Due Justice</title>
+    <desc lang="en">Due Justice (2023)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/023/932/487023932/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">20230602</episode-num>
-  </programme>
-  <programme start="20260903073000 +0000" stop="20260903091500 +0000" channel="SHOBETHD-E.us">
-    <title lang="en">Persona</title>
-    <desc lang="en">Persona (2024)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/626/312/510626312/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20260203</episode-num>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20231124</episode-num>
   </programme>
   <programme start="20260903091500 +0000" stop="20260903110000 +0000" channel="SHOBETHD-E.us">
     <title lang="en">The Violent Heart</title>
@@ -4545,41 +4460,38 @@
     </video>
     <episode-num system="original-air-date">20210704</episode-num>
   </programme>
-  <programme start="20260903024500 +0000" stop="20260903044500 +0000" channel="SHONEXTHD-E.us">
-    <title lang="en">Hustle &amp; Flow</title>
-    <desc lang="en">Hustle &amp; Flow (2005)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/973/265/63973265/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904120000 +0000" stop="20260904135000 +0000" channel="SHOBETHD-E.us">
+    <title lang="en">The Ghost and the Darkness</title>
+    <desc lang="en">The Ghost and the Darkness (1996)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/052/931/52931/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20140510</episode-num>
+    <episode-num system="original-air-date">20210902</episode-num>
   </programme>
-  <programme start="20260903044500 +0000" stop="20260903062500 +0000" channel="SHONEXTHD-E.us">
-    <title lang="en">Life During Wartime</title>
-    <desc lang="en">Life During Wartime (2009)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/906/185/153906185/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904135000 +0000" stop="20260904153000 +0000" channel="SHOBETHD-E.us">
+    <title lang="en">Whitney. &quot;Can I Be Me&quot;</title>
+    <desc lang="en">Whitney. &quot;Can I Be Me&quot; (2017)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/725/804/368725804/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20091010</episode-num>
+    <episode-num system="original-air-date">20170825</episode-num>
   </programme>
-  <programme start="20260903062500 +0000" stop="20260903083000 +0000" channel="SHONEXTHD-E.us">
-    <title lang="en">Cheech and Chong's Last Movie</title>
-    <desc lang="en">Cheech and Chong's Last Movie (2025)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/902/930/518902930/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904153000 +0000" stop="20260904173000 +0000" channel="SHOBETHD-E.us">
+    <title lang="en">Whitney</title>
+    <desc lang="en">Whitney (2018)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/704/305/389704305/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20260421</episode-num>
+    <episode-num system="original-air-date">20180706</episode-num>
   </programme>
   <programme start="20260903083000 +0000" stop="20260903101500 +0000" channel="SHONEXTHD-E.us">
     <title lang="en">Winter Spring Summer or Fall</title>
@@ -4752,41 +4664,38 @@
     </rating>
     <episode-num system="original-air-date">20171209</episode-num>
   </programme>
-  <programme start="20260903023000 +0000" stop="20260903043500 +0000" channel="SHOWOMENHD-E.us">
-    <title lang="en">Dead Man Walking</title>
-    <desc lang="en">Dead Man Walking (1995)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/264/026/264026/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904105500 +0000" stop="20260904123000 +0000" channel="SHONEXTHD-E.us">
+    <title lang="en">Jenny's Wedding</title>
+    <desc lang="en">Jenny's Wedding (2015)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/495/278/332495278/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
-      <value>r</value>
+      <value>pg13</value>
     </rating>
-    <episode-num system="original-air-date">20230902</episode-num>
+    <episode-num system="original-air-date">20150731</episode-num>
   </programme>
-  <programme start="20260903043500 +0000" stop="20260903062500 +0000" channel="SHOWOMENHD-E.us">
-    <title lang="en">The Gift</title>
-    <desc lang="en">The Gift (2000)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/837/817/3837817/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904123000 +0000" stop="20260904140000 +0000" channel="SHONEXTHD-E.us">
+    <title lang="en">The Outlaws</title>
+    <desc lang="en">The Outlaws (2024)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/332/614/501332614/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20001220</episode-num>
+    <episode-num system="original-air-date">20240712</episode-num>
   </programme>
-  <programme start="20260903062500 +0000" stop="20260903083000 +0000" channel="SHOWOMENHD-E.us">
-    <title lang="en">Frida</title>
-    <desc lang="en">Frida (2002)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/100/573/330100573/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904140000 +0000" stop="20260904154500 +0000" channel="SHONEXTHD-E.us">
+    <title lang="en">Marshmallow</title>
+    <desc lang="en">Marshmallow (2025)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/353/993/516353993/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20230603</episode-num>
+    <episode-num system="original-air-date">20250411</episode-num>
   </programme>
   <programme start="20260903083000 +0000" stop="20260903100500 +0000" channel="SHOWOMENHD-E.us">
     <title lang="en">Smart People</title>
@@ -4962,32 +4871,38 @@
     </rating>
     <episode-num system="original-air-date">20131003</episode-num>
   </programme>
-  <programme start="20260903034000 +0000" stop="20260903052000 +0000" channel="SHOFAM-E.us">
-    <title lang="en">Son of Rambow</title>
-    <desc lang="en">Son of Rambow (2007)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/971/794/93971794/showcaseBanner_560x419.jpg"/>
-    <rating system="MPAA">
-      <value>pg13</value>
-    </rating>
-    <episode-num system="original-air-date">20080101</episode-num>
+  <programme start="20260904113500 +0000" stop="20260904130500 +0000" channel="SHOWOMENHD-E.us">
+    <title lang="en">You're Dating a Narcissist!</title>
+    <desc lang="en">You're Dating a Narcissist! (2025)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/588/526/535588526/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20251025</episode-num>
   </programme>
-  <programme start="20260903052000 +0000" stop="20260903070000 +0000" channel="SHOFAM-E.us">
-    <title lang="en">The Perfect Score</title>
-    <desc lang="en">The Perfect Score (2004)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/159/214/26159214/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904130500 +0000" stop="20260904151000 +0000" channel="SHOWOMENHD-E.us">
+    <title lang="en">Bridget Jones's Baby</title>
+    <desc lang="en">Bridget Jones's Baby (2016)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/239/569/356239569/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
     <rating system="MPAA">
-      <value>pg13</value>
+      <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20220102</episode-num>
+    <episode-num system="original-air-date">20161220</episode-num>
   </programme>
-  <programme start="20260903070000 +0000" stop="20260903090000 +0000" channel="SHOFAM-E.us">
-    <title lang="en">Regarding Henry</title>
-    <desc lang="en">Regarding Henry (1991)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/890/380/369890380/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904151000 +0000" stop="20260904171000 +0000" channel="SHOWOMENHD-E.us">
+    <title lang="en">My Cousin Vinny</title>
+    <desc lang="en">My Cousin Vinny (1992)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/102/295/102295/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
     <rating system="MPAA">
-      <value>pg13</value>
+      <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20210602</episode-num>
+    <episode-num system="original-air-date">19920313</episode-num>
   </programme>
   <programme start="20260903090000 +0000" stop="20260903102500 +0000" channel="SHOFAM-E.us">
     <title lang="en">Bran Nue Dae</title>
@@ -5115,40 +5030,32 @@
     </rating>
     <episode-num system="original-air-date">20110518</episode-num>
   </programme>
-  <programme start="20260903031500 +0000" stop="20260903051300 +0000" channel="STARZHD-E.us">
-    <title lang="en">Beast</title>
-    <desc lang="en">Beast (2026)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/024/963/539024963/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260904104500 +0000" stop="20260904123000 +0000" channel="SHOFAM-E.us">
+    <title lang="en">Turtle Power: The Definitive History of the Teenage Mutant Ninja Turtles</title>
+    <desc lang="en">Turtle Power: The Definitive History of the Teenage Mutant Ninja Turtles (2014)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/135/036/321135036/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
-      <value>r</value>
+      <value>pg</value>
     </rating>
-    <episode-num system="original-air-date">20260808</episode-num>
+    <episode-num system="original-air-date">20140812</episode-num>
   </programme>
-  <programme start="20260903051300 +0000" stop="20260903071200 +0000" channel="STARZHD-E.us">
-    <title lang="en">The Girl in the Spider's Web</title>
-    <desc lang="en">The Girl in the Spider's Web (2018)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/357/275/391357275/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260904123000 +0000" stop="20260904140000 +0000" channel="SHOFAM-E.us">
+    <title lang="en">The Kid</title>
+    <desc lang="en">The Kid (2000)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/179/379/356179379/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
-      <value>r</value>
+      <value>pg</value>
     </rating>
-    <episode-num system="original-air-date">20181025</episode-num>
+    <episode-num system="original-air-date">20000707</episode-num>
   </programme>
-  <programme start="20260903071200 +0000" stop="20260903090900 +0000" channel="STARZHD-E.us">
-    <title lang="en">Now You See Me: Now You Don't</title>
-    <desc lang="en">Now You See Me: Now You Don't (2025)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/282/021/521282021/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260904140000 +0000" stop="20260904155500 +0000" channel="SHOFAM-E.us">
+    <title lang="en">Raiders of the Lost Ark</title>
+    <desc lang="en">Raiders of the Lost Ark (1981)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/897/984/369897984/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
-      <value>g</value>
+      <value>pg</value>
     </rating>
+    <episode-num system="original-air-date">20210703</episode-num>
   </programme>
   <programme start="20260903090900 +0000" stop="20260903110100 +0000" channel="STARZHD-E.us">
     <title lang="en">8 Mile</title>
@@ -5322,38 +5229,39 @@
     </rating>
     <episode-num system="original-air-date">20000906</episode-num>
   </programme>
-  <programme start="20260903025200 +0000" stop="20260903044300 +0000" channel="STARZEDHD-E.us">
-    <title lang="en">The Kingdom</title>
-    <desc lang="en">The Kingdom (2007)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/022/673/94022673/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904114000 +0000" stop="20260904131200 +0000" channel="STARZHD-E.us">
+    <title lang="en">The Night Clerk</title>
+    <desc lang="en">The Night Clerk (2020)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/429/066/418429066/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20070822</episode-num>
+    <episode-num system="original-air-date">20200614</episode-num>
   </programme>
-  <programme start="20260903044300 +0000" stop="20260903062000 +0000" channel="STARZEDHD-E.us">
-    <title lang="en">Waist Deep</title>
-    <desc lang="en">Waist Deep (2006)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/580/630/81580630/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904131200 +0000" stop="20260904150000 +0000" channel="STARZHD-E.us">
+    <title lang="en">Death Race</title>
+    <desc lang="en">Death Race (2008)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/961/508/141961508/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20060623</episode-num>
+    <episode-num system="original-air-date">20080822</episode-num>
   </programme>
-  <programme start="20260903062000 +0000" stop="20260903075300 +0000" channel="STARZEDHD-E.us">
-    <title lang="en">Bad Turn Worse</title>
-    <desc lang="en">Bad Turn Worse (2014)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/584/025/324584025/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904150000 +0000" stop="20260904155400 +0000" channel="STARZHD-E.us">
+    <title lang="en">Fightland</title>
+    <sub-title lang="en">I Want This</sub-title>
+    <desc lang="en">I Want This</desc>
+    <icon src="https://i.tivo.com/images-production/collection/984/991/546984991/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">20140815</episode-num>
+    <episode-num system="original-air-date">20260828</episode-num>
   </programme>
   <programme start="20260903075300 +0000" stop="20260903095000 +0000" channel="STARZEDHD-E.us">
     <title lang="en">Boomerang</title>
@@ -5531,41 +5439,50 @@
       <quality>HDTV</quality>
     </video>
   </programme>
-  <programme start="20260903034800 +0000" stop="20260903052600 +0000" channel="STARZBKHD-E.us">
-    <title lang="en">Bones</title>
-    <desc lang="en">Bones (2001)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/796/343/4796343/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904103200 +0000" stop="20260904121600 +0000" channel="STARZEDHD-E.us">
+    <title lang="en">Deadly Code</title>
+    <desc lang="en">Deadly Code (2013)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/334/774/315334774/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20011024</episode-num>
+    <episode-num system="original-air-date">20130227</episode-num>
   </programme>
-  <programme start="20260903052600 +0000" stop="20260903070000 +0000" channel="STARZBKHD-E.us">
-    <title lang="en">Blood and Bone</title>
-    <desc lang="en">Blood and Bone (2009)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/899/756/150899756/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904121600 +0000" stop="20260904134500 +0000" channel="STARZEDHD-E.us">
+    <title lang="en">Permanent Midnight</title>
+    <desc lang="en">Permanent Midnight (1998)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/456/762/456762/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20210808</episode-num>
+    <episode-num system="original-air-date">19980916</episode-num>
   </programme>
-  <programme start="20260903070000 +0000" stop="20260903084600 +0000" channel="STARZBKHD-E.us">
-    <title lang="en">513 Degrees</title>
-    <desc lang="en">513 Degrees (2013)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/119/006/312119006/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904134500 +0000" stop="20260904153000 +0000" channel="STARZEDHD-E.us">
+    <title lang="en">Volcano</title>
+    <desc lang="en">Volcano (1997)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/055/321/55321/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
-      <value>r</value>
+      <value>pg13</value>
     </rating>
-    <episode-num system="original-air-date">20130611</episode-num>
+    <episode-num system="original-air-date">19970425</episode-num>
+  </programme>
+  <programme start="20260904153000 +0000" stop="20260904171100 +0000" channel="STARZEDHD-E.us">
+    <title lang="en">Baby Mama's Club</title>
+    <desc lang="en">Baby Mama's Club (2013)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/368/035/266368035/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20100128</episode-num>
   </programme>
   <programme start="20260903084600 +0000" stop="20260903101900 +0000" channel="STARZBKHD-E.us">
     <title lang="en">Underworld: Rise of the Lycans</title>
@@ -5763,38 +5680,41 @@
     </rating>
     <episode-num system="original-air-date">20160104</episode-num>
   </programme>
-  <programme start="20260903042400 +0000" stop="20260903055200 +0000" channel="STARZKHD-E.us">
-    <title lang="en">My Dog the Champion</title>
-    <desc lang="en">My Dog the Champion (2013)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/027/497/314027497/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904110300 +0000" stop="20260904124900 +0000" channel="STARZBKHD-E.us">
+    <title lang="en">Focus</title>
+    <desc lang="en">Focus (2015)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/517/371/322517371/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
-      <value>g</value>
+      <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20130531</episode-num>
+    <episode-num system="original-air-date">20150602</episode-num>
   </programme>
-  <programme start="20260903055200 +0000" stop="20260903072400 +0000" channel="STARZKHD-E.us">
-    <title lang="en">Ghoster</title>
-    <desc lang="en">Ghoster (2022)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/283/751/460283751/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904124900 +0000" stop="20260904143300 +0000" channel="STARZBKHD-E.us">
+    <title lang="en">House Arrest</title>
+    <desc lang="en">House Arrest (2012)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/950/325/348950325/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
-      <value>pg</value>
+      <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20230112</episode-num>
+    <episode-num system="original-air-date">20120211</episode-num>
   </programme>
-  <programme start="20260903072400 +0000" stop="20260903090300 +0000" channel="STARZKHD-E.us">
-    <title lang="en">Mulan: Princess Warrior</title>
-    <desc lang="en">Mulan: Princess Warrior (2025)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/642/295/520642295/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904143300 +0000" stop="20260904163100 +0000" channel="STARZBKHD-E.us">
+    <title lang="en">Hustle &amp; Flow</title>
+    <desc lang="en">Hustle &amp; Flow (2005)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/973/265/63973265/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">20251103</episode-num>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20140510</episode-num>
   </programme>
   <programme start="20260903090300 +0000" stop="20260903102600 +0000" channel="STARZKHD-E.us">
     <title lang="en">Birds of Paradise</title>
@@ -5984,41 +5904,41 @@
     </rating>
     <episode-num system="original-air-date">20120511</episode-num>
   </programme>
-  <programme start="20260903035600 +0000" stop="20260903052500 +0000" channel="STARZCINHD-E.us">
-    <title lang="en">Permanent Midnight</title>
-    <desc lang="en">Permanent Midnight (1998)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/456/762/456762/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">19980916</episode-num>
-  </programme>
-  <programme start="20260903052500 +0000" stop="20260903071800 +0000" channel="STARZCINHD-E.us">
-    <title lang="en">Rememory</title>
-    <desc lang="en">Rememory (2017)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/797/263/376797263/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904111600 +0000" stop="20260904130700 +0000" channel="STARZKHD-E.us">
+    <title lang="en">I Can Only Imagine 2</title>
+    <desc lang="en">I Can Only Imagine 2 (2026)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/589/038/529589038/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>pg</value>
     </rating>
-    <episode-num system="original-air-date">20170908</episode-num>
+    <episode-num system="original-air-date">20260220</episode-num>
   </programme>
-  <programme start="20260903071800 +0000" stop="20260903084800 +0000" channel="STARZCINHD-E.us">
-    <title lang="en">Black Water</title>
-    <desc lang="en">Black Water (2007)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/704/337/118704337/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904130700 +0000" stop="20260904145200 +0000" channel="STARZKHD-E.us">
+    <title lang="en">The Back-up Plan</title>
+    <desc lang="en">The Back-up Plan (2010)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/011/941/151011941/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
-      <value>r</value>
+      <value>pg13</value>
     </rating>
-    <episode-num system="original-air-date">20070601</episode-num>
+    <episode-num system="original-air-date">20101231</episode-num>
+  </programme>
+  <programme start="20260904145200 +0000" stop="20260904163000 +0000" channel="STARZKHD-E.us">
+    <title lang="en">The Cup</title>
+    <desc lang="en">The Cup (2011)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/120/314/220120314/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>pg</value>
+    </rating>
+    <episode-num system="original-air-date">20121119</episode-num>
   </programme>
   <programme start="20260903084800 +0000" stop="20260903105800 +0000" channel="STARZCINHD-E.us">
     <title lang="en">Twice Born</title>
@@ -6206,53 +6126,41 @@
     </rating>
     <episode-num system="original-air-date">20151201</episode-num>
   </programme>
-  <programme start="20260903031700 +0000" stop="20260903044900 +0000" channel="STARZCMHD-E.us">
-    <title lang="en">Code Name: The Cleaner</title>
-    <desc lang="en">Code Name: The Cleaner (2007)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/975/120/93975120/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904115600 +0000" stop="20260904132300 +0000" channel="STARZCINHD-E.us">
+    <title lang="en">American Exit</title>
+    <desc lang="en">American Exit (2018)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/653/273/403653273/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>pg13</value>
     </rating>
-    <episode-num system="original-air-date">20070105</episode-num>
+    <episode-num system="original-air-date">20190514</episode-num>
   </programme>
-  <programme start="20260903044900 +0000" stop="20260903061800 +0000" channel="STARZCMHD-E.us">
-    <title lang="en">30 Beats</title>
-    <desc lang="en">30 Beats (2012)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/638/051/211638051/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904132300 +0000" stop="20260904150800 +0000" channel="STARZCINHD-E.us">
+    <title lang="en">City Island</title>
+    <desc lang="en">City Island (2009)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/751/780/158751780/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>pg13</value>
+    </rating>
+    <episode-num system="original-air-date">20090306</episode-num>
+  </programme>
+  <programme start="20260904150800 +0000" stop="20260904172300 +0000" channel="STARZCINHD-E.us">
+    <title lang="en">Hostiles</title>
+    <desc lang="en">Hostiles (2017)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/572/570/355572570/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20120720</episode-num>
-  </programme>
-  <programme start="20260903061800 +0000" stop="20260903074800 +0000" channel="STARZCMHD-E.us">
-    <title lang="en">Blood Surf</title>
-    <desc lang="en">Blood Surf (2001)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/838/911/3838911/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20001204</episode-num>
-  </programme>
-  <programme start="20260903074800 +0000" stop="20260903091700 +0000" channel="STARZCMHD-E.us">
-    <title lang="en">Scary Movie</title>
-    <desc lang="en">Scary Movie (2000)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/103/175/2103175/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20211104</episode-num>
+    <episode-num system="original-air-date">20171222</episode-num>
   </programme>
   <programme start="20260903091700 +0000" stop="20260903104000 +0000" channel="STARZCMHD-E.us">
     <title lang="en">Scary Movie 2</title>
@@ -6461,29 +6369,41 @@
     </video>
     <episode-num system="original-air-date">20250612</episode-num>
   </programme>
-  <programme start="20260903040500 +0000" stop="20260903055500 +0000" channel="MGM+HD-E.us">
-    <title lang="en">Death Wish</title>
-    <desc lang="en">Death Wish (2018)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/977/350/370977350/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904115800 +0000" stop="20260904135500 +0000" channel="STARZCMHD-E.us">
+    <title lang="en">Harlem Nights</title>
+    <desc lang="en">Harlem Nights (1989)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/129/732/129732/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20160724</episode-num>
+    <episode-num system="original-air-date">20210701</episode-num>
   </programme>
-  <programme start="20260903055500 +0000" stop="20260903082000 +0000" channel="MGM+HD-E.us">
-    <title lang="en">Black Sunday</title>
-    <desc lang="en">Black Sunday (1977)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/292/710/292710/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904135500 +0000" stop="20260904152100 +0000" channel="STARZCMHD-E.us">
+    <title lang="en">Eulogy</title>
+    <desc lang="en">Eulogy (2004)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/051/161/45051161/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">19770401</episode-num>
+    <episode-num system="original-air-date">20071005</episode-num>
+  </programme>
+  <programme start="20260904152100 +0000" stop="20260904172000 +0000" channel="STARZCMHD-E.us">
+    <title lang="en">Instant Family</title>
+    <desc lang="en">Instant Family (2018)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/869/436/393869436/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>pg13</value>
+    </rating>
+    <episode-num system="original-air-date">20181116</episode-num>
   </programme>
   <programme start="20260903082000 +0000" stop="20260903103500 +0000" channel="MGM+HD-E.us">
     <title lang="en">For a Few Dollars More</title>
@@ -6657,41 +6577,26 @@
     </rating>
     <episode-num system="original-air-date">19700624</episode-num>
   </programme>
-  <programme start="20260903030000 +0000" stop="20260903044500 +0000" channel="MGM+HD-W.us">
-    <title lang="en">Disturbia</title>
-    <desc lang="en">Disturbia (2007)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/039/235/94039235/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904115500 +0000" stop="20260904135000 +0000" channel="MGM+HD-E.us">
+    <title lang="en">Breakfast at Tiffany's</title>
+    <desc lang="en">Breakfast at Tiffany's (1961)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/608/867/362608867/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <rating system="MPAA">
-      <value>pg13</value>
-    </rating>
-    <episode-num system="original-air-date">20070412</episode-num>
+    <episode-num system="original-air-date">19611005</episode-num>
   </programme>
-  <programme start="20260903044500 +0000" stop="20260903070500 +0000" channel="MGM+HD-W.us">
-    <title lang="en">The Talented Mr. Ripley</title>
-    <desc lang="en">The Talented Mr. Ripley (1999)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/288/993/2288993/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904135000 +0000" stop="20260904154500 +0000" channel="MGM+HD-E.us">
+    <title lang="en">52 Pick-Up</title>
+    <desc lang="en">52 Pick-Up (1986)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/256/345/256345/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20160202</episode-num>
-  </programme>
-  <programme start="20260903070500 +0000" stop="20260903085500 +0000" channel="MGM+HD-W.us">
-    <title lang="en">Death Wish</title>
-    <desc lang="en">Death Wish (2018)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/977/350/370977350/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20160724</episode-num>
+    <episode-num system="original-air-date">19861107</episode-num>
   </programme>
   <programme start="20260903085500 +0000" stop="20260903112000 +0000" channel="MGM+HD-W.us">
     <title lang="en">Black Sunday</title>
@@ -6853,41 +6758,38 @@
     </video>
     <episode-num system="original-air-date">20260823</episode-num>
   </programme>
-  <programme start="20260903022500 +0000" stop="20260903044000 +0000" channel="MGM+HITSHD-E.us">
-    <title lang="en">The Running Man</title>
-    <desc lang="en">The Running Man (2025)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/656/024/532656024/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904104500 +0000" stop="20260904125000 +0000" channel="MGM+HD-W.us">
+    <title lang="en">Mother!</title>
+    <desc lang="en">Mother! (2017)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/737/270/351737270/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20251121</episode-num>
+    <episode-num system="original-air-date">20171219</episode-num>
   </programme>
-  <programme start="20260903044000 +0000" stop="20260903063000 +0000" channel="MGM+HITSHD-E.us">
-    <title lang="en">Afterburn</title>
-    <desc lang="en">Afterburn (2025)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/836/993/524836993/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904125000 +0000" stop="20260904145500 +0000" channel="MGM+HD-W.us">
+    <title lang="en">Catch-22</title>
+    <desc lang="en">Catch-22 (1970)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/052/010/1052010/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20250821</episode-num>
+    <episode-num system="original-air-date">19700624</episode-num>
   </programme>
-  <programme start="20260903063000 +0000" stop="20260903082500 +0000" channel="MGM+HITSHD-E.us">
-    <title lang="en">Delta Force 2: The Colombian Connection</title>
-    <desc lang="en">Delta Force 2: The Colombian Connection (1990)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/257/845/434257845/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904145500 +0000" stop="20260904165000 +0000" channel="MGM+HD-W.us">
+    <title lang="en">Breakfast at Tiffany's</title>
+    <desc lang="en">Breakfast at Tiffany's (1961)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/608/867/362608867/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">19900824</episode-num>
+    <episode-num system="original-air-date">19611005</episode-num>
   </programme>
   <programme start="20260903082500 +0000" stop="20260903095000 +0000" channel="MGM+HITSHD-E.us">
     <title lang="en">The Deep House</title>
@@ -7018,41 +6920,41 @@
     </video>
     <episode-num system="original-air-date">20060101</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903054000 +0000" channel="MGM+MRQHD-E.us">
-    <title lang="en">The Man in the Moon</title>
-    <desc lang="en">The Man in the Moon (1991)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/236/497/1236497/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904103000 +0000" stop="20260904122500 +0000" channel="MGM+HITSHD-E.us">
+    <title lang="en">Hang 'em High</title>
+    <desc lang="en">Hang 'em High (1968)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/061/389/61389/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
       <value>pg13</value>
     </rating>
-    <episode-num system="original-air-date">19910930</episode-num>
+    <episode-num system="original-air-date">19680731</episode-num>
   </programme>
-  <programme start="20260903054000 +0000" stop="20260903072000 +0000" channel="MGM+MRQHD-E.us">
-    <title lang="en">Every Day</title>
-    <desc lang="en">Every Day (2018)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/672/740/382672740/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904122500 +0000" stop="20260904145000 +0000" channel="MGM+HITSHD-E.us">
+    <title lang="en">Black Sunday</title>
+    <desc lang="en">Black Sunday (1977)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/292/710/292710/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
-      <value>pg13</value>
+      <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20181127</episode-num>
+    <episode-num system="original-air-date">19770401</episode-num>
   </programme>
-  <programme start="20260903072000 +0000" stop="20260903091000 +0000" channel="MGM+MRQHD-E.us">
-    <title lang="en">Hannah and Her Sisters</title>
-    <desc lang="en">Hannah and Her Sisters (1986)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/480/586/480586/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904145000 +0000" stop="20260904164000 +0000" channel="MGM+HITSHD-E.us">
+    <title lang="en">Invasion U.S.A.</title>
+    <desc lang="en">Invasion U.S.A. (1985)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/185/651/185651/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
-      <value>pg13</value>
+      <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20210404</episode-num>
+    <episode-num system="original-air-date">19850927</episode-num>
   </programme>
   <programme start="20260903091000 +0000" stop="20260903121500 +0000" channel="MGM+MRQHD-E.us">
     <title lang="en">Fiddler on the Roof</title>
@@ -7204,32 +7106,38 @@
     </video>
     <episode-num system="original-air-date">19611122</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903055000 +0000" channel="MGM+DI.us">
-    <title lang="en">Necessary Roughness</title>
-    <desc lang="en">Necessary Roughness (1991)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/066/153/66153/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904111500 +0000" stop="20260904125500 +0000" channel="MGM+MRQHD-E.us">
+    <title lang="en">The Indian in the Cupboard</title>
+    <desc lang="en">The Indian in the Cupboard (1995)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/171/344/356171344/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
     <rating system="MPAA">
-      <value>pg13</value>
+      <value>pg</value>
     </rating>
-    <episode-num system="original-air-date">19910927</episode-num>
+    <episode-num system="original-air-date">19950714</episode-num>
   </programme>
-  <programme start="20260903055000 +0000" stop="20260903075000 +0000" channel="MGM+DI.us">
-    <title lang="en">Everybody Wants Some!!</title>
-    <desc lang="en">Everybody Wants Some!! (2016)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/315/869/336315869/showcaseBanner_560x419.jpg"/>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20161217</episode-num>
+  <programme start="20260904125500 +0000" stop="20260904145500 +0000" channel="MGM+MRQHD-E.us">
+    <title lang="en">The Portable Door</title>
+    <desc lang="en">The Portable Door (2023)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/456/808/475456808/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20230408</episode-num>
   </programme>
-  <programme start="20260903075000 +0000" stop="20260903093000 +0000" channel="MGM+DI.us">
-    <title lang="en">The Time Machine</title>
-    <desc lang="en">The Time Machine (2002)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/298/250/5298250/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904145500 +0000" stop="20260904164000 +0000" channel="MGM+MRQHD-E.us">
+    <title lang="en">Transformers One</title>
+    <desc lang="en">Transformers One (2024)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/101/561/502101561/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
     <rating system="MPAA">
-      <value>pg13</value>
+      <value>pg</value>
     </rating>
-    <episode-num system="original-air-date">20020304</episode-num>
+    <episode-num system="original-air-date">20240912</episode-num>
   </programme>
   <programme start="20260903093000 +0000" stop="20260903110000 +0000" channel="MGM+DI.us">
     <title lang="en">The Indian Fighter</title>
@@ -7362,41 +7270,29 @@
     </rating>
     <episode-num system="original-air-date">19881117</episode-num>
   </programme>
-  <programme start="20260903031500 +0000" stop="20260903045000 +0000" channel="ENCHD-E.us">
-    <title lang="en">The Strangers: Chapter 3</title>
-    <desc lang="en">The Strangers: Chapter 3 (2026)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/072/997/533072997/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20260205</episode-num>
+  <programme start="20260904121000 +0000" stop="20260904135500 +0000" channel="MGM+DI.us">
+    <title lang="en">Texas Chainsaw Massacre II</title>
+    <desc lang="en">Texas Chainsaw Massacre II (1986)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/860/585/448860585/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">19860822</episode-num>
   </programme>
-  <programme start="20260903045000 +0000" stop="20260903065500 +0000" channel="ENCHD-E.us">
-    <title lang="en">Underworld</title>
-    <desc lang="en">Underworld (2003)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/421/571/19421571/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260904135500 +0000" stop="20260904153000 +0000" channel="MGM+DI.us">
+    <title lang="en">The Return of the Living Dead</title>
+    <desc lang="en">The Return of the Living Dead (1985)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/177/685/177685/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20030918</episode-num>
+    <episode-num system="original-air-date">19850425</episode-num>
   </programme>
-  <programme start="20260903065500 +0000" stop="20260903084500 +0000" channel="ENCHD-E.us">
-    <title lang="en">Underworld: Evolution</title>
-    <desc lang="en">Underworld: Evolution (2006)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/290/128/73290128/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260904153000 +0000" stop="20260904170000 +0000" channel="MGM+DI.us">
+    <title lang="en">Killer Klowns from Outer Space</title>
+    <desc lang="en">Killer Klowns from Outer Space (1988)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/272/531/272531/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
-      <value>r</value>
+      <value>pg13</value>
     </rating>
-    <episode-num system="original-air-date">20060112</episode-num>
+    <episode-num system="original-air-date">19880527</episode-num>
   </programme>
   <programme start="20260903084500 +0000" stop="20260903104000 +0000" channel="ENCHD-E.us">
     <title lang="en">The Minus Man</title>
@@ -7551,29 +7447,41 @@
     </video>
     <episode-num system="original-air-date">20201215</episode-num>
   </programme>
-  <programme start="20260903024800 +0000" stop="20260903050800 +0000" channel="ENCACT-E.us">
-    <title lang="en">Angels &amp; Demons</title>
-    <desc lang="en">Angels &amp; Demons (2009)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/763/342/367763342/showcaseBanner_560x419.jpg"/>
-    <rating system="MPAA">
-      <value>pg13</value>
-    </rating>
-    <episode-num system="original-air-date">20090513</episode-num>
-  </programme>
-  <programme start="20260903050800 +0000" stop="20260903063500 +0000" channel="ENCACT-E.us">
-    <title lang="en">Tales from the Crypt Presents Bordello of Blood</title>
-    <desc lang="en">Tales from the Crypt Presents Bordello of Blood (1996)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/971/054/971054/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904103000 +0000" stop="20260904115600 +0000" channel="ENCHD-E.us">
+    <title lang="en">A Happening of Monumental Proportions</title>
+    <desc lang="en">A Happening of Monumental Proportions (2016)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/985/888/348985888/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">19960816</episode-num>
+    <episode-num system="original-air-date">20170505</episode-num>
   </programme>
-  <programme start="20260903063500 +0000" stop="20260903080600 +0000" channel="ENCACT-E.us">
-    <title lang="en">All Souls Day</title>
-    <desc lang="en">All Souls Day (2005)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/183/400/356183400/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20050611</episode-num>
+  <programme start="20260904115600 +0000" stop="20260904135900 +0000" channel="ENCHD-E.us">
+    <title lang="en">Deliver Us From Evil</title>
+    <desc lang="en">Deliver Us From Evil (2014)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/375/321/303375321/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20141104</episode-num>
+  </programme>
+  <programme start="20260904135900 +0000" stop="20260904160500 +0000" channel="ENCHD-E.us">
+    <title lang="en">Silver Linings Playbook</title>
+    <desc lang="en">Silver Linings Playbook (2012)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/358/684/222358684/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20140119</episode-num>
   </programme>
   <programme start="20260903080600 +0000" stop="20260903094400 +0000" channel="ENCACT-E.us">
     <title lang="en">Fire With Fire</title>
@@ -7716,23 +7624,32 @@
     </rating>
     <episode-num system="original-air-date">20111129</episode-num>
   </programme>
-  <programme start="20260903040900 +0000" stop="20260903055300 +0000" channel="ENCBLACK-E.us">
-    <title lang="en">House Arrest</title>
-    <desc lang="en">House Arrest (2012)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/950/325/348950325/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904115400 +0000" stop="20260904135200 +0000" channel="ENCACT-E.us">
+    <title lang="en">Once Upon a Time in Brooklyn</title>
+    <desc lang="en">Once Upon a Time in Brooklyn (2013)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/367/972/266367972/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20120211</episode-num>
+    <episode-num system="original-air-date">20130521</episode-num>
   </programme>
-  <programme start="20260903055300 +0000" stop="20260903073100 +0000" channel="ENCBLACK-E.us">
-    <title lang="en">Liberty Stands Still</title>
-    <desc lang="en">Liberty Stands Still (2002)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/737/696/6737696/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904135200 +0000" stop="20260904151500 +0000" channel="ENCACT-E.us">
+    <title lang="en">Operation: Endgame</title>
+    <desc lang="en">Operation: Endgame (2009)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/837/012/163837012/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20020118</episode-num>
+    <episode-num system="original-air-date">20100720</episode-num>
+  </programme>
+  <programme start="20260904151500 +0000" stop="20260904164700 +0000" channel="ENCACT-E.us">
+    <title lang="en">Sucker Punch</title>
+    <desc lang="en">Sucker Punch (2008)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/550/522/195550522/showcaseBanner_560x419.jpg"/>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20080808</episode-num>
   </programme>
   <programme start="20260903073100 +0000" stop="20260903094300 +0000" channel="ENCBLACK-E.us">
     <title lang="en">The Last Face</title>
@@ -7863,32 +7780,32 @@
     </rating>
     <episode-num system="original-air-date">20090122</episode-num>
   </programme>
-  <programme start="20260903032000 +0000" stop="20260903045400 +0000" channel="ENCCLASS-E.us">
-    <title lang="en">The Stepford Wives</title>
-    <desc lang="en">The Stepford Wives (2004)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/049/743/37049743/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904103400 +0000" stop="20260904120400 +0000" channel="ENCBLACK-E.us">
+    <title lang="en">Underworld Awakening</title>
+    <desc lang="en">Underworld Awakening (2012)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/143/527/383143527/showcaseBanner_560x419.jpg"/>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20120510</episode-num>
+  </programme>
+  <programme start="20260904120400 +0000" stop="20260904141800 +0000" channel="ENCBLACK-E.us">
+    <title lang="en">The Hate U Give</title>
+    <desc lang="en">The Hate U Give (2019)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/048/916/378048916/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
       <value>pg13</value>
     </rating>
-    <episode-num system="original-air-date">20230602</episode-num>
+    <episode-num system="original-air-date">20190615</episode-num>
   </programme>
-  <programme start="20260903045400 +0000" stop="20260903072300 +0000" channel="ENCCLASS-E.us">
-    <title lang="en">Brimstone</title>
-    <desc lang="en">Brimstone (2017)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/950/954/368950954/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904141800 +0000" stop="20260904161500 +0000" channel="ENCBLACK-E.us">
+    <title lang="en">Why Do Fools Fall in Love</title>
+    <desc lang="en">Why Do Fools Fall in Love (1998)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/331/380/331380/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20171111</episode-num>
-  </programme>
-  <programme start="20260903072300 +0000" stop="20260903090100 +0000" channel="ENCCLASS-E.us">
-    <title lang="en">Tales From the Hood</title>
-    <desc lang="en">Tales From the Hood (1995)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/179/617/179617/showcaseBanner_560x419.jpg"/>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">19950524</episode-num>
+    <episode-num system="original-air-date">19980828</episode-num>
   </programme>
   <programme start="20260903090100 +0000" stop="20260903105200 +0000" channel="ENCCLASS-E.us">
     <title lang="en">Tales From the Hood 2</title>
@@ -8010,29 +7927,32 @@
     </rating>
     <episode-num system="original-air-date">20110105</episode-num>
   </programme>
-  <programme start="20260903033000 +0000" stop="20260903051300 +0000" channel="ENCSUS-E.us">
-    <title lang="en">The Grudge 2</title>
-    <desc lang="en">The Grudge 2 (2006)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/662/481/89662481/showcaseBanner_560x419.jpg"/>
-    <rating system="MPAA">
-      <value>pg13</value>
-    </rating>
-    <episode-num system="original-air-date">20061012</episode-num>
-  </programme>
-  <programme start="20260903051300 +0000" stop="20260903064100 +0000" channel="ENCSUS-E.us">
-    <title lang="en">Slayer</title>
-    <desc lang="en">Slayer (2006)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/016/879/73016879/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20060708</episode-num>
-  </programme>
-  <programme start="20260903064100 +0000" stop="20260903081900 +0000" channel="ENCSUS-E.us">
-    <title lang="en">Puncture Wounds</title>
-    <desc lang="en">Puncture Wounds (2014)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/731/707/351731707/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904103800 +0000" stop="20260904121100 +0000" channel="ENCCLASS-E.us">
+    <title lang="en">The Silencer</title>
+    <desc lang="en">The Silencer (2000)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/948/932/2948932/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20140804</episode-num>
+    <episode-num system="original-air-date">19991205</episode-num>
+  </programme>
+  <programme start="20260904121100 +0000" stop="20260904141200 +0000" channel="ENCCLASS-E.us">
+    <title lang="en">The Best Man</title>
+    <desc lang="en">The Best Man (1999)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/531/192/1531192/showcaseBanner_560x419.jpg"/>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20211006</episode-num>
+  </programme>
+  <programme start="20260904141200 +0000" stop="20260904160800 +0000" channel="ENCCLASS-E.us">
+    <title lang="en">The Other Boleyn Girl</title>
+    <desc lang="en">The Other Boleyn Girl (2008)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/033/175/94033175/showcaseBanner_560x419.jpg"/>
+    <rating system="MPAA">
+      <value>pg13</value>
+    </rating>
+    <episode-num system="original-air-date">20220702</episode-num>
   </programme>
   <programme start="20260903081900 +0000" stop="20260903095400 +0000" channel="ENCSUS-E.us">
     <title lang="en">Ginger Snaps 2</title>
@@ -8172,29 +8092,29 @@
     </rating>
     <episode-num system="original-air-date">20190303</episode-num>
   </programme>
-  <programme start="20260903032300 +0000" stop="20260903044700 +0000" channel="ENCWEST-E.us">
-    <title lang="en">Kill Johnny Ringo</title>
-    <desc lang="en">Kill Johnny Ringo (1966)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/602/086/513602086/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20250118</episode-num>
+  <programme start="20260904105600 +0000" stop="20260904123700 +0000" channel="ENCSUS-E.us">
+    <title lang="en">Goodbye World</title>
+    <desc lang="en">Goodbye World (2013)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/048/162/309048162/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20130615</episode-num>
   </programme>
-  <programme start="20260903044700 +0000" stop="20260903062800 +0000" channel="ENCWEST-E.us">
-    <title lang="en">Gone Are the Days</title>
-    <desc lang="en">Gone Are the Days (2018)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/877/606/385877606/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904123700 +0000" stop="20260904143500 +0000" channel="ENCSUS-E.us">
+    <title lang="en">Scream 3</title>
+    <desc lang="en">Scream 3 (2000)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/487/871/1487871/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
       <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20180316</episode-num>
+    <episode-num system="original-air-date">20000204</episode-num>
   </programme>
-  <programme start="20260903062800 +0000" stop="20260903081100 +0000" channel="ENCWEST-E.us">
-    <title lang="en">Jericho</title>
-    <desc lang="en">Jericho (2001)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/578/217/4578217/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904143500 +0000" stop="20260904160600 +0000" channel="ENCSUS-E.us">
+    <title lang="en">13</title>
+    <desc lang="en">13 (2010)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/155/015/501155015/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
-      <value>pg13</value>
+      <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20001001</episode-num>
+    <episode-num system="original-air-date">20240702</episode-num>
   </programme>
   <programme start="20260903081100 +0000" stop="20260903093400 +0000" channel="ENCWEST-E.us">
     <title lang="en">Brother Outlaw</title>
@@ -8367,32 +8287,19 @@
     <icon src="https://i.tivo.com/images-production/collection/228/749/228749/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">19550524</episode-num>
   </programme>
-  <programme start="20260903033700 +0000" stop="20260903050700 +0000" channel="ENCFAM-E.us">
-    <title lang="en">Pups United</title>
-    <desc lang="en">Pups United (2015)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/960/389/333960389/showcaseBanner_560x419.jpg"/>
-    <rating system="MPAA">
-      <value>pg</value>
-    </rating>
-    <episode-num system="original-air-date">20150915</episode-num>
+  <programme start="20260904114900 +0000" stop="20260904132100 +0000" channel="ENCWEST-E.us">
+    <title lang="en">John Wayne Behind-the-Scenes - Filming of Stunts Chases Fights Crashes Gun Battles</title>
+    <desc lang="en">John Wayne Behind-the-Scenes - Filming of Stunts Chases Fights Crashes Gun Battles</desc>
+    <icon src="https://i.tivo.com/images-production/collection/593/584/532593584/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260101</episode-num>
   </programme>
-  <programme start="20260903050700 +0000" stop="20260903065100 +0000" channel="ENCFAM-E.us">
-    <title lang="en">The Winning Season</title>
-    <desc lang="en">The Winning Season (2009)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/173/945/168173945/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904132100 +0000" stop="20260904153400 +0000" channel="ENCWEST-E.us">
+    <title lang="en">South of Heaven, West of Hell</title>
+    <desc lang="en">South of Heaven, West of Hell (2000)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/837/779/3837779/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
-      <value>pg13</value>
+      <value>r</value>
     </rating>
-    <episode-num system="original-air-date">20090119</episode-num>
-  </programme>
-  <programme start="20260903065100 +0000" stop="20260903082400 +0000" channel="ENCFAM-E.us">
-    <title lang="en">Sea Level</title>
-    <desc lang="en">Sea Level (2011)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/305/857/235305857/showcaseBanner_560x419.jpg"/>
-    <rating system="MPAA">
-      <value>pg</value>
-    </rating>
-    <episode-num system="original-air-date">20140203</episode-num>
   </programme>
   <programme start="20260903082400 +0000" stop="20260903094700 +0000" channel="ENCFAM-E.us">
     <title lang="en">Sea Level 2: Magic Arch</title>
@@ -8540,47 +8447,29 @@
     </rating>
     <episode-num system="original-air-date">20140417</episode-num>
   </programme>
-  <programme start="20260903030600 +0000" stop="20260903044500 +0000" channel="PLEXHD-E.us">
-    <title lang="en">Mulan: Princess Warrior</title>
-    <desc lang="en">Mulan: Princess Warrior (2025)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/642/295/520642295/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20251103</episode-num>
-  </programme>
-  <programme start="20260903044500 +0000" stop="20260903061600 +0000" channel="PLEXHD-E.us">
-    <title lang="en">The Academy of Magic</title>
-    <desc lang="en">The Academy of Magic (2020)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/205/977/451205977/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20200716</episode-num>
-  </programme>
-  <programme start="20260903061600 +0000" stop="20260903075800 +0000" channel="PLEXHD-E.us">
-    <title lang="en">Across the Great Divide</title>
-    <desc lang="en">Across the Great Divide (1976)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/190/739/190739/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260904115400 +0000" stop="20260904132200 +0000" channel="ENCFAM-E.us">
+    <title lang="en">Chestnut: Hero of Central Park</title>
+    <desc lang="en">Chestnut: Hero of Central Park (2004)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/049/100/501049100/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
       <value>g</value>
     </rating>
-    <episode-num system="original-air-date">19761220</episode-num>
+    <episode-num system="original-air-date">20240701</episode-num>
   </programme>
-  <programme start="20260903075800 +0000" stop="20260903092000 +0000" channel="PLEXHD-E.us">
-    <title lang="en">C.I. Ape</title>
-    <desc lang="en">C.I. Ape (2021)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/952/936/443952936/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260904132200 +0000" stop="20260904145200 +0000" channel="ENCFAM-E.us">
+    <title lang="en">Joey &amp; Ella</title>
+    <desc lang="en">Joey &amp; Ella (2021)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/529/085/440529085/showcaseBanner_560x419.jpg"/>
     <rating system="MPAA">
-      <value>pg</value>
+      <value>g</value>
     </rating>
-    <episode-num system="original-air-date">20220317</episode-num>
+    <episode-num system="original-air-date">20210727</episode-num>
+  </programme>
+  <programme start="20260904145200 +0000" stop="20260904161800 +0000" channel="ENCFAM-E.us">
+    <title lang="en">Monster Zone</title>
+    <desc lang="en">Monster Zone (2020)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/699/490/433699490/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20240401</episode-num>
   </programme>
   <programme start="20260903092000 +0000" stop="20260903103700 +0000" channel="PLEXHD-E.us">
     <title lang="en">The Ladybug</title>
@@ -8780,41 +8669,38 @@
     </rating>
     <episode-num system="original-air-date">20230818</episode-num>
   </programme>
-  <programme start="20260903032900 +0000" stop="20260903045900 +0000" channel="INDIPXHD.us">
-    <title lang="en">The Limey</title>
-    <desc lang="en">The Limey (1999)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/822/684/1822684/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904114600 +0000" stop="20260904131900 +0000" channel="PLEXHD-E.us">
+    <title lang="en">Shelby</title>
+    <desc lang="en">Shelby (2014)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/781/567/334781567/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20230103</episode-num>
+    <episode-num system="original-air-date">20141107</episode-num>
   </programme>
-  <programme start="20260903045900 +0000" stop="20260903063700 +0000" channel="INDIPXHD.us">
-    <title lang="en">The Driver</title>
-    <desc lang="en">The Driver (2020)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/383/956/412383956/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904131900 +0000" stop="20260904145900 +0000" channel="PLEXHD-E.us">
+    <title lang="en">Death Defying Acts</title>
+    <desc lang="en">Death Defying Acts (2007)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/211/376/130211376/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
-      <value>r</value>
+      <value>pg</value>
     </rating>
-    <episode-num system="original-air-date">20210901</episode-num>
+    <episode-num system="original-air-date">20080711</episode-num>
   </programme>
-  <programme start="20260903063700 +0000" stop="20260903080900 +0000" channel="INDIPXHD.us">
-    <title lang="en">The Future</title>
-    <desc lang="en">The Future (2011)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/925/319/178925319/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904145900 +0000" stop="20260904163200 +0000" channel="PLEXHD-E.us">
+    <title lang="en">The Great Buck Howard</title>
+    <desc lang="en">The Great Buck Howard (2008)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/166/545/139166545/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
     <rating system="MPAA">
-      <value>r</value>
+      <value>pg</value>
     </rating>
-    <episode-num system="original-air-date">20111129</episode-num>
+    <episode-num system="original-air-date">20090805</episode-num>
   </programme>
   <programme start="20260903080900 +0000" stop="20260903093200 +0000" channel="INDIPXHD.us">
     <title lang="en">Race to Win</title>
@@ -9014,35 +8900,29 @@
     </rating>
     <episode-num system="original-air-date">19980116</episode-num>
   </programme>
-  <programme start="20260903041500 +0000" stop="20260903055900 +0000" channel="RETRPXHD.us">
-    <title lang="en">The Proud Rebel</title>
-    <desc lang="en">The Proud Rebel (1958)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/618/174/10618174/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904115700 +0000" stop="20260904141100 +0000" channel="INDIPXHD.us">
+    <title lang="en">Happy Endings</title>
+    <desc lang="en">Happy Endings (2005)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/770/356/61770356/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">19580701</episode-num>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20050120</episode-num>
   </programme>
-  <programme start="20260903055900 +0000" stop="20260903065500 +0000" channel="RETRPXHD.us">
-    <title lang="en">Oath of Vengeance</title>
-    <desc lang="en">Oath of Vengeance (1944)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/442/868/442868/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">19441209</episode-num>
-  </programme>
-  <programme start="20260903065500 +0000" stop="20260903074900 +0000" channel="RETRPXHD.us">
-    <title lang="en">Overland Riders</title>
-    <desc lang="en">Overland Riders (1946)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/158/570/356158570/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">19460821</episode-num>
-  </programme>
-  <programme start="20260903074900 +0000" stop="20260903092500 +0000" channel="RETRPXHD.us">
-    <title lang="en">Magnificent Matador</title>
-    <desc lang="en">Magnificent Matador (1955)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/228/749/228749/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904141100 +0000" stop="20260904162500 +0000" channel="INDIPXHD.us">
+    <title lang="en">The Promise</title>
+    <desc lang="en">The Promise (2016)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/561/332/361561332/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">19550524</episode-num>
+    <rating system="MPAA">
+      <value>pg13</value>
+    </rating>
+    <episode-num system="original-air-date">20180506</episode-num>
   </programme>
   <programme start="20260903092500 +0000" stop="20260903102000 +0000" channel="RETRPXHD.us">
     <title lang="en">Man from Oklahoma</title>
@@ -9200,41 +9080,41 @@
     </video>
     <episode-num system="original-air-date">19520428</episode-num>
   </programme>
-  <programme start="20260903024500 +0000" stop="20260903044500 +0000" channel="FLIXHD-E.us">
-    <title lang="en">Restoration</title>
-    <desc lang="en">Restoration (1995)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/322/145/322145/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">19951229</episode-num>
+  <programme start="20260904102800 +0000" stop="20260904112200 +0000" channel="RETRPXHD.us">
+    <title lang="en">The Dawn Rider</title>
+    <desc lang="en">The Dawn Rider (1935)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/165/209/165209/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">19350620</episode-num>
   </programme>
-  <programme start="20260903044500 +0000" stop="20260903064500 +0000" channel="FLIXHD-E.us">
-    <title lang="en">The King's Speech</title>
-    <desc lang="en">The King's Speech (2010)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/605/654/177605654/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20110422</episode-num>
+  <programme start="20260904112200 +0000" stop="20260904121500 +0000" channel="RETRPXHD.us">
+    <title lang="en">Desert Trail</title>
+    <desc lang="en">Desert Trail (1935)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/062/134/62134/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">19350421</episode-num>
   </programme>
-  <programme start="20260903064500 +0000" stop="20260903083000 +0000" channel="FLIXHD-E.us">
-    <title lang="en">Welcome to Sarajevo</title>
-    <desc lang="en">Welcome to Sarajevo (1997)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/236/195/236195/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904121500 +0000" stop="20260904131000 +0000" channel="RETRPXHD.us">
+    <title lang="en">Stage to Mesa City</title>
+    <desc lang="en">Stage to Mesa City (1947)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/062/162/62162/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">19470913</episode-num>
+  </programme>
+  <programme start="20260904131000 +0000" stop="20260904143800 +0000" channel="RETRPXHD.us">
+    <title lang="en">Little Big Horn</title>
+    <desc lang="en">Little Big Horn (1951)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/432/241/432241/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20060605</episode-num>
+    <episode-num system="original-air-date">19510615</episode-num>
+  </programme>
+  <programme start="20260904143800 +0000" stop="20260904160000 +0000" channel="RETRPXHD.us">
+    <title lang="en">Silver Lode</title>
+    <desc lang="en">Silver Lode (1954)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/651/160/351651160/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19540723</episode-num>
   </programme>
   <programme start="20260903083000 +0000" stop="20260903102000 +0000" channel="FLIXHD-E.us">
     <title lang="en">Below</title>
@@ -9413,65 +9293,29 @@
     </rating>
     <episode-num system="original-air-date">20010629</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903050000 +0000" channel="SUNHD-E.us">
-    <title lang="en">Law &amp; Order</title>
-    <sub-title lang="en">The Torrents of Greed</sub-title>
-    <desc lang="en">The Torrents of Greed</desc>
-    <icon src="https://i.tivo.com/images-production/collection/014/515/14515/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904113000 +0000" stop="20260904132500 +0000" channel="FLIXHD-E.us">
+    <title lang="en">Emily Bronte's Wuthering Heights</title>
+    <desc lang="en">Emily Bronte's Wuthering Heights (1992)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/218/289/218289/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">19910219</episode-num>
+    <rating system="MPAA">
+      <value>pg</value>
+    </rating>
+    <episode-num system="original-air-date">20231203</episode-num>
   </programme>
-  <programme start="20260903050000 +0000" stop="20260903060000 +0000" channel="SUNHD-E.us">
-    <title lang="en">Law &amp; Order</title>
-    <sub-title lang="en">Mushrooms</sub-title>
-    <desc lang="en">Mushrooms</desc>
-    <icon src="https://i.tivo.com/images-production/collection/014/515/14515/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904132500 +0000" stop="20260904154500 +0000" channel="FLIXHD-E.us">
+    <title lang="en">The Lovely Bones</title>
+    <desc lang="en">The Lovely Bones (2009)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/166/325/139166325/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">19910226</episode-num>
-  </programme>
-  <programme start="20260903060000 +0000" stop="20260903070000 +0000" channel="SUNHD-E.us">
-    <title lang="en">Law &amp; Order</title>
-    <sub-title lang="en">The Secret Sharers</sub-title>
-    <desc lang="en">The Secret Sharers</desc>
-    <icon src="https://i.tivo.com/images-production/collection/014/515/14515/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">19910312</episode-num>
-  </programme>
-  <programme start="20260903070000 +0000" stop="20260903080000 +0000" channel="SUNHD-E.us">
-    <title lang="en">Law &amp; Order</title>
-    <sub-title lang="en">The Serpent's Tooth</sub-title>
-    <desc lang="en">The Serpent's Tooth</desc>
-    <icon src="https://i.tivo.com/images-production/collection/014/515/14515/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">19910319</episode-num>
-  </programme>
-  <programme start="20260903080000 +0000" stop="20260903083000 +0000" channel="SUNHD-E.us">
-    <title lang="en">The Andy Griffith Show</title>
-    <sub-title lang="en">The Inspector</sub-title>
-    <desc lang="en">The Inspector</desc>
-    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">19610310</episode-num>
-  </programme>
-  <programme start="20260903083000 +0000" stop="20260903090500 +0000" channel="SUNHD-E.us">
-    <title lang="en">The Andy Griffith Show</title>
-    <sub-title lang="en">Goober's Replacement</sub-title>
-    <desc lang="en">Goober's Replacement</desc>
-    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">19660328</episode-num>
+    <rating system="MPAA">
+      <value>pg13</value>
+    </rating>
+    <episode-num system="original-air-date">20160102</episode-num>
   </programme>
   <programme start="20260903090500 +0000" stop="20260903094000 +0000" channel="SUNHD-E.us">
     <title lang="en">The Andy Griffith Show</title>
@@ -9813,10 +9657,115 @@
     </video>
     <episode-num system="original-air-date">19610501</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903070000 +0000" channel="GAME-1.us">
-    <title lang="en">MLB Extra Innings</title>
-    <desc lang="en">MLB Extra Innings</desc>
-    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904103000 +0000" stop="20260904110000 +0000" channel="SUNHD-E.us">
+    <title lang="en">The Andy Griffith Show</title>
+    <sub-title lang="en">Barney Gets His Man</sub-title>
+    <desc lang="en">Barney Gets His Man</desc>
+    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19610508</episode-num>
+  </programme>
+  <programme start="20260904110000 +0000" stop="20260904113000 +0000" channel="SUNHD-E.us">
+    <title lang="en">The Andy Griffith Show</title>
+    <sub-title lang="en">The Guitar Player Returns</sub-title>
+    <desc lang="en">The Guitar Player Returns</desc>
+    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19610515</episode-num>
+  </programme>
+  <programme start="20260904113000 +0000" stop="20260904120000 +0000" channel="SUNHD-E.us">
+    <title lang="en">The Andy Griffith Show</title>
+    <sub-title lang="en">Bringing Up Opie</sub-title>
+    <desc lang="en">Bringing Up Opie</desc>
+    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19610522</episode-num>
+  </programme>
+  <programme start="20260904120000 +0000" stop="20260904123000 +0000" channel="SUNHD-E.us">
+    <title lang="en">The Andy Griffith Show</title>
+    <sub-title lang="en">Opie and the Bully</sub-title>
+    <desc lang="en">Opie and the Bully</desc>
+    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19611002</episode-num>
+  </programme>
+  <programme start="20260904123000 +0000" stop="20260904130000 +0000" channel="SUNHD-E.us">
+    <title lang="en">The Andy Griffith Show</title>
+    <sub-title lang="en">Barney's Replacement</sub-title>
+    <desc lang="en">Barney's Replacement</desc>
+    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19611009</episode-num>
+  </programme>
+  <programme start="20260904130000 +0000" stop="20260904133000 +0000" channel="SUNHD-E.us">
+    <title lang="en">The Andy Griffith Show</title>
+    <sub-title lang="en">Andy and the Woman Speeder</sub-title>
+    <desc lang="en">Andy and the Woman Speeder</desc>
+    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19611016</episode-num>
+  </programme>
+  <programme start="20260904133000 +0000" stop="20260904140000 +0000" channel="SUNHD-E.us">
+    <title lang="en">The Andy Griffith Show</title>
+    <sub-title lang="en">Mayberry Goes Bankrupt</sub-title>
+    <desc lang="en">Mayberry Goes Bankrupt</desc>
+    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19611023</episode-num>
+  </programme>
+  <programme start="20260904140000 +0000" stop="20260904143000 +0000" channel="SUNHD-E.us">
+    <title lang="en">The Andy Griffith Show</title>
+    <sub-title lang="en">Barney on the Rebound</sub-title>
+    <desc lang="en">Barney on the Rebound</desc>
+    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19611030</episode-num>
+  </programme>
+  <programme start="20260904143000 +0000" stop="20260904150000 +0000" channel="SUNHD-E.us">
+    <title lang="en">The Andy Griffith Show</title>
+    <sub-title lang="en">Opie's Hobo Friend</sub-title>
+    <desc lang="en">Opie's Hobo Friend</desc>
+    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19611113</episode-num>
+  </programme>
+  <programme start="20260904150000 +0000" stop="20260904153000 +0000" channel="SUNHD-E.us">
+    <title lang="en">The Andy Griffith Show</title>
+    <sub-title lang="en">Crime-free Mayberry</sub-title>
+    <desc lang="en">Crime-free Mayberry</desc>
+    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19611120</episode-num>
+  </programme>
+  <programme start="20260904153000 +0000" stop="20260904160000 +0000" channel="SUNHD-E.us">
+    <title lang="en">The Andy Griffith Show</title>
+    <sub-title lang="en">The Perfect Female</sub-title>
+    <desc lang="en">The Perfect Female</desc>
+    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19611127</episode-num>
   </programme>
   <programme start="20260903070000 +0000" stop="20260903100000 +0000" channel="GAME-1.us">
     <title lang="en">MLB Extra Innings</title>
@@ -9892,7 +9841,7 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903070000 +0000" channel="GAME-2.us">
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME-1.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -9971,7 +9920,7 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903070000 +0000" channel="GAME-3.us">
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME-2.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -10038,7 +9987,7 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903070000 +0000" channel="GAME-4.us">
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME-3.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -10105,12 +10054,7 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903043000 +0000" channel="GAME-5.us">
-    <title lang="en">MLB Baseball Postgame Show</title>
-    <desc lang="en">MLB Baseball Postgame Show</desc>
-    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903043000 +0000" stop="20260903070000 +0000" channel="GAME-5.us">
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME-4.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -10182,14 +10126,7 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903013000 +0000" stop="20260903043000 +0000" channel="GAME-6.us">
-    <title lang="en">MLB Baseball</title>
-    <sub-title lang="en">New York Yankees at Los Angeles Angels</sub-title>
-    <desc lang="en">New York Yankees at Los Angeles Angels</desc>
-    <icon src="https://i.tivo.com/images-production/collection/753/967/10753967/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20260902</episode-num>
-  </programme>
-  <programme start="20260903043000 +0000" stop="20260903070000 +0000" channel="GAME-6.us">
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME-5.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -10261,12 +10198,7 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903050000 +0000" channel="GAME-7.us">
-    <title lang="en">MLB Baseball Postgame Show</title>
-    <desc lang="en">MLB Baseball Postgame Show</desc>
-    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903050000 +0000" stop="20260903070000 +0000" channel="GAME-7.us">
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME-6.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -10323,12 +10255,7 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903041500 +0000" stop="20260903044500 +0000" channel="GAME-8.us">
-    <title lang="en">MLB Baseball Postgame Show</title>
-    <desc lang="en">MLB Baseball Postgame Show</desc>
-    <icon src="https://i.tivo.com/images-production/collection/760/896/349760896/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903044500 +0000" stop="20260903070000 +0000" channel="GAME-8.us">
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME-7.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -10390,7 +10317,7 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903070000 +0000" channel="GAME-9.us">
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME-8.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -10457,7 +10384,7 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903070000 +0000" channel="GAME10.us">
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME-9.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -10519,7 +10446,7 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903070000 +0000" channel="GAME11.us">
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME10.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -10586,7 +10513,7 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903070000 +0000" channel="GAME12.us">
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME11.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -10648,7 +10575,7 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903070000 +0000" channel="GAME13.us">
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME12.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -10715,7 +10642,7 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903070000 +0000" channel="GAME14.us">
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME13.us">
     <title lang="en">MLB Extra Innings</title>
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
@@ -10782,17 +10709,10 @@
     <desc lang="en">MLB Extra Innings</desc>
     <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903060000 +0000" channel="TEAM1.us">
-    <title lang="en">Sports Packages</title>
-    <desc lang="en">Sports Packages</desc>
-    <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20101229</episode-num>
-  </programme>
-  <programme start="20260903060000 +0000" stop="20260903080000 +0000" channel="TEAM1.us">
-    <title lang="en">Sports Packages</title>
-    <desc lang="en">Sports Packages</desc>
-    <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20101229</episode-num>
+  <programme start="20260904130000 +0000" stop="20260904160000 +0000" channel="GAME14.us">
+    <title lang="en">MLB Extra Innings</title>
+    <desc lang="en">MLB Extra Innings</desc>
+    <icon src="https://i.tivo.com/images-production/collection/698/055/698055/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260903080000 +0000" stop="20260903100000 +0000" channel="TEAM1.us">
     <title lang="en">Sports Packages</title>
@@ -10878,13 +10798,13 @@
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903060000 +0000" channel="TEAM2.us">
+  <programme start="20260904120000 +0000" stop="20260904140000 +0000" channel="TEAM1.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903060000 +0000" stop="20260903080000 +0000" channel="TEAM2.us">
+  <programme start="20260904140000 +0000" stop="20260904160000 +0000" channel="TEAM1.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
@@ -10974,13 +10894,13 @@
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903060000 +0000" channel="TEAM3.us">
+  <programme start="20260904120000 +0000" stop="20260904140000 +0000" channel="TEAM2.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903060000 +0000" stop="20260903080000 +0000" channel="TEAM3.us">
+  <programme start="20260904140000 +0000" stop="20260904160000 +0000" channel="TEAM2.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
@@ -11070,13 +10990,13 @@
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903060000 +0000" channel="TEAM4.us">
+  <programme start="20260904120000 +0000" stop="20260904140000 +0000" channel="TEAM3.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903060000 +0000" stop="20260903080000 +0000" channel="TEAM4.us">
+  <programme start="20260904140000 +0000" stop="20260904160000 +0000" channel="TEAM3.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
@@ -11166,13 +11086,13 @@
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903060000 +0000" channel="TEAM5.us">
+  <programme start="20260904120000 +0000" stop="20260904140000 +0000" channel="TEAM4.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903060000 +0000" stop="20260903080000 +0000" channel="TEAM5.us">
+  <programme start="20260904140000 +0000" stop="20260904160000 +0000" channel="TEAM4.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
@@ -11262,13 +11182,13 @@
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903060000 +0000" channel="TEAM6.us">
+  <programme start="20260904120000 +0000" stop="20260904140000 +0000" channel="TEAM5.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903060000 +0000" stop="20260903080000 +0000" channel="TEAM6.us">
+  <programme start="20260904140000 +0000" stop="20260904160000 +0000" channel="TEAM5.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
@@ -11358,13 +11278,13 @@
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903060000 +0000" channel="TEAM7.us">
+  <programme start="20260904120000 +0000" stop="20260904140000 +0000" channel="TEAM6.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903060000 +0000" stop="20260903080000 +0000" channel="TEAM7.us">
+  <programme start="20260904140000 +0000" stop="20260904160000 +0000" channel="TEAM6.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
@@ -11454,13 +11374,13 @@
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903060000 +0000" channel="TEAM8.us">
+  <programme start="20260904120000 +0000" stop="20260904140000 +0000" channel="TEAM7.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903060000 +0000" stop="20260903080000 +0000" channel="TEAM8.us">
+  <programme start="20260904140000 +0000" stop="20260904160000 +0000" channel="TEAM7.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
@@ -11550,13 +11470,13 @@
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903060000 +0000" channel="TEAM9.us">
+  <programme start="20260904120000 +0000" stop="20260904140000 +0000" channel="TEAM8.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903060000 +0000" stop="20260903080000 +0000" channel="TEAM9.us">
+  <programme start="20260904140000 +0000" stop="20260904160000 +0000" channel="TEAM8.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
@@ -11646,13 +11566,13 @@
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903060000 +0000" channel="TEAM100.us">
+  <programme start="20260904120000 +0000" stop="20260904140000 +0000" channel="TEAM9.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903060000 +0000" stop="20260903080000 +0000" channel="TEAM100.us">
+  <programme start="20260904140000 +0000" stop="20260904160000 +0000" channel="TEAM9.us">
     <title lang="en">Sports Packages</title>
     <desc lang="en">Sports Packages</desc>
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
@@ -11742,60 +11662,17 @@
     <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903043000 +0000" channel="WSTE.us">
-    <title lang="en">Programación pagada</title>
-    <desc lang="en">Programación pagada</desc>
-    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904120000 +0000" stop="20260904140000 +0000" channel="TEAM100.us">
+    <title lang="en">Sports Packages</title>
+    <desc lang="en">Sports Packages</desc>
+    <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20101229</episode-num>
   </programme>
-  <programme start="20260903043000 +0000" stop="20260903050000 +0000" channel="WSTE.us">
-    <title lang="en">Programación pagada</title>
-    <desc lang="en">Programación pagada</desc>
-    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903050000 +0000" stop="20260903053000 +0000" channel="WSTE.us">
-    <title lang="en">Programación pagada</title>
-    <desc lang="en">Programación pagada</desc>
-    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903053000 +0000" stop="20260903060000 +0000" channel="WSTE.us">
-    <title lang="en">Programación pagada</title>
-    <desc lang="en">Programación pagada</desc>
-    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903060000 +0000" stop="20260903063000 +0000" channel="WSTE.us">
-    <title lang="en">Programación pagada</title>
-    <desc lang="en">Programación pagada</desc>
-    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903063000 +0000" stop="20260903070000 +0000" channel="WSTE.us">
-    <title lang="en">Programación pagada</title>
-    <desc lang="en">Programación pagada</desc>
-    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903070000 +0000" stop="20260903073000 +0000" channel="WSTE.us">
-    <title lang="en">Programación pagada</title>
-    <desc lang="en">Programación pagada</desc>
-    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903073000 +0000" stop="20260903080000 +0000" channel="WSTE.us">
-    <title lang="en">Programación pagada</title>
-    <desc lang="en">Programación pagada</desc>
-    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903080000 +0000" stop="20260903083000 +0000" channel="WSTE.us">
-    <title lang="en">Programación pagada</title>
-    <desc lang="en">Programación pagada</desc>
-    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903083000 +0000" stop="20260903090000 +0000" channel="WSTE.us">
-    <title lang="en">Programación pagada</title>
-    <desc lang="en">Programación pagada</desc>
-    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903090000 +0000" stop="20260903093000 +0000" channel="WSTE.us">
-    <title lang="en">Programación pagada</title>
-    <desc lang="en">Programación pagada</desc>
-    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904140000 +0000" stop="20260904160000 +0000" channel="TEAM100.us">
+    <title lang="en">Sports Packages</title>
+    <desc lang="en">Sports Packages</desc>
+    <icon src="https://i.tivo.com/images-production/collection/533/758/343533758/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20101229</episode-num>
   </programme>
   <programme start="20260903093000 +0000" stop="20260903100000 +0000" channel="WSTE.us">
     <title lang="en">Programación pagada</title>
@@ -11954,48 +11831,27 @@
     <desc lang="en">Programación pagada</desc>
     <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903050000 +0000" channel="WORO.us">
-    <title lang="en">Misa Diaria</title>
-    <desc lang="en">Misa Diaria</desc>
-    <icon src="https://i.tivo.com/images-production/collection/602/895/3602895/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904103000 +0000" stop="20260904110000 +0000" channel="WSTE.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903050000 +0000" stop="20260903060000 +0000" channel="WORO.us">
-    <title lang="en">La Biblia</title>
-    <desc lang="en">La Biblia</desc>
-    <icon src="https://i.tivo.com/images-production/collection/988/339/328988339/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
+  <programme start="20260904110000 +0000" stop="20260904120000 +0000" channel="WSTE.us">
+    <title lang="en">Despierta América</title>
+    <desc lang="en">Despierta América</desc>
+    <icon src="https://i.tivo.com/images-production/collection/056/972/56972/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20220809</episode-num>
   </programme>
-  <programme start="20260903060000 +0000" stop="20260903070000 +0000" channel="WORO.us">
-    <title lang="en">Audiencia General Del Papa Leon XIV</title>
-    <desc lang="en">Audiencia General Del Papa Leon XIV</desc>
-    <icon src="https://i.tivo.com/images-production/collection/724/725/536724725/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904120000 +0000" stop="20260904150000 +0000" channel="WSTE.us">
+    <title lang="en">Despierta América</title>
+    <desc lang="en">Despierta América</desc>
+    <icon src="https://i.tivo.com/images-production/collection/056/972/56972/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20220809</episode-num>
   </programme>
-  <programme start="20260903070000 +0000" stop="20260903073000 +0000" channel="WORO.us">
-    <title lang="en">Mente y corazón</title>
-    <desc lang="en">Mente y corazón</desc>
-    <icon src="https://i.tivo.com/images-production/collection/094/586/367094586/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903073000 +0000" stop="20260903080000 +0000" channel="WORO.us">
-    <title lang="en">Semillas de Alegría</title>
-    <desc lang="en">Semillas de Alegría</desc>
-    <icon src="https://i.tivo.com/images-production/collection/882/628/6882628/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903080000 +0000" stop="20260903083000 +0000" channel="WORO.us">
-    <title lang="en">María Corazón</title>
-    <desc lang="en">María Corazón</desc>
-    <icon src="https://i.tivo.com/images-production/collection/139/436/525139436/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903083000 +0000" stop="20260903090000 +0000" channel="WORO.us">
-    <title lang="en">Aviva</title>
-    <desc lang="en">Aviva</desc>
-    <icon src="https://i.tivo.com/images-production/collection/094/598/367094598/showcaseBanner_560x419.jpg"/>
-  </programme>
-  <programme start="20260903090000 +0000" stop="20260903093000 +0000" channel="WORO.us">
-    <title lang="en">¡Familia!, activa tu fe</title>
-    <desc lang="en">¡Familia!, activa tu fe</desc>
-    <icon src="https://i.tivo.com/images-production/collection/094/596/367094596/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904150000 +0000" stop="20260904160000 +0000" channel="WSTE.us">
+    <title lang="en">Mañana es para siempre</title>
+    <desc lang="en">Mañana es para siempre</desc>
+    <icon src="https://i.tivo.com/images-production/collection/064/792/138064792/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260903093000 +0000" stop="20260903100000 +0000" channel="WORO.us">
     <title lang="en">Santo Rosario</title>
@@ -12184,36 +12040,40 @@
     <desc lang="en">Misa Diaria</desc>
     <icon src="https://i.tivo.com/images-production/collection/602/895/3602895/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903040500 +0000" stop="20260903043500 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">Comics Unleashed with Byron Allen</title>
-    <sub-title lang="en">Howie Mandel; Caroline Rhea; Aries Spears; Harland Williams</sub-title>
-    <desc lang="en">Howie Mandel; Caroline Rhea; Aries Spears; Harland Williams</desc>
-    <icon src="https://i.tivo.com/images-production/collection/019/537/19537/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20250924</episode-num>
+  <programme start="20260904110000 +0000" stop="20260904120000 +0000" channel="WORO.us">
+    <title lang="en">Alianza por la salud del pensionado</title>
+    <desc lang="en">Alianza por la salud del pensionado</desc>
+    <icon src="https://i.tivo.com/images-production/collection/778/780/545778780/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903043500 +0000" stop="20260903050500 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">Funny You Should Ask</title>
-    <sub-title lang="en">Jon Lovitz; Kim Whitley; Billy Gardell; Byron Allen; Natasha Leggero; Jamie Kennedy</sub-title>
-    <desc lang="en">Jon Lovitz; Kim Whitley; Billy Gardell; Byron Allen; Natasha Leggero; Jamie Kennedy</desc>
-    <icon src="https://i.tivo.com/images-production/collection/156/784/377156784/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20260320</episode-num>
+  <programme start="20260904120000 +0000" stop="20260904130000 +0000" channel="WORO.us">
+    <title lang="en">Contigo siempre</title>
+    <desc lang="en">Contigo siempre</desc>
+    <icon src="https://i.tivo.com/images-production/collection/557/981/407557981/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903050500 +0000" stop="20260903053500 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">Funny You Should Ask</title>
-    <sub-title lang="en">Jon Lovitz; Jackeé Harry; Adam Carolla; Byron Allen; Natasha Leggero; Jimmie Walker</sub-title>
-    <desc lang="en">Jon Lovitz; Jackeé Harry; Adam Carolla; Byron Allen; Natasha Leggero; Jimmie Walker</desc>
-    <icon src="https://i.tivo.com/images-production/collection/156/784/377156784/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20250917</episode-num>
+  <programme start="20260904130000 +0000" stop="20260904140000 +0000" channel="WORO.us">
+    <title lang="en">Mi Gente</title>
+    <desc lang="en">Mi Gente</desc>
+    <icon src="https://i.tivo.com/images-production/collection/582/700/176582700/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903053500 +0000" stop="20260903060500 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">ICOPR</title>
-    <desc lang="en">ICOPR</desc>
-    <icon src="https://i.tivo.com/images-production/collection/103/181/437103181/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904140000 +0000" stop="20260904143000 +0000" channel="WORO.us">
+    <title lang="en">¿De que se trata?</title>
+    <desc lang="en">¿De que se trata?</desc>
+    <icon src="https://i.tivo.com/images-production/collection/557/995/407557995/showcaseBanner_560x419.jpg"/>
   </programme>
-  <programme start="20260903060500 +0000" stop="20260903090000 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">CBS News Roundup</title>
-    <desc lang="en">CBS News Roundup</desc>
-    <icon src="https://i.tivo.com/images-production/collection/204/619/499204619/showcaseBanner_560x419.jpg"/>
+  <programme start="20260904143000 +0000" stop="20260904150000 +0000" channel="WORO.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260904150000 +0000" stop="20260904153000 +0000" channel="WORO.us">
+    <title lang="en">Acercate a la Fuente</title>
+    <desc lang="en">Acercate a la Fuente</desc>
+    <icon src="https://i.tivo.com/images-production/collection/139/448/525139448/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260904153000 +0000" stop="20260904160000 +0000" channel="WORO.us">
+    <title lang="en">Santo Rosario</title>
+    <desc lang="en">Santo Rosario</desc>
+    <icon src="https://i.tivo.com/images-production/collection/047/597/128047597/showcaseBanner_560x419.jpg"/>
   </programme>
   <programme start="20260903090000 +0000" stop="20260903100000 +0000" channel="WSEEDT-PR.us">
     <title lang="en">CBS Mornings</title>
@@ -12353,26 +12213,19 @@
     <icon src="https://i.tivo.com/images-production/collection/520/105/407520105/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20260903</episode-num>
   </programme>
-  <programme start="20260904010000 +0000" stop="20260904013100 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">Georgie &amp; Mandy's First Marriage</title>
-    <sub-title lang="en">A Bus Bench and Faith out the Wazoo</sub-title>
-    <desc lang="en">A Bus Bench and Faith out the Wazoo</desc>
-    <icon src="https://i.tivo.com/images-production/collection/593/640/506593640/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20251204</episode-num>
+  <programme start="20260904010000 +0000" stop="20260904023000 +0000" channel="WSEEDT-PR.us">
+    <title lang="en">Survivor</title>
+    <sub-title lang="en">Everyone Will Be Shooketh!</sub-title>
+    <desc lang="en">Everyone Will Be Shooketh!</desc>
+    <icon src="https://i.tivo.com/images-production/collection/654/589/408654589/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260506</episode-num>
   </programme>
-  <programme start="20260904013100 +0000" stop="20260904020100 +0000" channel="WSEEDT-PR.us">
+  <programme start="20260904023000 +0000" stop="20260904030000 +0000" channel="WSEEDT-PR.us">
     <title lang="en">Ghosts</title>
     <sub-title lang="en">Up the Creek</sub-title>
     <desc lang="en">Up the Creek</desc>
     <icon src="https://i.tivo.com/images-production/collection/532/372/444532372/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20260827</episode-num>
-  </programme>
-  <programme start="20260904020100 +0000" stop="20260904030000 +0000" channel="WSEEDT-PR.us">
-    <title lang="en">Elsbeth</title>
-    <sub-title lang="en">Yes, And...</sub-title>
-    <desc lang="en">Yes, And...</desc>
-    <icon src="https://i.tivo.com/images-production/collection/256/562/478256562/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20251012</episode-num>
   </programme>
   <programme start="20260904030000 +0000" stop="20260904033500 +0000" channel="WSEEDT-PR.us">
     <title lang="en">On the Go PR</title>
@@ -12429,26 +12282,44 @@
     <icon src="https://i.tivo.com/images-production/collection/160/152/322160152/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20260224</episode-num>
   </programme>
-  <programme start="20260903040000 +0000" stop="20260903050000 +0000" channel="UNT-LAT.us">
-    <title lang="en">El color de la pasión</title>
-    <sub-title lang="en">111 al 115</sub-title>
-    <desc lang="en">111 al 115</desc>
-    <icon src="https://i.tivo.com/images-production/collection/991/695/530991695/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20260831</episode-num>
+  <programme start="20260904103000 +0000" stop="20260904110000 +0000" channel="WSEEDT-PR.us">
+    <title lang="en">Hot Bench</title>
+    <sub-title lang="en">Episode 3259</sub-title>
+    <desc lang="en">Episode 3259</desc>
+    <icon src="https://i.tivo.com/images-production/collection/160/152/322160152/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260224</episode-num>
   </programme>
-  <programme start="20260903050000 +0000" stop="20260903060000 +0000" channel="UNT-LAT.us">
-    <title lang="en">Por siempre mi amor</title>
-    <sub-title lang="en">1 al 3</sub-title>
-    <desc lang="en">1 al 3</desc>
-    <icon src="https://i.tivo.com/images-production/collection/290/182/316290182/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20260902</episode-num>
+  <programme start="20260904110000 +0000" stop="20260904130000 +0000" channel="WSEEDT-PR.us">
+    <title lang="en">CBS Mornings</title>
+    <sub-title lang="en">09-04-2026</sub-title>
+    <desc lang="en">09-04-2026</desc>
+    <icon src="https://i.tivo.com/images-production/collection/191/605/205191605/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260904</episode-num>
   </programme>
-  <programme start="20260903060000 +0000" stop="20260903070000 +0000" channel="UNT-LAT.us">
-    <title lang="en">Amo Despertar Contigo</title>
-    <sub-title lang="en">89 al 93</sub-title>
-    <desc lang="en">89 al 93</desc>
-    <icon src="https://i.tivo.com/images-production/collection/870/361/348870361/showcaseBanner_560x419.jpg"/>
-    <episode-num system="original-air-date">20260831</episode-num>
+  <programme start="20260904130000 +0000" stop="20260904140000 +0000" channel="WSEEDT-PR.us">
+    <title lang="en">The Kelly Clarkson Show</title>
+    <sub-title lang="en">Lawrence Zarian; Bowen Yang; Matt Rogers; Belmont Cameli; Shaun T;</sub-title>
+    <desc lang="en">Lawrence Zarian; Bowen Yang; Matt Rogers; Belmont Cameli; Shaun T;</desc>
+    <icon src="https://i.tivo.com/images-production/collection/972/527/395972527/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260904140000 +0000" stop="20260904143000 +0000" channel="WSEEDT-PR.us">
+    <title lang="en">On the Go PR</title>
+    <desc lang="en">On the Go PR</desc>
+    <icon src="https://i.tivo.com/images-production/collection/840/611/344840611/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260904143000 +0000" stop="20260904150000 +0000" channel="WSEEDT-PR.us">
+    <title lang="en">Judge Judy</title>
+    <sub-title lang="en">Child Attacked by Dog; Marital Property Payback; Loan vs. Investment 101</sub-title>
+    <desc lang="en">Child Attacked by Dog; Marital Property Payback; Loan vs. Investment 101</desc>
+    <icon src="https://i.tivo.com/images-production/collection/018/909/18909/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20150904</episode-num>
+  </programme>
+  <programme start="20260904150000 +0000" stop="20260904160000 +0000" channel="WSEEDT-PR.us">
+    <title lang="en">The Price Is Right</title>
+    <sub-title lang="en">05-01-2026</sub-title>
+    <desc lang="en">05-01-2026</desc>
+    <icon src="https://i.tivo.com/images-production/collection/055/067/55067/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260501</episode-num>
   </programme>
   <programme start="20260903070000 +0000" stop="20260903110000 +0000" channel="UNT-LAT.us">
     <title lang="en">Programación pagada</title>
@@ -12599,6 +12470,41 @@
     <title lang="en">Programación pagada</title>
     <desc lang="en">Programación pagada</desc>
     <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260904110000 +0000" stop="20260904120000 +0000" channel="UNT-LAT.us">
+    <title lang="en">Por siempre mi amor</title>
+    <sub-title lang="en">1 al 3</sub-title>
+    <desc lang="en">1 al 3</desc>
+    <icon src="https://i.tivo.com/images-production/collection/290/182/316290182/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260902</episode-num>
+  </programme>
+  <programme start="20260904120000 +0000" stop="20260904130000 +0000" channel="UNT-LAT.us">
+    <title lang="en">Amo Despertar Contigo</title>
+    <sub-title lang="en">89 al 93</sub-title>
+    <desc lang="en">89 al 93</desc>
+    <icon src="https://i.tivo.com/images-production/collection/870/361/348870361/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260831</episode-num>
+  </programme>
+  <programme start="20260904130000 +0000" stop="20260904140000 +0000" channel="UNT-LAT.us">
+    <title lang="en">La gata</title>
+    <sub-title lang="en">16 al 20</sub-title>
+    <desc lang="en">16 al 20</desc>
+    <icon src="https://i.tivo.com/images-production/collection/227/741/320227741/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260831</episode-num>
+  </programme>
+  <programme start="20260904140000 +0000" stop="20260904150000 +0000" channel="UNT-LAT.us">
+    <title lang="en">La Madrastra</title>
+    <sub-title lang="en">28 al 32</sub-title>
+    <desc lang="en">28 al 32</desc>
+    <icon src="https://i.tivo.com/images-production/collection/015/656/349015656/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260831</episode-num>
+  </programme>
+  <programme start="20260904150000 +0000" stop="20260904160000 +0000" channel="UNT-LAT.us">
+    <title lang="en">Rebelde</title>
+    <sub-title lang="en">54 al 58</sub-title>
+    <desc lang="en">54 al 58</desc>
+    <icon src="https://i.tivo.com/images-production/collection/436/078/546436078/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260831</episode-num>
   </programme>
   <programme start="20260903040000 +0000" stop="20260904040000 +0000" channel="BOXEOHD-TMP.us">
     <title lang="en">Off-Air</title>
