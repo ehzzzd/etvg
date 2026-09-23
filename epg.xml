@@ -5244,18 +5244,6 @@
     </video>
     <episode-num system="original-air-date">20201123</episode-num>
   </programme>
-  <programme start="20260923081200 +0000" stop="20260923094700 +0000" channel="HBOCHD-E.us">
-    <title lang="en">They Will Kill You</title>
-    <desc lang="en">They Will Kill You (2026)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/657/175/532657175/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20260327</episode-num>
-  </programme>
   <programme start="20260923094700 +0000" stop="20260923105300 +0000" channel="HBOCHD-E.us">
     <title lang="en">Yvonne Orji: A Whole Me</title>
     <desc lang="en">Yvonne Orji: A Whole Me (2022)</desc>
@@ -6958,18 +6946,6 @@
     <rating system="MPAA">
       <value>r</value>
     </rating>
-  </programme>
-  <programme start="20260923075100 +0000" stop="20260923094800 +0000" channel="MAXCLASSHD-E.us">
-    <title lang="en">Full Metal Jacket</title>
-    <desc lang="en">Full Metal Jacket (1987)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/643/564/643564/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20201103</episode-num>
   </programme>
   <programme start="20260923094800 +0000" stop="20260923100600 +0000" channel="MAXCLASSHD-E.us">
     <title lang="en">Pens &amp; Pencils</title>
@@ -12970,6 +12946,15 @@
       <value>r</value>
     </rating>
   </programme>
+  <programme start="20260924154800 +0000" stop="20260924170400 +0000" channel="RETRPXHD.us">
+    <title lang="en">Outlaw Women</title>
+    <desc lang="en">Outlaw Women (1952)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/250/841/5250841/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">19520428</episode-num>
+  </programme>
   <programme start="20260923081000 +0000" stop="20260923100000 +0000" channel="FLIXHD-E.us">
     <title lang="en">10 Cloverfield Lane</title>
     <desc lang="en">10 Cloverfield Lane (2016)</desc>
@@ -13182,16 +13167,6 @@
       <value>r</value>
     </rating>
     <episode-num system="original-air-date">19970110</episode-num>
-  </programme>
-  <programme start="20260923091300 +0000" stop="20260923094800 +0000" channel="SUNHD-E.us">
-    <title lang="en">The Andy Griffith Show</title>
-    <sub-title lang="en">The Rumor</sub-title>
-    <desc lang="en">The Rumor</desc>
-    <icon src="https://i.tivo.com/images-production/collection/024/801/24801/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">19640427</episode-num>
   </programme>
   <programme start="20260923094800 +0000" stop="20260923102300 +0000" channel="SUNHD-E.us">
     <title lang="en">The Andy Griffith Show</title>
