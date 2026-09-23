@@ -146,6 +146,19 @@
         "6"
       ],
       "time_shift_hours": 0
+    },
+    {
+      "id": "ota_mcallen_tx",
+      "name": "Over the Air Only (Digital) Antenna",
+      "postalCode": "78501",
+      "headend": "7850Ant",
+      "lineupType": 83,
+      "gmtOffsetSeconds": -14400,
+      "channels": [
+        "0",
+        "2"
+      ],
+      "time_shift_hours": 0
     }
   ]
 }
