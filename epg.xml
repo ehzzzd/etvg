@@ -625,6 +625,29 @@
     <display-name>PPV High-Definition (Premium Temporary)</display-name>
     <icon src="https://i.tivo.com/images-static/logos/112x32/7391.png"/>
   </channel>
+  <channel id="XHMTADT.us">
+    <display-name>XHMTADT</display-name>
+    <display-name>1-1 XHMTADT</display-name>
+    <display-name>XHMTA Azteca Uno HDTV TM</display-name>
+    <icon src="https://i.tivo.com/images-static/logos/112x32/5853.png"/>
+  </channel>
+  <channel id="XHTAMDT.us">
+    <display-name>XHTAMDT</display-name>
+    <display-name>2-1 XHTAMDT</display-name>
+    <display-name>XHTAM Las Estrellas HDTV TM</display-name>
+    <icon src="https://i.tivo.com/images-static/logos/112x32/1446.png"/>
+  </channel>
+  <channel id="XHTAMDT2.us">
+    <display-name>XHTAMDT2</display-name>
+    <display-name>2-2 XHTAMDT2</display-name>
+    <display-name>XHTAM Canal 5 -1 Hora TM</display-name>
+    <icon src="https://i.tivo.com/images-static/logos/112x32/6597.png"/>
+  </channel>
+  <channel id="XHABDT.us">
+    <display-name>XHABDT</display-name>
+    <display-name>7-1 XHABDT</display-name>
+    <display-name>XHAB Vallevisión Televisa HDTV Matamoros/Reynosa TM</display-name>
+  </channel>
   <programme start="20260923060000 +0000" stop="20260923100000 +0000" channel="NY1NEWHD.us">
     <title lang="en">News All Night</title>
     <desc lang="en">News All Night</desc>
@@ -4438,16 +4461,6 @@
       <quality>HDTV</quality>
     </video>
   </programme>
-  <programme start="20260923074500 +0000" stop="20260923084200 +0000" channel="HBOHD-E.us">
-    <title lang="en">Lanterns</title>
-    <sub-title lang="en">Bad Optics</sub-title>
-    <desc lang="en">Bad Optics</desc>
-    <icon src="https://i.tivo.com/images-production/collection/204/276/546204276/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20260920</episode-num>
-  </programme>
   <programme start="20260923084200 +0000" stop="20260923091100 +0000" channel="HBOHD-E.us">
     <title lang="en">Youth</title>
     <sub-title lang="en">Lockjaw</sub-title>
@@ -4715,6 +4728,16 @@
     </rating>
     <episode-num system="original-air-date">20260403</episode-num>
   </programme>
+  <programme start="20260924143300 +0000" stop="20260924151500 +0000" channel="HBOHD-E.us">
+    <title lang="en">JAŸ-Z IN 8</title>
+    <sub-title lang="en">Chapter One</sub-title>
+    <desc lang="en">Chapter One</desc>
+    <icon src="https://i.tivo.com/images-production/collection/647/338/549647338/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20260918</episode-num>
+  </programme>
   <programme start="20260923083100 +0000" stop="20260923110600 +0000" channel="HBOHITSHD-E.us">
     <title lang="en">The Dark Knight</title>
     <desc lang="en">The Dark Knight (2008)</desc>
@@ -4937,16 +4960,6 @@
       <value>pg13</value>
     </rating>
     <episode-num system="original-air-date">20130322</episode-num>
-  </programme>
-  <programme start="20260923080300 +0000" stop="20260923084500 +0000" channel="HBODRAMAHD-E.us">
-    <title lang="en">JAŸ-Z IN 8</title>
-    <sub-title lang="en">Chapter Two</sub-title>
-    <desc lang="en">Chapter Two</desc>
-    <icon src="https://i.tivo.com/images-production/collection/647/338/549647338/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <episode-num system="original-air-date">20260918</episode-num>
   </programme>
   <programme start="20260923084500 +0000" stop="20260923110400 +0000" channel="HBODRAMAHD-E.us">
     <title lang="en">Wuthering Heights</title>
@@ -5803,15 +5816,17 @@
     </rating>
     <episode-num system="original-air-date">20191124</episode-num>
   </programme>
-  <programme start="20260923074500 +0000" stop="20260923084200 +0000" channel="HLH-LAT.us">
-    <title lang="en">Lanterns</title>
-    <sub-title lang="en">Episodio 6</sub-title>
-    <desc lang="en">Episodio 6</desc>
-    <icon src="https://i.tivo.com/images-production/collection/061/803/548061803/showcaseBanner_560x419.jpg"/>
+  <programme start="20260924144300 +0000" stop="20260924161100 +0000" channel="HBOMOVIEHD-E.us">
+    <title lang="en">Ice Age: Continental Drift</title>
+    <desc lang="en">Ice Age: Continental Drift (2012)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/375/644/206375644/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
-    <episode-num system="original-air-date">20260920</episode-num>
+    <rating system="MPAA">
+      <value>pg</value>
+    </rating>
+    <episode-num system="original-air-date">20121221</episode-num>
   </programme>
   <programme start="20260923084200 +0000" stop="20260923091100 +0000" channel="HLH-LAT.us">
     <title lang="en">Youth</title>
@@ -6166,6 +6181,15 @@
       <value>r</value>
     </rating>
     <episode-num system="original-air-date">20260402</episode-num>
+  </programme>
+  <programme start="20260924143300 +0000" stop="20260924151500 +0000" channel="HLH-LAT.us">
+    <title lang="en">JAY-Z in 8</title>
+    <desc lang="en">JAY-Z in 8</desc>
+    <icon src="https://i.tivo.com/images-production/collection/019/674/550019674/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20260918</episode-num>
   </programme>
   <programme start="20260923050000 +0000" stop="20260924050000 +0000" channel="MAXOD.us">
     <title lang="en">Cinemax On Demand</title>
@@ -6573,6 +6597,18 @@
       <value>r</value>
     </rating>
     <episode-num system="original-air-date">20160919</episode-num>
+  </programme>
+  <programme start="20260924143400 +0000" stop="20260924161800 +0000" channel="MAXHITSHD-E.us">
+    <title lang="en">Cocktail</title>
+    <desc lang="en">Cocktail (1988)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/498/541/498541/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">19880729</episode-num>
   </programme>
   <programme start="20260923072700 +0000" stop="20260923085300 +0000" channel="MAXACT-E.us">
     <title lang="en">Holla</title>
@@ -7522,18 +7558,6 @@
     </rating>
     <episode-num system="original-air-date">20231002</episode-num>
   </programme>
-  <programme start="20260923070000 +0000" stop="20260923083500 +0000" channel="SHOSCHD-E.us">
-    <title lang="en">The Dutchman</title>
-    <desc lang="en">The Dutchman (2025)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/779/245/428779245/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20250308</episode-num>
-  </programme>
   <programme start="20260923083500 +0000" stop="20260923110000 +0000" channel="SHOSCHD-E.us">
     <title lang="en">Terms of Endearment</title>
     <desc lang="en">Terms of Endearment (1983)</desc>
@@ -8343,18 +8367,6 @@
     </video>
     <episode-num system="original-air-date">20211015</episode-num>
   </programme>
-  <programme start="20260923070500 +0000" stop="20260923083500 +0000" channel="SHOWOMENHD-E.us">
-    <title lang="en">The Last Exorcism Part II</title>
-    <desc lang="en">The Last Exorcism Part II (2013)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/190/926/242190926/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>pg13</value>
-    </rating>
-    <episode-num system="original-air-date">20130618</episode-num>
-  </programme>
   <programme start="20260923083500 +0000" stop="20260923101000 +0000" channel="SHOWOMENHD-E.us">
     <title lang="en">The Woman In Black</title>
     <desc lang="en">The Woman In Black (2012)</desc>
@@ -8531,6 +8543,18 @@
       <value>r</value>
     </rating>
     <episode-num system="original-air-date">20111209</episode-num>
+  </programme>
+  <programme start="20260924143500 +0000" stop="20260924163000 +0000" channel="SHOWOMENHD-E.us">
+    <title lang="en">A Bad Moms Christmas</title>
+    <desc lang="en">A Bad Moms Christmas (2017)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/582/493/374582493/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20171108</episode-num>
   </programme>
   <programme start="20260923083000 +0000" stop="20260923101000 +0000" channel="SHOFAM-E.us">
     <title lang="en">A Wonderful Time of the Year</title>
@@ -10231,18 +10255,6 @@
     </rating>
     <episode-num system="original-air-date">20241225</episode-num>
   </programme>
-  <programme start="20260923065500 +0000" stop="20260923084000 +0000" channel="MGM+HD-W.us">
-    <title lang="en">Ghost Town</title>
-    <desc lang="en">Ghost Town (2008)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/308/772/122308772/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>pg13</value>
-    </rating>
-    <episode-num system="original-air-date">20080919</episode-num>
-  </programme>
   <programme start="20260923084000 +0000" stop="20260923102000 +0000" channel="MGM+HD-W.us">
     <title lang="en">Hotel for Dogs</title>
     <desc lang="en">Hotel for Dogs (2009)</desc>
@@ -10856,15 +10868,6 @@
     </rating>
     <episode-num system="original-air-date">20250328</episode-num>
   </programme>
-  <programme start="20260923051500 +0000" stop="20260923084000 +0000" channel="MGM+DI.us">
-    <title lang="en">The Godfather: Part II</title>
-    <desc lang="en">The Godfather: Part II (1974)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/272/761/272761/showcaseBanner_560x419.jpg"/>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20210401</episode-num>
-  </programme>
   <programme start="20260923084000 +0000" stop="20260923103500 +0000" channel="MGM+DI.us">
     <title lang="en">52 Pick-Up</title>
     <desc lang="en">52 Pick-Up (1986)</desc>
@@ -10996,6 +10999,15 @@
       <value>pg13</value>
     </rating>
     <episode-num system="original-air-date">20000114</episode-num>
+  </programme>
+  <programme start="20260924143500 +0000" stop="20260924163500 +0000" channel="MGM+DI.us">
+    <title lang="en">World War Z</title>
+    <desc lang="en">World War Z (2013)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/046/453/211046453/showcaseBanner_560x419.jpg"/>
+    <rating system="MPAA">
+      <value>pg13</value>
+    </rating>
+    <episode-num system="original-air-date">20130917</episode-num>
   </programme>
   <programme start="20260923073500 +0000" stop="20260923090500 +0000" channel="ENCHD-E.us">
     <title lang="en">Freight: The Five Incarnations of Abel Green</title>
@@ -11515,15 +11527,6 @@
     </rating>
     <episode-num system="original-air-date">19920701</episode-num>
   </programme>
-  <programme start="20260923062200 +0000" stop="20260923083400 +0000" channel="ENCCLASS-E.us">
-    <title lang="en">The Housemaid</title>
-    <desc lang="en">The Housemaid (2025)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/851/348/526851348/showcaseBanner_560x419.jpg"/>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20251219</episode-num>
-  </programme>
   <programme start="20260923083400 +0000" stop="20260923100500 +0000" channel="ENCCLASS-E.us">
     <title lang="en">Permanent Midnight</title>
     <desc lang="en">Permanent Midnight (1998)</desc>
@@ -11676,6 +11679,15 @@
       <value>pg</value>
     </rating>
     <episode-num system="original-air-date">20121119</episode-num>
+  </programme>
+  <programme start="20260924143400 +0000" stop="20260924161100 +0000" channel="ENCCLASS-E.us">
+    <title lang="en">Live!</title>
+    <desc lang="en">Live! (2007)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/141/870/137141870/showcaseBanner_560x419.jpg"/>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20080123</episode-num>
   </programme>
   <programme start="20260923082400 +0000" stop="20260923100100 +0000" channel="ENCSUS-E.us">
     <title lang="en">Candyman: Day of the Dead</title>
@@ -11838,6 +11850,15 @@
       <value>pg13</value>
     </rating>
     <episode-num system="original-air-date">20110816</episode-num>
+  </programme>
+  <programme start="20260924143900 +0000" stop="20260924162400 +0000" channel="ENCSUS-E.us">
+    <title lang="en">Jack Goes Home</title>
+    <desc lang="en">Jack Goes Home (2016)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/463/687/362463687/showcaseBanner_560x419.jpg"/>
+    <rating system="MPAA">
+      <value>r</value>
+    </rating>
+    <episode-num system="original-air-date">20160314</episode-num>
   </programme>
   <programme start="20260923082600 +0000" stop="20260923100200 +0000" channel="ENCWEST-E.us">
     <title lang="en">Fighting Man of the Plains</title>
@@ -12033,15 +12054,6 @@
       <value>r</value>
     </rating>
     <episode-num system="original-air-date">20180316</episode-num>
-  </programme>
-  <programme start="20260923071600 +0000" stop="20260923084700 +0000" channel="ENCFAM-E.us">
-    <title lang="en">Yellowbird</title>
-    <desc lang="en">Yellowbird (2014)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/526/573/326526573/showcaseBanner_560x419.jpg"/>
-    <rating system="MPAA">
-      <value>pg</value>
-    </rating>
-    <episode-num system="original-air-date">20210501</episode-num>
   </programme>
   <programme start="20260923084700 +0000" stop="20260923102100 +0000" channel="ENCFAM-E.us">
     <title lang="en">Girl in Progress</title>
@@ -12455,6 +12467,18 @@
       <value>g</value>
     </rating>
     <episode-num system="original-air-date">20000902</episode-num>
+  </programme>
+  <programme start="20260924144500 +0000" stop="20260924162900 +0000" channel="PLEXHD-E.us">
+    <title lang="en">The Winning Season</title>
+    <desc lang="en">The Winning Season (2009)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/173/945/168173945/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="MPAA">
+      <value>pg13</value>
+    </rating>
+    <episode-num system="original-air-date">20090119</episode-num>
   </programme>
   <programme start="20260923074400 +0000" stop="20260923092500 +0000" channel="INDIPXHD.us">
     <title lang="en">Battle Ground</title>
@@ -13108,18 +13132,6 @@
       <value>pg</value>
     </rating>
     <episode-num system="original-air-date">19790622</episode-num>
-  </programme>
-  <programme start="20260923060800 +0000" stop="20260923083800 +0000" channel="SUNHD-E.us">
-    <title lang="en">The Taking of Pelham 1 2 3</title>
-    <desc lang="en">The Taking of Pelham 1 2 3 (2009)</desc>
-    <icon src="https://i.tivo.com/images-production/collection/719/024/113719024/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
-    <rating system="MPAA">
-      <value>r</value>
-    </rating>
-    <episode-num system="original-air-date">20210501</episode-num>
   </programme>
   <programme start="20260923083800 +0000" stop="20260923091300 +0000" channel="SUNHD-E.us">
     <title lang="en">The Andy Griffith Show</title>
@@ -18215,12 +18227,6 @@
     <icon src="https://i.tivo.com/images-production/collection/015/656/349015656/showcaseBanner_560x419.jpg"/>
     <episode-num system="original-air-date">20260921</episode-num>
   </programme>
-  <programme start="20260923075200 +0000" stop="20260923083900 +0000" channel="DCK.us">
-    <title lang="en">Behind Bars: The World's Toughest Prisons</title>
-    <sub-title lang="en">Prisión de Osaka, Japón</sub-title>
-    <desc lang="en">Prisión de Osaka, Japón</desc>
-    <icon src="https://i.tivo.com/images-production/collection/438/656/423438656/showcaseBanner_560x419.jpg"/>
-  </programme>
   <programme start="20260923083900 +0000" stop="20260923092600 +0000" channel="DCK.us">
     <title lang="en">Mirada policial</title>
     <sub-title lang="en">Hasta que los neumáticos se caigan</sub-title>
@@ -18455,6 +18461,13 @@
     <sub-title lang="en">Atacados por sorpresa</sub-title>
     <desc lang="en">Atacados por sorpresa</desc>
     <icon src="https://i.tivo.com/images-production/collection/605/110/488605110/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924143800 +0000" stop="20260924152700 +0000" channel="DCK.us">
+    <title lang="en">Ed Stafford: Rituales del Mundo</title>
+    <sub-title lang="en">Shaolin</sub-title>
+    <desc lang="en">Shaolin</desc>
+    <icon src="https://i.tivo.com/images-production/collection/695/980/541695980/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20260716</episode-num>
   </programme>
   <programme start="20260923083000 +0000" stop="20260923092000 +0000" channel="API.us">
     <title lang="en">Viento del Everest</title>
@@ -19459,15 +19472,6 @@
       <quality>HDTV</quality>
     </video>
     <episode-num system="original-air-date">20181122</episode-num>
-  </programme>
-  <programme start="20260923081900 +0000" stop="20260923084300 +0000" channel="DKLHD.us">
-    <title lang="en">Especial - Mini Beat Power Rockers</title>
-    <sub-title lang="en">A dormir rockerito / El enigma de la pirámide / ¡He vuelto! / Siente la música / Salvemos a</sub-title>
-    <desc lang="en">A dormir rockerito / El enigma de la pirámide / ¡He vuelto! / Siente la música / Salvemos a</desc>
-    <icon src="https://i.tivo.com/images-production/collection/687/909/431687909/showcaseBanner_560x419.jpg"/>
-    <video>
-      <quality>HDTV</quality>
-    </video>
   </programme>
   <programme start="20260923084300 +0000" stop="20260923090700 +0000" channel="DKLHD.us">
     <title lang="en">Mini Beat Power Rockers</title>
@@ -21252,6 +21256,919 @@
     <title lang="en">Next event coming soon</title>
     <desc lang="en">Next event coming soon</desc>
     <icon src="https://i.tivo.com/images-production/collection/794/024/525794024/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923083000 +0000" stop="20260923090000 +0000" channel="XHMTADT.us">
+    <title lang="en">Inova</title>
+    <desc lang="en">Inova</desc>
+    <icon src="https://i.tivo.com/images-production/collection/576/439/453576439/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923090000 +0000" stop="20260923093000 +0000" channel="XHMTADT.us">
+    <title lang="en">Inova</title>
+    <desc lang="en">Inova</desc>
+    <icon src="https://i.tivo.com/images-production/collection/576/439/453576439/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923093000 +0000" stop="20260923100000 +0000" channel="XHMTADT.us">
+    <title lang="en">Inova</title>
+    <desc lang="en">Inova</desc>
+    <icon src="https://i.tivo.com/images-production/collection/576/439/453576439/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923100000 +0000" stop="20260923103000 +0000" channel="XHMTADT.us">
+    <title lang="en">Barras de ajuste / RTC</title>
+    <desc lang="en">Barras de ajuste / RTC</desc>
+    <icon src="https://i.tivo.com/images-production/collection/364/356/445364356/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20260630</episode-num>
+  </programme>
+  <programme start="20260923103000 +0000" stop="20260923110000 +0000" channel="XHMTADT.us">
+    <title lang="en">Inova</title>
+    <desc lang="en">Inova</desc>
+    <icon src="https://i.tivo.com/images-production/collection/576/439/453576439/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923110000 +0000" stop="20260923120000 +0000" channel="XHMTADT.us">
+    <title lang="en">Farmacias de Similares</title>
+    <desc lang="en">Farmacias de Similares</desc>
+    <icon src="https://i.tivo.com/images-production/collection/686/146/343686146/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923120000 +0000" stop="20260923130000 +0000" channel="XHMTADT.us">
+    <title lang="en">Hechos contigo</title>
+    <desc lang="en">Hechos contigo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/645/343/549645343/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20260831</episode-num>
+  </programme>
+  <programme start="20260923130000 +0000" stop="20260923150000 +0000" channel="XHMTADT.us">
+    <title lang="en">Hechos A.M.</title>
+    <desc lang="en">Hechos A.M.</desc>
+    <icon src="https://i.tivo.com/images-production/collection/832/437/490832437/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923150000 +0000" stop="20260923170000 +0000" channel="XHMTADT.us">
+    <title lang="en">Venga la alegría</title>
+    <desc lang="en">Venga la alegría</desc>
+    <icon src="https://i.tivo.com/images-production/collection/082/392/61082392/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923170000 +0000" stop="20260923190000 +0000" channel="XHMTADT.us">
+    <title lang="en">Venga la alegría</title>
+    <desc lang="en">Venga la alegría</desc>
+    <icon src="https://i.tivo.com/images-production/collection/082/392/61082392/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923190000 +0000" stop="20260923200000 +0000" channel="XHMTADT.us">
+    <title lang="en">Ventaneando con Paty Chapoy</title>
+    <desc lang="en">Ventaneando con Paty Chapoy</desc>
+    <icon src="https://i.tivo.com/images-production/collection/661/127/441661127/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923200000 +0000" stop="20260923210000 +0000" channel="XHMTADT.us">
+    <title lang="en">Hechos meridiano</title>
+    <desc lang="en">Hechos meridiano</desc>
+    <icon src="https://i.tivo.com/images-production/collection/502/940/495502940/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923210000 +0000" stop="20260923223000 +0000" channel="XHMTADT.us">
+    <title lang="en">Al Extremo</title>
+    <desc lang="en">Al Extremo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/727/194/350727194/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923223000 +0000" stop="20260924003000 +0000" channel="XHMTADT.us">
+    <title lang="en">Acércate a Rocío</title>
+    <desc lang="en">Acércate a Rocío</desc>
+    <icon src="https://i.tivo.com/images-production/collection/278/991/460278991/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924003000 +0000" stop="20260924023000 +0000" channel="XHMTADT.us">
+    <title lang="en">Exatlon</title>
+    <desc lang="en">Exatlon</desc>
+    <icon src="https://i.tivo.com/images-production/collection/410/554/507410554/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924023000 +0000" stop="20260924043000 +0000" channel="XHMTADT.us">
+    <title lang="en">La Granja VIP</title>
+    <desc lang="en">La Granja VIP</desc>
+    <icon src="https://i.tivo.com/images-production/collection/606/042/349606042/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924043000 +0000" stop="20260924051500 +0000" channel="XHMTADT.us">
+    <title lang="en">Hechos noche</title>
+    <desc lang="en">Hechos noche</desc>
+    <icon src="https://i.tivo.com/images-production/collection/179/949/417179949/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924051500 +0000" stop="20260924053000 +0000" channel="XHMTADT.us">
+    <title lang="en">Hechos CDMX</title>
+    <desc lang="en">Hechos CDMX</desc>
+    <icon src="https://i.tivo.com/images-production/collection/245/132/385245132/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924053000 +0000" stop="20260924063000 +0000" channel="XHMTADT.us">
+    <title lang="en">Tolerancia cero</title>
+    <desc lang="en">Tolerancia cero</desc>
+    <icon src="https://i.tivo.com/images-production/collection/018/854/550018854/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924063000 +0000" stop="20260924070000 +0000" channel="XHMTADT.us">
+    <title lang="en">Inova</title>
+    <desc lang="en">Inova</desc>
+    <icon src="https://i.tivo.com/images-production/collection/576/439/453576439/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924070000 +0000" stop="20260924073000 +0000" channel="XHMTADT.us">
+    <title lang="en">Inova</title>
+    <desc lang="en">Inova</desc>
+    <icon src="https://i.tivo.com/images-production/collection/576/439/453576439/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924073000 +0000" stop="20260924080000 +0000" channel="XHMTADT.us">
+    <title lang="en">Inova</title>
+    <desc lang="en">Inova</desc>
+    <icon src="https://i.tivo.com/images-production/collection/576/439/453576439/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924080000 +0000" stop="20260924083000 +0000" channel="XHMTADT.us">
+    <title lang="en">Inova</title>
+    <desc lang="en">Inova</desc>
+    <icon src="https://i.tivo.com/images-production/collection/576/439/453576439/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924083000 +0000" stop="20260924090000 +0000" channel="XHMTADT.us">
+    <title lang="en">Inova</title>
+    <desc lang="en">Inova</desc>
+    <icon src="https://i.tivo.com/images-production/collection/576/439/453576439/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924090000 +0000" stop="20260924093000 +0000" channel="XHMTADT.us">
+    <title lang="en">Inova</title>
+    <desc lang="en">Inova</desc>
+    <icon src="https://i.tivo.com/images-production/collection/576/439/453576439/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924093000 +0000" stop="20260924100000 +0000" channel="XHMTADT.us">
+    <title lang="en">Inova</title>
+    <desc lang="en">Inova</desc>
+    <icon src="https://i.tivo.com/images-production/collection/576/439/453576439/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924100000 +0000" stop="20260924103000 +0000" channel="XHMTADT.us">
+    <title lang="en">Barras de ajuste / RTC</title>
+    <desc lang="en">Barras de ajuste / RTC</desc>
+    <icon src="https://i.tivo.com/images-production/collection/364/356/445364356/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20260630</episode-num>
+  </programme>
+  <programme start="20260924103000 +0000" stop="20260924110000 +0000" channel="XHMTADT.us">
+    <title lang="en">Inova</title>
+    <desc lang="en">Inova</desc>
+    <icon src="https://i.tivo.com/images-production/collection/576/439/453576439/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924110000 +0000" stop="20260924120000 +0000" channel="XHMTADT.us">
+    <title lang="en">Farmacias de Similares</title>
+    <desc lang="en">Farmacias de Similares</desc>
+    <icon src="https://i.tivo.com/images-production/collection/686/146/343686146/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924120000 +0000" stop="20260924130000 +0000" channel="XHMTADT.us">
+    <title lang="en">Hechos contigo</title>
+    <desc lang="en">Hechos contigo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/645/343/549645343/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20260831</episode-num>
+  </programme>
+  <programme start="20260924130000 +0000" stop="20260924150000 +0000" channel="XHMTADT.us">
+    <title lang="en">Hechos A.M.</title>
+    <desc lang="en">Hechos A.M.</desc>
+    <icon src="https://i.tivo.com/images-production/collection/832/437/490832437/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923083000 +0000" stop="20260923090000 +0000" channel="XHTAMDT.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923090000 +0000" stop="20260923093000 +0000" channel="XHTAMDT.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923093000 +0000" stop="20260923100000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Crónicas</title>
+    <desc lang="en">Crónicas</desc>
+    <icon src="https://i.tivo.com/images-production/collection/278/561/487278561/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923100000 +0000" stop="20260923103000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923103000 +0000" stop="20260923110000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Especial de RTC</title>
+    <desc lang="en">Especial de RTC</desc>
+    <icon src="https://i.tivo.com/images-production/collection/402/146/500402146/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20240611</episode-num>
+  </programme>
+  <programme start="20260923110000 +0000" stop="20260923113000 +0000" channel="XHTAMDT.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923113000 +0000" stop="20260923120000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Farmacias Similares</title>
+    <desc lang="en">Farmacias Similares</desc>
+    <icon src="https://i.tivo.com/images-production/collection/639/055/349639055/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923120000 +0000" stop="20260923130000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Las noticias</title>
+    <desc lang="en">Las noticias</desc>
+    <icon src="https://i.tivo.com/images-production/collection/195/403/488195403/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20231108</episode-num>
+  </programme>
+  <programme start="20260923130000 +0000" stop="20260923140000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Despierta</title>
+    <desc lang="en">Despierta</desc>
+    <icon src="https://i.tivo.com/images-production/collection/659/295/499659295/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923140000 +0000" stop="20260923150000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Despierta</title>
+    <desc lang="en">Despierta</desc>
+    <icon src="https://i.tivo.com/images-production/collection/659/295/499659295/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923150000 +0000" stop="20260923180000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Hoy</title>
+    <desc lang="en">Hoy</desc>
+    <icon src="https://i.tivo.com/images-production/collection/615/867/343615867/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20230303</episode-num>
+  </programme>
+  <programme start="20260923180000 +0000" stop="20260923193000 +0000" channel="XHTAMDT.us">
+    <title lang="en">¡Cuéntamelo ya!</title>
+    <desc lang="en">¡Cuéntamelo ya!</desc>
+    <icon src="https://i.tivo.com/images-production/collection/326/639/342326639/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923193000 +0000" stop="20260923203000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Como dice el dicho</title>
+    <desc lang="en">Como dice el dicho</desc>
+    <icon src="https://i.tivo.com/images-production/collection/074/756/394074756/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20211103</episode-num>
+  </programme>
+  <programme start="20260923203000 +0000" stop="20260923213000 +0000" channel="XHTAMDT.us">
+    <title lang="en">El chavo</title>
+    <desc lang="en">El chavo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/034/323/349034323/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923213000 +0000" stop="20260923223000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Piensa Rápido</title>
+    <desc lang="en">Piensa Rápido</desc>
+    <icon src="https://i.tivo.com/images-production/collection/499/336/525499336/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20250804</episode-num>
+  </programme>
+  <programme start="20260923223000 +0000" stop="20260924003000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Rubí</title>
+    <desc lang="en">Rubí</desc>
+    <icon src="https://i.tivo.com/images-production/collection/055/153/55153/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924003000 +0000" stop="20260924013000 +0000" channel="XHTAMDT.us">
+    <title lang="en">El Renacer De Luna</title>
+    <desc lang="en">El Renacer De Luna</desc>
+    <icon src="https://i.tivo.com/images-production/collection/124/707/542124707/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924013000 +0000" stop="20260924023000 +0000" channel="XHTAMDT.us">
+    <title lang="en">La Rosa de Guadalupe</title>
+    <desc lang="en">La Rosa de Guadalupe</desc>
+    <icon src="https://i.tivo.com/images-production/collection/114/199/119114199/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924023000 +0000" stop="20260924033000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Sabor a ti, entre historias y secretos</title>
+    <desc lang="en">Sabor a ti, entre historias y secretos</desc>
+    <icon src="https://i.tivo.com/images-production/collection/639/590/550639590/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924033000 +0000" stop="20260924043000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Guardián de mi Vida</title>
+    <desc lang="en">Guardián de mi Vida</desc>
+    <icon src="https://i.tivo.com/images-production/collection/735/302/542735302/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924043000 +0000" stop="20260924050000 +0000" channel="XHTAMDT.us">
+    <title lang="en">En punto con Enrique Acevedo</title>
+    <desc lang="en">En punto con Enrique Acevedo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/663/729/471663729/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924050000 +0000" stop="20260924060000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Tercer Grado</title>
+    <desc lang="en">Tercer Grado</desc>
+    <icon src="https://i.tivo.com/images-production/collection/028/281/349028281/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924060000 +0000" stop="20260924063000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Iglesia universal del Reino de Dios - Oración fuerte al Espiritu Santo</title>
+    <desc lang="en">Iglesia universal del Reino de Dios - Oración fuerte al Espiritu Santo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/052/951/492052951/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924063000 +0000" stop="20260924070000 +0000" channel="XHTAMDT.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924070000 +0000" stop="20260924073000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924073000 +0000" stop="20260924080000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924080000 +0000" stop="20260924083000 +0000" channel="XHTAMDT.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924083000 +0000" stop="20260924090000 +0000" channel="XHTAMDT.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924090000 +0000" stop="20260924093000 +0000" channel="XHTAMDT.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924093000 +0000" stop="20260924100000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Crónicas</title>
+    <desc lang="en">Crónicas</desc>
+    <icon src="https://i.tivo.com/images-production/collection/278/561/487278561/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924100000 +0000" stop="20260924103000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924103000 +0000" stop="20260924110000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Especial de RTC</title>
+    <desc lang="en">Especial de RTC</desc>
+    <icon src="https://i.tivo.com/images-production/collection/402/146/500402146/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20240611</episode-num>
+  </programme>
+  <programme start="20260924110000 +0000" stop="20260924113000 +0000" channel="XHTAMDT.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924113000 +0000" stop="20260924120000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Farmacias Similares</title>
+    <desc lang="en">Farmacias Similares</desc>
+    <icon src="https://i.tivo.com/images-production/collection/639/055/349639055/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924120000 +0000" stop="20260924130000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Las noticias</title>
+    <desc lang="en">Las noticias</desc>
+    <icon src="https://i.tivo.com/images-production/collection/195/403/488195403/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20231108</episode-num>
+  </programme>
+  <programme start="20260924130000 +0000" stop="20260924140000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Despierta</title>
+    <desc lang="en">Despierta</desc>
+    <icon src="https://i.tivo.com/images-production/collection/659/295/499659295/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924140000 +0000" stop="20260924150000 +0000" channel="XHTAMDT.us">
+    <title lang="en">Despierta</title>
+    <desc lang="en">Despierta</desc>
+    <icon src="https://i.tivo.com/images-production/collection/659/295/499659295/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923083000 +0000" stop="20260923090000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923090000 +0000" stop="20260923093000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923093000 +0000" stop="20260923100000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923100000 +0000" stop="20260923103000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Crónicas</title>
+    <desc lang="en">Crónicas</desc>
+    <icon src="https://i.tivo.com/images-production/collection/278/561/487278561/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923103000 +0000" stop="20260923110000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923110000 +0000" stop="20260923113000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923113000 +0000" stop="20260923120000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Especial de RTC</title>
+    <desc lang="en">Especial de RTC</desc>
+    <icon src="https://i.tivo.com/images-production/collection/402/146/500402146/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20240611</episode-num>
+  </programme>
+  <programme start="20260923120000 +0000" stop="20260923123000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923123000 +0000" stop="20260923130000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923130000 +0000" stop="20260923140000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Cleo y Cuquín</title>
+    <desc lang="en">Cleo y Cuquín</desc>
+    <icon src="https://i.tivo.com/images-production/collection/811/709/383811709/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923140000 +0000" stop="20260923150000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Paw Patrol, patrulla de cachorros</title>
+    <desc lang="en">Paw Patrol, patrulla de cachorros</desc>
+    <icon src="https://i.tivo.com/images-production/collection/404/771/440404771/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923150000 +0000" stop="20260923153000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Kamp Koral: Los primeros años de Bob Esponja</title>
+    <desc lang="en">Kamp Koral: Los primeros años de Bob Esponja</desc>
+    <icon src="https://i.tivo.com/images-production/collection/010/972/451010972/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923153000 +0000" stop="20260923160000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Bely y Beto</title>
+    <desc lang="en">Bely y Beto</desc>
+    <icon src="https://i.tivo.com/images-production/collection/701/046/349701046/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923160000 +0000" stop="20260923170000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">El Show de Tom y Jerry</title>
+    <desc lang="en">El Show de Tom y Jerry</desc>
+    <icon src="https://i.tivo.com/images-production/collection/471/446/376471446/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923170000 +0000" stop="20260923183000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">The Croods: Family Tree</title>
+    <desc lang="en">The Croods: Family Tree</desc>
+    <icon src="https://i.tivo.com/images-production/collection/566/879/478566879/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923183000 +0000" stop="20260923200000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Jurassic World Chaos Theory</title>
+    <desc lang="en">Jurassic World Chaos Theory</desc>
+    <icon src="https://i.tivo.com/images-production/collection/590/007/549590007/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923200000 +0000" stop="20260923213000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Los jóvenes titanes en acción</title>
+    <desc lang="en">Los jóvenes titanes en acción</desc>
+    <icon src="https://i.tivo.com/images-production/collection/285/410/413285410/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923213000 +0000" stop="20260923230000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Miraculous: Las aventuras de ladybug</title>
+    <desc lang="en">Miraculous: Las aventuras de ladybug</desc>
+    <icon src="https://i.tivo.com/images-production/collection/072/320/382072320/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923230000 +0000" stop="20260924003000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Bob Esponja</title>
+    <desc lang="en">Bob Esponja</desc>
+    <icon src="https://i.tivo.com/images-production/collection/632/600/4632600/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924003000 +0000" stop="20260924020000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Mi querido enemigo</title>
+    <desc lang="en">Mi querido enemigo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/693/014/550693014/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924020000 +0000" stop="20260924030000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">La pícara soñadora</title>
+    <desc lang="en">La pícara soñadora</desc>
+    <icon src="https://i.tivo.com/images-production/collection/737/460/350737460/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924030000 +0000" stop="20260924050000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Los Duques de Hazzard</title>
+    <desc lang="en">Los Duques de Hazzard (2005)</desc>
+    <icon src="https://i.tivo.com/images-production/collection/537/594/343537594/showcaseBanner_560x419.jpg"/>
+    <rating system="MPAA">
+      <value>pg13</value>
+    </rating>
+    <episode-num system="original-air-date">20050805</episode-num>
+  </programme>
+  <programme start="20260924050000 +0000" stop="20260924063000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">La Casa de los Famosos Mexico</title>
+    <desc lang="en">La Casa de los Famosos Mexico</desc>
+    <icon src="https://i.tivo.com/images-production/collection/278/094/497278094/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924063000 +0000" stop="20260924070000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Contacto Deportivo</title>
+    <desc lang="en">Contacto Deportivo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/249/283/410249283/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20200419</episode-num>
+  </programme>
+  <programme start="20260924070000 +0000" stop="20260924073000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924073000 +0000" stop="20260924080000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924080000 +0000" stop="20260924083000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924083000 +0000" stop="20260924090000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924090000 +0000" stop="20260924093000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924093000 +0000" stop="20260924100000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924100000 +0000" stop="20260924103000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Crónicas</title>
+    <desc lang="en">Crónicas</desc>
+    <icon src="https://i.tivo.com/images-production/collection/278/561/487278561/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924103000 +0000" stop="20260924110000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924110000 +0000" stop="20260924113000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">C.V. Directo</title>
+    <desc lang="en">C.V. Directo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/511/762/343511762/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924113000 +0000" stop="20260924120000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Especial de RTC</title>
+    <desc lang="en">Especial de RTC</desc>
+    <icon src="https://i.tivo.com/images-production/collection/402/146/500402146/showcaseBanner_560x419.jpg"/>
+    <episode-num system="original-air-date">20240611</episode-num>
+  </programme>
+  <programme start="20260924120000 +0000" stop="20260924123000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924123000 +0000" stop="20260924130000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Programación pagada</title>
+    <desc lang="en">Programación pagada</desc>
+    <icon src="https://i.tivo.com/images-production/collection/534/767/343534767/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924130000 +0000" stop="20260924140000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Cleo y Cuquín</title>
+    <desc lang="en">Cleo y Cuquín</desc>
+    <icon src="https://i.tivo.com/images-production/collection/811/709/383811709/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260924140000 +0000" stop="20260924150000 +0000" channel="XHTAMDT2.us">
+    <title lang="en">Paw Patrol, patrulla de cachorros</title>
+    <desc lang="en">Paw Patrol, patrulla de cachorros</desc>
+    <icon src="https://i.tivo.com/images-production/collection/404/771/440404771/showcaseBanner_560x419.jpg"/>
+  </programme>
+  <programme start="20260923054500 +0000" stop="20260923110000 +0000" channel="XHABDT.us">
+    <title lang="en">Cierre de estación</title>
+    <desc lang="en">Cierre de estación</desc>
+    <icon src="https://i.tivo.com/images-production/collection/112/333/270112333/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923110000 +0000" stop="20260923113000 +0000" channel="XHABDT.us">
+    <title lang="en">Buenos días Señor Jesús</title>
+    <desc lang="en">Buenos días Señor Jesús</desc>
+    <icon src="https://i.tivo.com/images-production/collection/632/685/4632685/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923113000 +0000" stop="20260923130000 +0000" channel="XHABDT.us">
+    <title lang="en">Noticiero Televisa Tamaulipas</title>
+    <desc lang="en">Noticiero Televisa Tamaulipas</desc>
+    <icon src="https://i.tivo.com/images-production/collection/739/912/3739912/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923130000 +0000" stop="20260923150000 +0000" channel="XHABDT.us">
+    <title lang="en">Buenos Días</title>
+    <desc lang="en">Buenos Días</desc>
+    <icon src="https://i.tivo.com/images-production/collection/543/847/343543847/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923150000 +0000" stop="20260923153000 +0000" channel="XHABDT.us">
+    <title lang="en">Creadores Universitarios</title>
+    <desc lang="en">Creadores Universitarios</desc>
+    <icon src="https://i.tivo.com/images-production/collection/938/433/248938433/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923153000 +0000" stop="20260923160000 +0000" channel="XHABDT.us">
+    <title lang="en">Vive en equilibrio</title>
+    <desc lang="en">Vive en equilibrio</desc>
+    <icon src="https://i.tivo.com/images-production/collection/157/554/334157554/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923160000 +0000" stop="20260923170000 +0000" channel="XHABDT.us">
+    <title lang="en">En la cocina con Gerónimo</title>
+    <desc lang="en">En la cocina con Gerónimo</desc>
+    <icon src="https://i.tivo.com/images-production/collection/713/450/343713450/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923170000 +0000" stop="20260923190000 +0000" channel="XHABDT.us">
+    <title lang="en">Gente al día</title>
+    <desc lang="en">Gente al día</desc>
+    <icon src="https://i.tivo.com/images-production/collection/515/883/343515883/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923190000 +0000" stop="20260923203000 +0000" channel="XHABDT.us">
+    <title lang="en">XHAB</title>
+    <desc lang="en">XHAB</desc>
+    <icon src="https://i.tivo.com/images-production/collection/552/513/343552513/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923203000 +0000" stop="20260923210000 +0000" channel="XHABDT.us">
+    <title lang="en">Vespectaculos</title>
+    <desc lang="en">Vespectaculos</desc>
+    <icon src="https://i.tivo.com/images-production/collection/677/766/432677766/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923210000 +0000" stop="20260923220000 +0000" channel="XHABDT.us">
+    <title lang="en">Qué Pókar! el juego de la fama</title>
+    <desc lang="en">Qué Pókar! el juego de la fama</desc>
+    <icon src="https://i.tivo.com/images-production/collection/460/810/182460810/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260923220000 +0000" stop="20260924000000 +0000" channel="XHABDT.us">
+    <title lang="en">Película</title>
+    <desc lang="en">Película</desc>
+    <icon src="https://i.tivo.com/images-production/collection/813/192/170813192/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <episode-num system="original-air-date">20190105</episode-num>
+  </programme>
+  <programme start="20260924000000 +0000" stop="20260924010000 +0000" channel="XHABDT.us">
+    <title lang="en">Noticias Vallevisión Reynosa</title>
+    <desc lang="en">Noticias Vallevisión Reynosa</desc>
+    <icon src="https://i.tivo.com/images-production/collection/693/625/343693625/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924010000 +0000" stop="20260924020000 +0000" channel="XHABDT.us">
+    <title lang="en">Vallevisión Espectáculos</title>
+    <desc lang="en">Vallevisión Espectáculos</desc>
+    <icon src="https://i.tivo.com/images-production/collection/693/627/343693627/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924020000 +0000" stop="20260924030000 +0000" channel="XHABDT.us">
+    <title lang="en">XHAB</title>
+    <desc lang="en">XHAB</desc>
+    <icon src="https://i.tivo.com/images-production/collection/552/513/343552513/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924030000 +0000" stop="20260924050000 +0000" channel="XHABDT.us">
+    <title lang="en">Noche a Noche con Carlos Cuevas</title>
+    <desc lang="en">Noche a Noche con Carlos Cuevas</desc>
+    <icon src="https://i.tivo.com/images-production/collection/696/407/373696407/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924050000 +0000" stop="20260924110000 +0000" channel="XHABDT.us">
+    <title lang="en">Cierre de estación</title>
+    <desc lang="en">Cierre de estación</desc>
+    <icon src="https://i.tivo.com/images-production/collection/112/333/270112333/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924110000 +0000" stop="20260924113000 +0000" channel="XHABDT.us">
+    <title lang="en">Buenos días Señor Jesús</title>
+    <desc lang="en">Buenos días Señor Jesús</desc>
+    <icon src="https://i.tivo.com/images-production/collection/632/685/4632685/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924113000 +0000" stop="20260924130000 +0000" channel="XHABDT.us">
+    <title lang="en">Noticiero Televisa Tamaulipas</title>
+    <desc lang="en">Noticiero Televisa Tamaulipas</desc>
+    <icon src="https://i.tivo.com/images-production/collection/739/912/3739912/showcaseBanner_560x419.jpg"/>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+  </programme>
+  <programme start="20260924130000 +0000" stop="20260924150000 +0000" channel="XHABDT.us">
+    <title lang="en">Buenos Días</title>
+    <desc lang="en">Buenos Días</desc>
+    <icon src="https://i.tivo.com/images-production/collection/543/847/343543847/showcaseBanner_560x419.jpg"/>
     <video>
       <quality>HDTV</quality>
     </video>
